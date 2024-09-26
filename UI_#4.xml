@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by LEGO (LEGO) -->
+<FORM_DESCRIPTION xmlns="http://www.cognitive.ru/XML/2001/ctform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cognitive.ru/XML/2001/ctform  ctform.xsd" name="LLotOrder223">
+  <CONTENT_MODEL dfattchfiles="|Document|files" dfnumberdoc="|Document|Р§РёСЃР»Рѕ_СЂРµРіРЅРѕРјРµСЂР°" key="Key">
+    <E name="Key" datatype="integer" index="false" default="&quot;1&quot;" view="invisible" displayname="РљР»СЋС‡" dfprotected="true" />
+    <E name="РР”_РїРѕСЃР»РµРґРЅРёР№_СЂРµРґР°РєС‚РѕСЂ" datatype="text" index="true" displayname="РР” РїРѕСЃР»РµРґРЅРёР№ СЂРµРґР°РєС‚РѕСЂ" dfhidden="true" view="invisible" />
+    <E name="РРјСЏ_РїРѕСЃР»РµРґРЅРёР№_СЂРµРґР°РєС‚РѕСЂ" datatype="text" index="true" displayname="РРјСЏ РїРѕСЃР»РµРґРЅРёР№ СЂРµРґР°РєС‚РѕСЂ" dfhidden="true" view="invisible" />
+    <S name="Document" displayname="Р”РѕРєСѓРјРµРЅС‚" use="LLot">
+      <E displayname="Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ" name="Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№_РЅРѕРјРµСЂ" datatype="text(249)" index="true" dfprotected="true" dfhidden="true" />
+      <E displayname="РџСЂРµС„РёРєСЃ СЂРµРі. РЅРѕРјРµСЂР°" name="РџСЂРµС„РёРєСЃ_СЂРµРіРЅРѕРјРµСЂР°" datatype="dictionary(Prefix,text)" edit="combobox(Prefix)" index="true" view="invisible" dfprotected="false" />
+      <E displayname="РџРѕСЂСЏРґРєРѕРІС‹Р№ СЂРµРі. РЅРѕРјРµСЂ" name="Р§РёСЃР»Рѕ_СЂРµРіРЅРѕРјРµСЂР°" datatype="integer(+1..)" index="true" view="invisible" dfprotected="true" required="true" />
+      <E displayname="РЎСѓС„С„РёРєСЃ СЂРµРі. РЅРѕРјРµСЂР°" name="РЎСѓС„С„РёРєСЃ_СЂРµРіРЅРѕРјРµСЂР°" datatype="dictionary(Suffix,text)" edit="combobox(Suffix)" dfprotected="false" index="true" view="invisible" />
+      <E displayname="Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё" name="Р”Р°С‚Р°_СЂРµРіРёСЃС‚СЂР°С†РёРё" datatype="date" edit="" index="true" dfprotected="true" required="true" esp="false" default="nowdate()" />
+      <E displayname="Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°" name="Р’РёРґ_РґРѕРєСѓРјРµРЅС‚Р°" datatype="dictionary(VidDocNames,text)" index="true" dfprotected="true" required="false" edit="combobox" value="&quot;Р›РѕС‚&quot;" view="invisible" />
+      <E displayname="РљСЂР°С‚РєРѕРµ СЃРѕРґРµСЂР¶Р°РЅРёРµ" name="РљСЂР°С‚РєРѕРµ_СЃРѕРґРµСЂР¶Р°РЅРёРµ" datatype="longtext" euflag="7" index="true" dfprotected="true" required="false" edit="multiline" awindex="true" default="&quot;Р›РѕС‚&quot;" view="invisible" value="&quot;Р›РѕС‚: &quot; +  РќР°РёРјРµРЅРѕРІР°РЅРёРµ_Р»РѕС‚Р° +  &quot;, СЃРїРѕСЃРѕР± Р·Р°РєСѓРїРєРё: &quot; + РЎРїРѕСЃРѕР±_Р·Р°РєСѓРїРєРё + &quot;, РїР»Р°РЅРѕРІР°СЏ РґР°С‚Р° СЂР°Р·РјРµС‰РµРЅРёСЏ:&quot; + РџР»Р°РЅРѕРІР°СЏ_РґР°С‚Р°_СЂР°Р·РјРµС‰РµРЅРёСЏ + &quot;, РќРњР¦ &quot; + РќРњР¦_СЃ_РќР”РЎ " />
+      <E displayname="РРјСЏ РїРѕС‚РѕРєР°" name="РРјСЏ_РїРѕС‚РѕРєР°" datatype="text" index="false" view="invisible" dfprotected="true" dfhidden="true" esp="false" />
+      <E displayname="РР” РїРѕС‚РѕРєР°" name="РР”_РїРѕС‚РѕРєР°" datatype="integer" index="false" dfprotected="true" dfhidden="false" esp="false" view="invisible" />
+      <E displayname="РР” СЂРµРіРёСЃС‚СЂР°С‚РѕСЂР°" name="РР”_СЂРµРіРёСЃС‚СЂР°С‚РѕСЂР°" datatype="integer" index="false" dfprotected="true" dfhidden="false" esp="false" view="invisible" />
+      <E name="header" datatype="text" index="false" value="&quot;Р›РѕС‚&quot; " />
+      <E name="subheader" datatype="text" index="false" view="invisible" />
+      <E name="РЎС‚Р°С‚СѓСЃ" datatype="text" index="true" edit="textbox" required="true" default="&quot;РџРѕРґРіРѕС‚РѕРІРєР° Р»РѕС‚Р°&quot; " />
+      <E displayname="РџРѕР»Рµ 1" name="РџРѕР»Рµ 1" datatype="longtext" index="true" />
+      <E displayname="РџРѕР»Рµ 2" name="РџРѕР»Рµ 2" datatype="boolean" index="true" default="0" />
+      <E name="РР”_РёР·РІРµС‰РµРЅРёСЏ" datatype="integer" index="true" displayname="РР” РёР·РІРµС‰РµРЅРёСЏ" view="invisible" />
+      <E name="РР”_РїРѕР·РёС†РёРё_РїР»Р°РЅР°" datatype="text" index="true" displayname="РР” РїРѕР·РёС†РёРё РїР»Р°РЅР°" view="invisible" />
+      <E name="РР”_РІ_Р•РРЎ" datatype="text" index="true" displayname="РР” РІ Р•РРЎ" view="invisible" />
+      <E name="РќРѕРјРµСЂ_РёР·РІРµС‰РµРЅРёСЏ" datatype="text" index="true" displayname="РќРѕРјРµСЂ РёР·РІРµС‰РµРЅРёСЏ" />
+      <E name="РќРѕРјРµСЂ_Р»РѕС‚Р°_РІ_РёР·РІРµС‰РµРЅРёРё" datatype="integer" index="true" displayname="РќРѕРјРµСЂ Р»РѕС‚Р° РІ РёР·РІРµС‰РµРЅРёРё" />
+      <E name="РќРѕРјРµСЂ_РёР·РІРµС‰РµРЅРёСЏ_РІ_Р•РРЎ" datatype="text" index="true" displayname="РќРѕРјРµСЂ РёР·РІРµС‰РµРЅРёСЏ РІ Р•РРЎ" />
+      <E name="РќРѕРјРµСЂ_РїР»Р°РЅР°_РІ_Р•РРЎ" datatype="text" index="true" displayname="РќРѕРјРµСЂ РїР»Р°РЅР° РІ Р•РРЎ" />
+      <E name="РР·РјРµРЅРµРЅРёРµ" datatype="boolean" index="true" default="0" />
+      <E name="РЎРІРµРґРµРЅРёСЏ_Рѕ_РќРњР¦" datatype="longtext" index="true" displayname="РЎРІРµРґРµРЅРёСЏ Рѕ РќРњР¦" required="false" awindex="true" euflag="7" requiredex=" РќРњР¦_СЃ_РќР”РЎ =&quot;&quot;" />
+      <E name="РњРёРЅРёРјР°Р»СЊРЅРѕ_РЅРµРѕР±С…РѕРґРёРјС‹Рµ_С‚СЂРµР±РѕРІР°РЅРёСЏ" datatype="longtext" index="true" displayname="РњРёРЅРёРјР°Р»СЊРЅРѕ РЅРµРѕР±С…РѕРґРёРјС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ" required="false" awindex="true" euflag="7" />
+      <E name="РЈС‡Р°СЃС‚РЅРёРє_Р·Р°РєСѓРїРєРё_РЎРњРџ" datatype="boolean" index="true" default="0" displayname="РЈС‡Р°СЃС‚РЅРёРє Р·Р°РєСѓРїРєРё РЎРњРџ" />
+      <E name="Р—Р°РєСѓРїРєР°_РЅРµ_СѓС‡РёС‚С‹РІР°РµС‚СЃСЏ" datatype="boolean" index="true" displayname="Р—Р°РєСѓРїРєР° РЅРµ СѓС‡РёС‚С‹РІР°РµС‚СЃСЏ" default="0" helpstring="Р—Р°РєСѓРїРєР° РЅРµ СѓС‡РёС‚С‹РІР°РµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РїСѓРЅРєС‚РѕРј 7 РїРѕСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ РџСЂР°РІРёС‚РµР»СЊСЃС‚РІР° Р Р¤ РѕС‚ 11.12.2014 в„– 1352" />
+      <E name="Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ_РґР°С‚Р°_СЂР°Р·РјРµС‰РµРЅРёСЏ" datatype="datetime" index="true" displayname="Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ РґР°С‚Р° СЂР°Р·РјРµС‰РµРЅРёСЏ" required="false" />
+      <E name="РЎРїРѕСЃРѕР±_Р·Р°РєСѓРїРєРё" datatype="dictionary(РћСЂРіР°РЅРёР·Р°С†РёРё Р·Р°РєР°Р·С‡РёРєРё,text)@РќР°РёРјРµРЅРѕРІР°РЅРёРµ" index="true" displayname="РЎРїРѕСЃРѕР± Р·Р°РєСѓРїРєРё" required="true" edit="textbox" dictpath="|[|Document|РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє|РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє]|РЎРїРѕСЃРѕР± Р·Р°РєСѓРїРєРё" />
+      <E name="Р—Р°РєСѓРїРєР°_РІ_СЌР»РµРєС‚СЂРѕРЅРЅРѕР№_С„РѕСЂРјРµ" datatype="boolean" index="true" displayname="Р—Р°РєСѓРїРєР° РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ С„РѕСЂРјРµ" default="1" />
+      <E name="Р”Р°С‚Р°_РїСЂРёР·РЅР°РЅРёСЏ_РЅРµСЃРѕСЃС‚РѕСЏРІС€РµР№СЃСЏ" datatype="date" index="true" displayname="Р”Р°С‚Р° РїСЂРёР·РЅР°РЅРёСЏ РЅРµСЃРѕСЃС‚РѕСЏРІС€РµР№СЃСЏ" />
+      <E name="Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ_СЃРІРµРґРµРЅРёСЏ" datatype="longtext" index="true" displayname="Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ" awindex="true" euflag="7" />
+      <E name="РЎСѓР±РїРѕРґСЂСЏРґС‡РёРєРё_РёР·_РЎРњРџ" datatype="boolean" index="true" displayname="РЎСѓР±РїРѕРґСЂСЏРґС‡РёРєРё РёР· РЎРњРџ" default="0" helpstring="Р’ РѕС‚РЅРѕС€РµРЅРёРё СѓС‡Р°СЃС‚РЅРёРєРѕРІ Р·Р°РєСѓРїРєРё СѓСЃС‚Р°РЅРѕРІР»РµРЅРѕ С‚СЂРµР±РѕРІР°РЅРёРµ Рѕ РїСЂРёРІР»РµС‡РµРЅРёРё Рє РёСЃРїРѕР»РЅРµРЅРёСЋ РґРѕРіРѕРІРѕСЂР° СЃСѓР±РїРѕРґСЂСЏРґС‡РёРєРѕРІ (СЃРѕРёСЃРїРѕР»РЅРёС‚РµР»РµР№) РёР· С‡РёСЃР»Р° СЃСѓР±СЉРµРєС‚РѕРІ РјР°Р»РѕРіРѕ Рё СЃСЂРµРґРЅРµРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊСЃС‚РІР°" />
+      <E name="Р“РѕРґ_Р·Р°РєСѓРїРєРё" datatype="integer" index="true" displayname="Р“РѕРґ Р·Р°РєСѓРїРєРё" value="year(  РџР»Р°РЅРѕРІР°СЏ_РґР°С‚Р°_Р·Р°РєР»СЋС‡РµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°  )" />
+      <E name="РќР°Р·РІР°РЅРёРµ_Р·Р°РєСѓРїРєРё" datatype="longtext" index="true" displayname="РќР°Р·РІР°РЅРёРµ Р·Р°РєСѓРїРєРё" dictpath="" awindex="true" euflag="7" required="false" />
+      <A name="РџРѕР±РµРґРёС‚РµР»СЊ_С‚Р°Р±Р»РёС†Р°" displayname="РџРѕР±РµРґРёС‚РµР»СЊ С‚Р°Р±Р»РёС†Р°">
+        <S name="S1">
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РРќРќ" datatype="dictionary(РљРѕРЅС‚СЂР°РіРµРЅС‚С‹,text)@РРќРќ" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РРќРќ" dictpath="" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РљРџРџ" datatype="dictionary(РљРѕРЅС‚СЂР°РіРµРЅС‚С‹,text)@РљРџРџ" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РљРџРџ" dictpath="" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РЎРњРџ" datatype="boolean" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РЎРњРџ" default="0" helpstring="РЈС‡Р°СЃС‚РЅРёРє РѕС‚РЅРѕСЃРёС‚СЃСЏ Рє СЃСѓР±СЉРµРєС‚Р°Рј РјР°Р»РѕРіРѕ Рё СЃСЂРµРґРЅРµРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊСЃС‚РІР°" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ" datatype="dictionary(РљРѕРЅС‚СЂР°РіРµРЅС‚С‹,text)@РљРѕРЅС‚СЂР°РіРµРЅС‚С‹" index="true" displayname="" dictpath="" view="invisible" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="longtext" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" required="false" dictpath="" edit="textbox" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РћР“Р Рќ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РћР“Р Рќ" view="invisible" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_С‚РёРї" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ С‚РёРї" view="invisible" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_С‚РёРї_РєРѕРґ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ С‚РёРї РєРѕРґ" view="invisible" />
+          <E name="Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ_С†РµРЅР°_Р·Р°РєСѓРїРєРё_СЃ_РќР”РЎ" datatype="money" index="true" displayname="Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ С†РµРЅР° Р·Р°РєСѓРїРєРё СЃ РќР”РЎ" />
+          <E name="Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ_С†РµРЅР°_Р·Р°РєСѓРїРєРё_Р±РµР·_РќР”РЎ" datatype="money" index="true" displayname="Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ С†РµРЅР° Р·Р°РєСѓРїРєРё Р±РµР· РќР”РЎ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РЅРµСЂРµР·РёРґРµРЅС‚" datatype="boolean" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РЅРµСЂРµР·РёРґРµРЅС‚" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№_РЅРѕРјРµСЂ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РґРѕРї_РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№_РЅРѕРјРµСЂ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РґРѕРї РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СЃС‚СЂР°РЅР°" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СЃС‚СЂР°РЅР°" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СЃС‚СЂР°РЅР°_РєРѕРґ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СЃС‚СЂР°РЅР° РєРѕРґ" view="invisible" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РёРЅРґРµРєСЃ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РёРЅРґРµРєСЃ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СЂРµРіРёРѕРЅ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СЂРµРіРёРѕРЅ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СЂРµРіРёРѕРЅ_РєРѕРґ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СЂРµРіРёРѕРЅ РєРѕРґ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СЃРѕСЃС‚РѕРёС‚_РЅР°_СѓС‡РµС‚Рµ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СЃРѕСЃС‚РѕРёС‚ РЅР° СѓС‡РµС‚Рµ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СЂР°Р№РѕРЅ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СЂР°Р№РѕРЅ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РіРѕСЂРѕРґ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РіРѕСЂРѕРґ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РЅР°СЃРµР»РµРЅРЅС‹Р№_РїСѓРЅРєС‚" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РЅР°СЃРµР»РµРЅРЅС‹Р№ РїСѓРЅРєС‚" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СѓР»РёС†Р°" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СѓР»РёС†Р°" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РґРѕРј" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РґРѕРј" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РєРѕСЂРїСѓСЃ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РєРѕСЂРїСѓСЃ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РѕС„РёСЃ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РѕС„РёСЃ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_email" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ email" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РґР°С‚Р°_РїРѕСЃС‚Р°РЅРѕРІРєРё" datatype="date" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РґР°С‚Р° РїРѕСЃС‚Р°РЅРѕРІРєРё" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_С‚РµР»РµС„РѕРЅ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ С‚РµР»РµС„РѕРЅ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РћРљРћРџР¤" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РћРљРћРџР¤" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РћРљРџРћ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РћРљРџРћ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚_РІ_Р РќРџ" datatype="boolean" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚ РІ Р РќРџ" />
+          <E name="РџСЂРµРґРґРѕРіРѕРІРѕСЂРЅС‹Рµ_РїРµСЂРµРіРѕРІРѕСЂС‹" datatype="boolean" index="true" displayname="РџСЂРµРґРґРѕРіРѕРІРѕСЂРЅС‹Рµ РїРµСЂРµРіРѕРІРѕСЂС‹" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_С„РёСЂРјРµРЅРЅРѕРµ_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="longtext" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ С„РёСЂРјРµРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РћРљРўРњРћ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РћРљРўРњРћ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РћРљРћРџР¤_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="longtext" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РћРљРћРџР¤ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РґРѕРї_РёРЅС„РѕСЂРјР°С†РёСЏ" datatype="longtext" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РґРѕРї РёРЅС„РѕСЂРјР°С†РёСЏ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СЃС‚Р°С‚СѓСЃ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СЃС‚Р°С‚СѓСЃ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РєРѕРґ_РЅР°_Р­РўРџ" datatype="integer" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РєРѕРґ РЅР° Р­РўРџ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РќР”РЎ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РќР”РЎ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РєСЂР°С‚РєРѕРµ_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="longtext" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РєСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_Р’Р—Р›" datatype="boolean" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ Р’Р—Р›" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РєРѕРЅС‚Р°РєС‚РЅРѕРµ_Р»РёС†Рѕ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РєРѕРЅС‚Р°РєС‚РЅРѕРµ Р»РёС†Рѕ" />
+          <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РєР°С‚РµРіРѕСЂРёСЏ_РњРЎРџ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РєР°С‚РµРіРѕСЂРёСЏ РњРЎРџ" />
+        </S>
+      </A>
+      <E name="РћР±РµСЃРїРµС‡РµРЅРёРµ_Р·Р°СЏРІРєРё" datatype="boolean" index="true" displayname="РћР±РµСЃРїРµС‡РµРЅРёРµ Р·Р°СЏРІРєРё" default="0" />
+      <E name="Р Р°Р·РјРµСЂ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_Р·Р°СЏРІРєРё" datatype="money" index="true" displayname="Р Р°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ Р·Р°СЏРІРєРё" requiredex=" РћР±РµСЃРїРµС‡РµРЅРёРµ_Р·Р°СЏРІРєРё " />
+      <E name="РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ_Р±Р°РЅРєРѕРІСЃРєРѕР№_РіР°СЂР°РЅС‚РёРё" datatype="boolean" index="true" displayname="РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ Р±Р°РЅРєРѕРІСЃРєРѕР№ РіР°СЂР°РЅС‚РёРё" default="0" />
+      <E name="РћР±РµСЃРїРµС‡РµРЅРёРµ_РёСЃРїРѕР»РЅРµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°" datatype="boolean" index="true" displayname="РћР±РµСЃРїРµС‡РµРЅРёРµ РёСЃРїРѕР»РЅРµРЅРёСЏ РґРѕРіРѕРІРѕСЂР°" default="0" />
+      <E name="Р Р°Р·РјРµСЂ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°" datatype="money" index="true" displayname="Р Р°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РґРѕРіРѕРІРѕСЂР°" requiredex="РћР±РµСЃРїРµС‡РµРЅРёРµ_РёСЃРїРѕР»РЅРµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°" />
+      <E name="РћР±РµСЃРїРµС‡РµРЅРёРµ_РІРѕР·РІСЂР°С‚Р°_Р°РІР°РЅСЃР°" datatype="boolean" index="true" displayname="РћР±РµСЃРїРµС‡РµРЅРёРµ РІРѕР·РІСЂР°С‚Р° Р°РІР°РЅСЃР°" default="0" />
+      <E name="Р Р°Р·РјРµСЂ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РІРѕР·РІСЂР°С‚Р°_Р°РІР°РЅСЃР°" datatype="money" index="true" displayname="Р Р°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РІРѕР·РІСЂР°С‚Р° Р°РІР°РЅСЃР°" requiredex=" РћР±РµСЃРїРµС‡РµРЅРёРµ_РІРѕР·РІСЂР°С‚Р°_Р°РІР°РЅСЃР° " />
+      <E name="РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РІРѕР·РІСЂР°С‚Р°_Р°РІР°РЅСЃР°" datatype="dictionary(РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РІРѕР·РІСЂР°С‚Р° Р°РІР°РЅСЃР°(РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РІРѕР·РІСЂР°С‚Р° Р°РІР°РЅСЃР°),text)" index="true" displayname="РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РІРѕР·РІСЂР°С‚Р° Р°РІР°РЅСЃР°" dictpath="" requiredex=" РћР±РµСЃРїРµС‡РµРЅРёРµ_РІРѕР·РІСЂР°С‚Р°_Р°РІР°РЅСЃР° " />
+      <E name="РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РІРѕР·РІСЂР°С‚Р°_Р°РІР°РЅСЃР°_РєРѕРґ" datatype="dictionary(РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РІРѕР·РІСЂР°С‚Р° Р°РІР°РЅСЃР°,text)@РљРѕРґ" index="true" displayname="РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РІРѕР·РІСЂР°С‚Р° Р°РІР°РЅСЃР° РєРѕРґ" view="invisible" dictpath="" />
+      <E name="РџСЂРёС‡РёРЅР°_РїСЂРёР·РЅР°РЅРёСЏ_РЅРµСЃРѕСЃС‚РѕСЏРІС€РµР№СЃСЏ" datatype="text" index="true" displayname="РџСЂРёС‡РёРЅР° РїСЂРёР·РЅР°РЅРёСЏ РЅРµСЃРѕСЃС‚РѕСЏРІС€РµР№СЃСЏ" awindex="true" euflag="7" />
+      <E name="РќРѕРјРµСЂ_РёР·РІРµС‰РµРЅРёСЏ_РЅР°_Р­РўРџ" datatype="text" index="true" displayname="РќРѕРјРµСЂ РёР·РІРµС‰РµРЅРёСЏ РЅР° Р­РўРџ" />
+      <E name="РР”_РІ_Р•РРЎ_РёР·РјРµРЅРµРЅРёРµ" datatype="longtext" index="true" displayname="РР” РІ Р•РРЎ РёР·РјРµРЅРµРЅРёРµ" view="invisible" />
+      <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_Р»РѕС‚Р°" datatype="longtext" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РѕС‚Р°" required="true" awindex="true" euflag="7" />
+      <E name="РќРњР¦_Р±РµР·_РќР”РЎ" datatype="money" index="true" displayname="РќРњР¦ Р±РµР· РќР”РЎ" value="iif( РЈРєР°Р·Р°С‚СЊ_РїРѕР·РёС†РёРё , Sum( РџРѕР·РёС†РёРё|S1|РЎСѓРјРјР°_РїРѕР·РёС†РёРё_Р±РµР·_РќР”РЎ    ) ,  РќРњР¦_Р±РµР·_РќР”РЎ  )" />
+      <E name="РќРњР¦_СЃ_РќР”РЎ" datatype="money" index="true" displayname="РќРњР¦ СЃ РќР”РЎ" required="false" value="iif( РЈРєР°Р·Р°С‚СЊ_РїРѕР·РёС†РёРё , Sum( РџРѕР·РёС†РёРё|S1|РЎСѓРјРјР°_РїРѕР·РёС†РёРё_СЃ_РќР”РЎ  ) ,РќРњР¦_СЃ_РќР”РЎ )" requiredex=" РЎРІРµРґРµРЅРёСЏ_Рѕ_РќРњР¦ =&quot;&quot;" />
+      <E name="Р’Р°Р»СЋС‚Р°" datatype="dictionary(Р’Р°Р»СЋС‚Р°,text)@РќР°РёРјРµРЅРѕРІР°РЅРёРµ" index="true" dictpath="" edit="droplist" default="&quot;Р РѕСЃСЃРёР№СЃРєРёР№ СЂСѓР±Р»СЊ&quot;" />
+      <E name="Р¦РёС„СЂРѕРІРѕР№_РєРѕРґ_РІР°Р»СЋС‚С‹" datatype="dictionary(Р’Р°Р»СЋС‚Р°,text)@Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ" index="true" displayname="Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹" dictpath="" required="false" edit="textbox" default="&quot;643&quot;" view="invisible" />
+      <E name="РљРѕРґ_РІР°Р»СЋС‚С‹" datatype="dictionary(Р’Р°Р»СЋС‚Р°,text)@Р’Р°Р»СЋС‚Р°" index="true" displayname="РљРѕРґ РІР°Р»СЋС‚С‹" dictpath="" required="false" default="&quot;RUB&quot;" view="invisible" />
+      <E name="РРЅРЅРѕРІР°С†РёРѕРЅРЅР°СЏ_РїСЂРѕРґСѓРєС†РёСЏ" datatype="boolean" index="true" displayname="РРЅРЅРѕРІР°С†РёРѕРЅРЅР°СЏ РїСЂРѕРґСѓРєС†РёСЏ" default="0" />
+      <E name="Р’РёРґ_Р·Р°РєСѓРїРєРё" datatype="dictionary(Р’РёРґ Р·Р°РєСѓРїРєРё,text)" index="true" displayname="Р’РёРґ Р·Р°РєСѓРїРєРё" />
+      <E name="Р¦РµРЅР°_Р·Р°РєСѓРїРєРё_РІ_С‚РµРєСѓС‰РёС…_С†РµРЅР°С…" datatype="money" index="true" displayname="Р¦РµРЅР° Р·Р°РєСѓРїРєРё РІ С‚РµРєСѓС‰РёС… С†РµРЅР°С…" />
+      <E name="Р¦РµРЅР°_Р·Р°РєСѓРїРєРё_СЃРЅРёР¶РµРЅРёРµ_Р·Р°С‚СЂР°С‚" datatype="money" index="true" displayname="Р¦РµРЅР° Р·Р°РєСѓРїРєРё СЃРЅРёР¶РµРЅРёРµ Р·Р°С‚СЂР°С‚" />
+      <E name="РљРѕРґ_РІРёРґР°_РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё" datatype="dictionary(РљРѕРґ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё,text)" index="true" displayname="РљРѕРґ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё" edit="textbox" />
+      <E name="Р’РёРґ_Р·Р°РєСѓРїР°РµРјРѕР№_РїСЂРѕРґСѓРєС†РёРё" datatype="dictionary(Р’РёРґ Р·Р°РєСѓРїР°РµРјРѕР№ РїСЂРѕРґСѓРєС†РёРё,text)" index="true" displayname="Р’РёРґ Р·Р°РєСѓРїР°РµРјРѕР№ РїСЂРѕРґСѓРєС†РёРё" edit="textbox" />
+      <E name="РСЃС‚РѕС‡РЅРёРє_С„РёРЅР°РЅСЃРёСЂРѕРІР°РЅРёСЏ_Р·Р°РєСѓРїРєРё" datatype="dictionary(РСЃС‚РѕС‡РЅРёРє С„РёРЅР°РЅСЃРёСЂРѕРІР°РЅРёСЏ,longtext)" index="true" displayname="РСЃС‚РѕС‡РЅРёРє С„РёРЅР°РЅСЃРёСЂРѕРІР°РЅРёСЏ Р·Р°РєСѓРїРєРё" edit="textbox" />
+      <E name="РќРѕРјРµСЂ_Р»РѕС‚Р°" datatype="text" index="true" displayname="РќРѕРјРµСЂ Р»РѕС‚Р°" />
+      <E name="РќРѕРјРµСЂ_Р·Р°РєСѓРїРєРё" datatype="text" index="true" displayname="РќРѕРјРµСЂ Р·Р°РєСѓРїРєРё" />
+      <S name="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє" displayname="РћСЂРіР°РЅРёР·Р°С†РёСЏ Р·Р°РєР°Р·С‡РёРє">
+        <E name="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="longtext" index="true" dictpath="" required="true" displayname="РћСЂРіР°РЅРёР·Р°С†РёСЏ Р·Р°РєР°Р·С‡РёРє РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" absettings="&lt;ROOT title=&quot;РћСЂРіР°РЅРёР·Р°С†РёСЏ Р·Р°РєР°Р·С‡РёРє&quot; IsMultiple=&quot;False&quot; CanSelectNobody=&quot;False&quot; SelectedUser=&quot;False&quot; SelectedGroup=&quot;False&quot; SelectedDepartments=&quot;False&quot;&gt;&lt;DateDictionary Name=&quot;Departments&quot; DisplayName=&quot;РЎС‚СЂСѓРєС‚СѓСЂР° РїСЂРµРґРїСЂРёСЏС‚РёСЏ&quot; /&gt;&lt;/ROOT&gt;" edit="textbox" abdata="Name" extype="addressbook" />
+        <E name="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє" datatype="integer" index="true" displayname="РћСЂРіР°РЅРёР·Р°С†РёСЏ Р·Р°РєР°Р·С‡РёРє" required="false" dictpath="" view="invisible" extype="addressbook" abdata="Id" />
+        <E name="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє_РРќРќ" datatype="text" index="true" displayname="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє_РРќРќ" extype="addressbook" abdata="INN" />
+        <E name="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє_РђРґСЂРµСЃ" datatype="longtext" index="true" displayname="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє_РђРґСЂРµСЃ" extype="addressbook" abdata="РђРґСЂРµСЃ" />
+        <E name="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє_СЃРїСЂР°РІРѕС‡РЅС‹Р№_РєРѕРґ" datatype="text" index="true" />
+        <E name="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє_РљРџРџ" datatype="text" index="true" displayname="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє_РљРџРџ" extype="addressbook" abdata="KPP" />
+        <E name="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє_РћР“Р Рќ" datatype="text" index="true" displayname="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє_РћР“Р Рќ" extype="addressbook" abdata="OGRN" />
+        <E name="РР”_Р·Р°РєР°Р·С‡РёРєР°_РЅР°_Р­РўРџ" datatype="text" index="true" displayname="РР” Р·Р°РєР°Р·С‡РёРєР° РЅР° Р­РўРџ" />
+        <E name="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє_Р•РРЎ" datatype="text" index="true" displayname="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє Р•РРЎ" extype="addressbook" abdata="EISCode223" />
+      </S>
+      <S name="РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ_РёРЅРёС†РёР°С‚РѕСЂ" displayname="РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ РёРЅРёС†РёР°С‚РѕСЂ">
+        <E name="РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ_РёРЅРёС†РёР°С‚РѕСЂ_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="text" index="true" displayname="РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ РёРЅРёС†РёР°С‚РѕСЂ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" required="true" dictpath="" edit="tool(CallTools.AddressBookTool)" absettings="&lt;ROOT title=&quot;РћСЂРіР°РЅРёР·Р°С‚РѕСЂ Р·Р°РєСѓРїРєРё&quot; IsMultiple=&quot;False&quot; CanSelectNobody=&quot;False&quot; SelectedUser=&quot;False&quot; SelectedGroup=&quot;False&quot; SelectedDepartments=&quot;True&quot;&gt;&lt;DateDictionary Name=&quot;Departments&quot; DisplayName=&quot;РЎС‚СЂСѓРєС‚СѓСЂР° РїСЂРµРґРїСЂРёСЏС‚РёСЏ&quot; /&gt;&lt;/ROOT&gt;" abdata="Name" />
+        <E name="РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ_РёРЅРёС†РёР°С‚РѕСЂ" datatype="integer" index="true" displayname="РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ РёРЅРёС†РёР°С‚РѕСЂ" required="false" dictpath="" edit="textbox" abdata="Id" extype="addressbook" view="invisible" />
+      </S>
+      <E name="РџР»Р°РЅРѕРІР°СЏ_РґР°С‚Р°_РЅР°С‡Р°Р»Р°_РёСЃРїРѕР»РЅРµРЅРёСЏ" datatype="date" index="true" displayname="РџР»Р°РЅРѕРІР°СЏ РґР°С‚Р° РЅР°С‡Р°Р»Р° РёСЃРїРѕР»РЅРµРЅРёСЏ" required="true" default=" РџР»Р°РЅРѕРІР°СЏ_РґР°С‚Р°_Р·Р°РєР»СЋС‡РµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР° " />
+      <E name="РџР»Р°РЅРѕРІР°СЏ_РґР°С‚Р°_РѕРєРѕРЅС‡Р°РЅРёСЏ_РёСЃРїРѕР»РЅРµРЅРёСЏ" datatype="date" index="true" displayname="РџР»Р°РЅРѕРІР°СЏ РґР°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РёСЃРїРѕР»РЅРµРЅРёСЏ" required="true" />
+      <E name="РџР»Р°РЅРѕРІР°СЏ_РґР°С‚Р°_Р·Р°РєР»СЋС‡РµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°" datatype="date" index="true" displayname="РџР»Р°РЅРѕРІР°СЏ РґР°С‚Р° Р·Р°РєР»СЋС‡РµРЅРёСЏ РґРѕРіРѕРІРѕСЂР°" required="true" />
+      <E name="РџР»Р°РЅРѕРІР°СЏ_РґР°С‚Р°_РїРѕРґРІРµРґРµРЅРёСЏ_РёС‚РѕРіРѕРІ" datatype="date" index="true" displayname="РџР»Р°РЅРѕРІР°СЏ РґР°С‚Р° РїРѕРґРІРµРґРµРЅРёСЏ РёС‚РѕРіРѕРІ" required="true" />
+      <E name="РџР»Р°РЅРѕРІР°СЏ_РґР°С‚Р°_СЂР°Р·РјРµС‰РµРЅРёСЏ" datatype="date" index="true" displayname="РџР»Р°РЅРѕРІР°СЏ РґР°С‚Р° СЂР°Р·РјРµС‰РµРЅРёСЏ" required="true" />
+      <E name="Р”РѕРєСѓРјРµРЅС‚_РѕСЃРЅРѕРІР°РЅРёРµ_С†РµРЅС‹" datatype="longtext" index="true" displayname="Р”РѕРєСѓРјРµРЅС‚ РѕСЃРЅРѕРІР°РЅРёРµ С†РµРЅС‹" />
+      <E name="РџСЂРёРјРµС‡Р°РЅРёРµ_РРџР " datatype="longtext" index="true" displayname="РџСЂРёРјРµС‡Р°РЅРёРµ РРџР " />
+      <E name="РќРѕРјРµСЂ_РїРѕР·РёС†РёРё_РїР»Р°РЅР°" datatype="integer" index="true" displayname="РќРѕРјРµСЂ РїРѕР·РёС†РёРё РїР»Р°РЅР°" />
+      <E name="РћРљРђРўРћ" datatype="dictionary(РћРљРђРўРћ,text)" index="true" dictpath="" edit="textbox" required="false" />
+      <E name="Р РµРіРёРѕРЅ" datatype="dictionary(РћРљРђРўРћ,text)@РќР°РёРјРµРЅРѕРІР°РЅРёРµ" index="true" dictpath="" edit="textbox" required="false" />
+      <E name="РћР±СЉРµРј_РїРѕСЃС‚Р°РІРєРё" datatype="longtext" index="true" displayname="РћР±СЉРµРј РїРѕСЃС‚Р°РІРєРё" awindex="true" euflag="7" />
+      <E name="РЈСЃР»РѕРІРёСЏ_РїРѕСЃС‚Р°РІРєРё" datatype="longtext" index="true" displayname="РЈСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё" awindex="true" euflag="7" />
+      <E name="РњРµСЃС‚Рѕ_РїРѕСЃС‚Р°РІРєРё" datatype="longtext" index="true" displayname="РњРµСЃС‚Рѕ РїРѕСЃС‚Р°РІРєРё" awindex="true" euflag="7" required="true" />
+      <E name="РЎРїРѕСЃРѕР±_Р·Р°РєСѓРїРєРё_РєРѕРґ" datatype="dictionary(РћСЂРіР°РЅРёР·Р°С†РёРё Р·Р°РєР°Р·С‡РёРєРё,text)" index="true" displayname="РЎРїРѕСЃРѕР± Р·Р°РєСѓРїРєРё РєРѕРґ" dictpath="|[|Document|РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє|РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє]|РЎРїРѕСЃРѕР± Р·Р°РєСѓРїРєРё" view="invisible" />
+      <E name="РљР°С‚РµРіРѕСЂРёСЏ_Р·Р°РєСѓРїРєРё_РєРѕРґ" datatype="dictionary(РљР°С‚РµРіРѕСЂРёСЏ Р·Р°РєСѓРїРєРё,text)@РљР°С‚РµРіРѕСЂРёСЏ Р·Р°РєСѓРїРєРё" index="true" displayname="РљР°С‚РµРіРѕСЂРёСЏ Р·Р°РєСѓРїРєРё РєРѕРґ" dictpath="" edit="textbox" view="invisible" />
+      <E name="РљР°С‚РµРіРѕСЂРёСЏ_Р·Р°РєСѓРїРєРё" datatype="dictionary(РљР°С‚РµРіРѕСЂРёСЏ Р·Р°РєСѓРїРєРё(РќР°РёРјРµРЅРѕРІР°РЅРёРµ),longtext)@РќР°РёРјРµРЅРѕРІР°РЅРёРµ" index="true" displayname="РљР°С‚РµРіРѕСЂРёСЏ Р·Р°РєСѓРїРєРё" dictpath="" edit="combobox,tool(CallTools.DictionaryView)" />
+      <E name="РЎРѕРІРјРµСЃС‚РЅР°СЏ_Р·Р°РєСѓРїРєР°" datatype="boolean" index="true" displayname="РЎРѕРІРјРµСЃС‚РЅР°СЏ Р·Р°РєСѓРїРєР°" default="0" />
+      <E name="Р”Р°С‚Р°_РїРѕРґРіРѕС‚РѕРІРєРё_РўР—" datatype="date" index="true" displayname="Р”Р°С‚Р° РїРѕРґРіРѕС‚РѕРІРєРё РўР—" value=" РџР»Р°РЅРѕРІР°СЏ_РґР°С‚Р°_СЂР°Р·РјРµС‰РµРЅРёСЏ -30" />
+      <E name="Р”Р°С‚Р°_РѕС‚РїСЂР°РІРєРё_Р¦РљР—" datatype="date" index="true" displayname="Р”Р°С‚Р° РѕС‚РїСЂР°РІРєРё Р¦РљР—" value=" РџР»Р°РЅРѕРІР°СЏ_РґР°С‚Р°_СЂР°Р·РјРµС‰РµРЅРёСЏ -10" />
+      <S name="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ_Р·Р°РєСѓРїРєРё" displayname="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ Р·Р°РєСѓРїРєРё">
+        <E name="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ_Р·Р°РєСѓРїРєРё_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="longtext" index="true" displayname="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ Р·Р°РєСѓРїРєРё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" required="true" dictpath="" edit="textbox" absettings="&lt;ROOT title=&quot;РћСЂРіР°РЅРёР·Р°С‚РѕСЂ Р·Р°РєСѓРїРєРё&quot; IsMultiple=&quot;False&quot; CanSelectNobody=&quot;True&quot; SelectedUser=&quot;True&quot; SelectedGroup=&quot;True&quot; SelectedDepartments=&quot;True&quot;&gt;&lt;DateDictionary Name=&quot;Departments&quot; DisplayName=&quot;РЎС‚СЂСѓРєС‚СѓСЂР° РїСЂРµРґРїСЂРёСЏС‚РёСЏ&quot; /&gt;&lt;/ROOT&gt;" abdata="Name" extype="addressbook" />
+        <E name="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ_Р·Р°РєСѓРїРєРё" datatype="integer" index="true" displayname="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ Р·Р°РєСѓРїРєРё" required="false" dictpath="" view="invisible" extype="addressbook" abdata="Id" />
+        <E name="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ_Р·Р°РєСѓРїРєРё_РРќРќ" datatype="text" index="true" displayname="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ_Р·Р°РєСѓРїРєРё_РРќРќ" extype="addressbook" abdata="INN" />
+        <E name="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ_Р·Р°РєСѓРїРєРё_РљРџРџ" datatype="text" index="true" displayname="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ_Р·Р°РєСѓРїРєРё_РљРџРџ" extype="addressbook" abdata="KPP" />
+        <E name="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ_Р·Р°РєСѓРїРєРё_РћР“Р Рќ" datatype="text" index="true" displayname="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ_Р·Р°РєСѓРїРєРё_РћР“Р Рќ" extype="addressbook" abdata="OGRN" />
+        <E name="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ_Р·Р°РєСѓРїРєРё_Р•РРЎ" datatype="text" index="true" displayname="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ_Р·Р°РєСѓРїРєРё Р•РРЎ" extype="addressbook" abdata="EISCode223" />
+        <E name="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ_Р·Р°РєСѓРїРєРё_РѕС‚РѕР±СЂР°Р¶Р°РµРјС‹Р№_РєРѕРґ" datatype="text" index="true" displayname="РћСЂРіР°РЅРёР·Р°С‚РѕСЂ Р·Р°РєСѓРїРєРё РѕС‚РѕР±СЂР°Р¶Р°РµРјС‹Р№ РєРѕРґ" />
+      </S>
+      <E name="РћР±РѕСЃРЅРѕРІР°РЅРёРµ_РІРЅРµСЃРµРЅРёСЏ_РёР·РјРµРЅРµРЅРёР№" datatype="longtext" index="true" displayname="РћР±РѕСЃРЅРѕРІР°РЅРёРµ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№" awindex="true" euflag="7" />
+      <E name="РР”_РїР»Р°РЅР°_РІ_Р•РРЎ" datatype="text" index="true" displayname="РР” РїР»Р°РЅР° РІ Р•РРЎ" />
+      <E name="Р—Р°РєСѓРїРєР°_РЅРµ_СЃРѕСЃС‚РѕСЏР»Р°СЃСЊ" datatype="boolean" index="true" displayname="Р—Р°РєСѓРїРєР° РЅРµ СЃРѕСЃС‚РѕСЏР»Р°СЃСЊ" default="0" />
+      <E name="РџСЂРёС‡РёРЅР°_Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ" datatype="dictionary(РџСЂРёС‡РёРЅР° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ,text)@РќР°РёРјРµРЅРѕРІР°РЅРёРµ" index="true" displayname="РџСЂРёС‡РёРЅР° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ" dictpath="" />
+      <E name="РџСЂРёС‡РёРЅР°_Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ_РєРѕРґ" datatype="dictionary(РџСЂРёС‡РёРЅР° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ,text)" index="true" displayname="РџСЂРёС‡РёРЅР° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ РєРѕРґ" dictpath="" />
+      <E name="РќРµ_С‚СЂРµР±СѓРµС‚_РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё" datatype="boolean" index="true" displayname="РќРµ С‚СЂРµР±СѓРµС‚ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё" default="0" />
+      <E name="РЈС‚РІРµСЂР¶РґРµРЅРѕ_РЎР”" datatype="boolean" index="true" displayname="РЈС‚РІРµСЂР¶РґРµРЅРѕ РЎР”" default="0" />
+      <E name="РРЅРІРµСЃС‚РёС†РёРѕРЅРЅР°СЏ_РїСЂРѕРіСЂР°РјРјР°" datatype="boolean" index="true" displayname="РРЅРІРµСЃС‚РёС†РёРѕРЅРЅР°СЏ РїСЂРѕРіСЂР°РјРјР°" default="0" />
+      <E name="Р“РѕРґ_РїРѕС‚СЂРµР±РЅРѕСЃС‚Рё" datatype="text" index="true" displayname="Р“РѕРґ РїРѕС‚СЂРµР±РЅРѕСЃС‚Рё" default=" Р“РѕРґ_Р·Р°РєСѓРїРєРё " />
+      <E name="РћР±СЉРµРј_РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ_С‚РµРєСѓС‰РёР№_РіРѕРґ" datatype="money" index="true" displayname="РћР±СЉРµРј РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ С‚РµРєСѓС‰РёР№ РіРѕРґ" />
+      <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_РѕСЂРіР°РЅР°_Р•Рџ" datatype="text" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР° Р•Рџ" />
+      <E name="Р”Р°С‚Р°_СЂРµС€РµРЅРёСЏ_Р•Рџ" datatype="date" index="true" displayname="Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ Р•Рџ" />
+      <E name="РќРѕРјРµСЂ_СЂРµС€РµРЅРёСЏ_Р•Рџ" datatype="text" index="true" displayname="РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ Р•Рџ" />
+      <E name="Р Р°РјРѕС‡РЅС‹Р№_РґРѕРіРѕРІРѕСЂ" datatype="boolean" index="true" displayname="Р Р°РјРѕС‡РЅС‹Р№ РґРѕРіРѕРІРѕСЂ" default="0" />
+      <E name="РљРѕР»РёС‡РµСЃС‚РІРѕ_СЌС‚Р°РїРѕРІ" datatype="integer" index="true" displayname="РљРѕР»РёС‡РµСЃС‚РІРѕ СЌС‚Р°РїРѕРІ" />
+      <E name="РџСЂРµРґРјРµС‚_РґРѕРіРѕРІРѕСЂР°" datatype="longtext" index="true" displayname="РџСЂРµРґРјРµС‚ РґРѕРіРѕРІРѕСЂР°" awindex="true" />
+      <E name="РџСЂРёРјРµС‡Р°РЅРёРµ" datatype="longtext" index="true" />
+      <E name="РўР—_СЃРѕРіР»Р°СЃРѕРІР°РЅРѕ" datatype="boolean" index="true" displayname="РўР— СЃРѕРіР»Р°СЃРѕРІР°РЅРѕ" default="0" />
+      <E name="РџСЂРѕРµРєС‚_РґРѕРіРѕРІРѕСЂР°_СЃРѕРіР»Р°СЃРѕРІР°РЅ" datatype="boolean" index="true" displayname="РџСЂРѕРµРєС‚ РґРѕРіРѕРІРѕСЂР° СЃРѕРіР»Р°СЃРѕРІР°РЅ" default="0" />
+      <E name="РР”_РёР·РІРµС‰РµРЅРёСЏ_РЅР°_Р­РўРџ" datatype="text" index="true" displayname="РР” РёР·РІРµС‰РµРЅРёСЏ РЅР° Р­РўРџ" />
+      <E name="РР”_Р­РўРџ" datatype="text" index="true" displayname="РР” Р­РўРџ" view="invisible" />
+      <A name="Р—Р°РїСЂРѕСЃС‹_РЅР°_СЂР°Р·СЉСЏСЃРЅРµРЅРёСЏ" use="table" displayname="Р—Р°РїСЂРѕСЃС‹ РЅР° СЂР°Р·СЉСЏСЃРЅРµРЅРёСЏ">
+        <S name="S1" displayname="">
+          <E name="РР”_Р·Р°РїСЂРѕСЃР°" datatype="text" index="true" displayname="РР” Р·Р°РїСЂРѕСЃР°" dictpath="" view="invisible" />
+          <E name="Р”Р°С‚Р°_РїСѓР±Р»РёРєР°С†РёРё_Р·Р°РїСЂРѕСЃР°" datatype="datetime" index="true" displayname="Р”Р°С‚Р° РїСѓР±Р»РёРєР°С†РёРё Р·Р°РїСЂРѕСЃР°" />
+          <E name="РўРµРєСЃС‚_Р·Р°РїСЂРѕСЃР°" datatype="longtext" index="true" displayname="РўРµРєСЃС‚ Р·Р°РїСЂРѕСЃР°" />
+          <E name="РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°СЏРІРёС‚РµР»СЏ" datatype="text" index="true" displayname="РћСЂРіР°РЅРёР·Р°С†РёСЏ Р·Р°СЏРІРёС‚РµР»СЏ" />
+          <E name="Email_Р·Р°СЏРІРёС‚РµР»СЏ" datatype="text" index="true" displayname="Email Р·Р°СЏРІРёС‚РµР»СЏ" />
+          <E name="Р”Р°С‚Р°_РїСѓР±Р»РёРєР°С†РёРё_СЂР°Р·СЉСЏСЃРЅРµРЅРёСЏ" datatype="datetime" index="true" displayname="Р”Р°С‚Р° РїСѓР±Р»РёРєР°С†РёРё СЂР°Р·СЉСЏСЃРЅРµРЅРёСЏ" />
+          <E name="РўРµРєСЃС‚_СЂР°Р·СЉСЏСЃРЅРµРЅРёСЏ" datatype="longtext" index="true" displayname="РўРµРєСЃС‚ СЂР°Р·СЉСЏСЃРЅРµРЅРёСЏ" />
+          <E name="Р”Р°С‚Р°_РѕС‚РєР»РѕРЅРµРЅРёСЏ_Р·Р°РїСЂРѕСЃР°" datatype="datetime" index="true" displayname="Р”Р°С‚Р° РѕС‚РєР»РѕРЅРµРЅРёСЏ Р·Р°РїСЂРѕСЃР°" />
+          <E name="РџСЂРёС‡РёРЅР°_РѕС‚РєР»РѕРЅРµРЅРёСЏ_Р·Р°РїСЂРѕСЃР°" datatype="longtext" index="true" displayname="РџСЂРёС‡РёРЅР° РѕС‚РєР»РѕРЅРµРЅРёСЏ Р·Р°РїСЂРѕСЃР°" />
+          <E name="РЎС‚Р°С‚СѓСЃ_Р·Р°РїСЂРѕСЃР°" datatype="text" index="true" displayname="РЎС‚Р°С‚СѓСЃ Р·Р°РїСЂРѕСЃР°" />
+        </S>
+      </A>
+      <E name="РљРѕР»РёС‡РµСЃС‚РІРѕ_Р·Р°СЏРІРѕРє" datatype="integer" index="true" displayname="РљРѕР»РёС‡РµСЃС‚РІРѕ Р·Р°СЏРІРѕРє" />
+      <E name="РљРѕР»РёС‡РµСЃС‚РІРѕ_РїРµСЂРµС‚РѕСЂР¶РµРє" datatype="integer" index="true" displayname="РљРѕР»РёС‡РµСЃС‚РІРѕ РїРµСЂРµС‚РѕСЂР¶РµРє" />
+      <E name="РљРѕР»РёС‡РµСЃС‚РІРѕ_Р·Р°РїСЂРѕСЃРѕРІ_РЅР°_СЂР°Р·СЉСЏСЃРЅРµРЅРёРµ" datatype="integer" index="true" displayname="РљРѕР»РёС‡РµСЃС‚РІРѕ Р·Р°РїСЂРѕСЃРѕРІ РЅР° СЂР°Р·СЉСЏСЃРЅРµРЅРёРµ" />
+      <E name="РџСЂРµС„РµСЂРµРЅС†РёРё" datatype="longtext" index="true" />
+      <E name="РЎРїРѕСЃРѕР±_Р·Р°РєСѓРїРєРё_РїРѕР»РѕР¶РµРЅРёРµ" datatype="dictionary(РћСЂРіР°РЅРёР·Р°С†РёРё Р·Р°РєР°Р·С‡РёРєРё,text)@РЎРїРѕСЃРѕР± РїРѕ РїРѕР»РѕР¶РµРЅРёСЋ" index="true" displayname="РЎРїРѕСЃРѕР± Р·Р°РєСѓРїРєРё РїРѕР»РѕР¶РµРЅРёРµ" dictpath="|[|Document|РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє|РћСЂРіР°РЅРёР·Р°С†РёСЏ_Р·Р°РєР°Р·С‡РёРє]|РЎРїРѕСЃРѕР± Р·Р°РєСѓРїРєРё" />
+      <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_Р­РўРџ" datatype="dictionary(Р­Р»РµРєС‚СЂРѕРЅРЅС‹Рµ РїР»РѕС‰Р°РґРєРё,text)" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р­РўРџ" required="" dictpath="" requiredex=" Р—Р°РєСѓРїРєР°_РІ_СЌР»РµРєС‚СЂРѕРЅРЅРѕР№_С„РѕСЂРјРµ " />
+      <E name="РђРґСЂРµСЃ_Р­РўРџ" datatype="dictionary(Р­Р»РµРєС‚СЂРѕРЅРЅС‹Рµ РїР»РѕС‰Р°РґРєРё,url)@РђРґСЂРµСЃ" index="true" displayname="РђРґСЂРµСЃ Р­РўРџ" required="" dictpath="" />
+      <E name="РќРѕРјРµСЂ_РёС‚РѕРіРѕРІРѕРіРѕ_РїСЂРѕС‚РѕРєРѕР»Р°" datatype="text" index="true" displayname="РќРѕРјРµСЂ РёС‚РѕРіРѕРІРѕРіРѕ РїСЂРѕС‚РѕРєРѕР»Р°" />
+      <E name="Р”Р°С‚Р°_РїРѕРґРІРµРґРµРЅРёСЏ_РёС‚РѕРіРѕРІ" datatype="datetime" index="true" displayname="Р”Р°С‚Р° РїРѕРґРІРµРґРµРЅРёСЏ РёС‚РѕРіРѕРІ" />
+      <A name="РџРµСЂРµС‚РѕСЂР¶РєРё">
+        <S name="S1">
+          <E name="РќРѕРјРµСЂ_РїРµСЂРµС‚РѕСЂР¶РєРё" datatype="integer" index="true" displayname="РќРѕРјРµСЂ РїРµСЂРµС‚РѕСЂР¶РєРё" />
+          <E name="Р¤РѕСЂРјР°_РїРµСЂРµС‚РѕСЂР¶РєРё" datatype="text" index="true" displayname="Р¤РѕСЂРјР° РїРµСЂРµС‚РѕСЂР¶РєРё" />
+          <E name="Р”Р°С‚Р°_РЅР°С‡Р°Р»Р°_РїРµСЂРµС‚РѕСЂР¶РєРё" datatype="datetime" index="true" displayname="Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРµС‚РѕСЂР¶РєРё" />
+          <E name="РЁР°Рі_РїРµСЂРµС‚РѕСЂР¶РєРё_РѕС‚" datatype="money" index="true" displayname="РЁР°Рі РїРµСЂРµС‚РѕСЂР¶РєРё РѕС‚" />
+          <E name="РЁР°Рі_РїРµСЂРµС‚РѕСЂР¶РєРё_РґРѕ" datatype="money" index="true" displayname="РЁР°Рі РїРµСЂРµС‚РѕСЂР¶РєРё РґРѕ" />
+          <E name="Р’СЂРµРјСЏ_РѕР¶РёРґР°РЅРёСЏ_С†РµРЅРѕРІС‹С…_РїСЂРµРґР»РѕР¶РµРЅРёР№" datatype="integer" index="true" displayname="Р’СЂРµРјСЏ РѕР¶РёРґР°РЅРёСЏ С†РµРЅРѕРІС‹С… РїСЂРµРґР»РѕР¶РµРЅРёР№" />
+          <E name="Р’СЂРµРјСЏ_РїСЂРѕРґР»РµРЅРёСЏ" datatype="integer" index="true" displayname="Р’СЂРµРјСЏ РїСЂРѕРґР»РµРЅРёСЏ" />
+          <E name="Р”Р°С‚Р°_РѕРєРѕРЅС‡Р°РЅРёСЏ_РїРµСЂРµС‚РѕСЂР¶РєРё" datatype="datetime" index="true" displayname="Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРµС‚РѕСЂР¶РєРё" />
+          <E name="Р”Р°С‚Р°_РѕРєРѕРЅС‡Р°РЅРёСЏ_СЂР°СЃСЃРјРѕС‚СЂРµРЅРёСЏ" datatype="datetime" index="true" displayname="Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ СЂР°СЃСЃРјРѕС‚СЂРµРЅРёСЏ" />
+          <E name="Р”Р°С‚Р°_РѕРєРѕРЅС‡Р°РЅРёСЏ_РїРѕРґР°С‡Рё" datatype="datetime" index="true" displayname="Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРѕРґР°С‡Рё" />
+          <E name="РЎСЂРѕРє_РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ_РѕС„РµСЂС‚С‹" datatype="datetime" index="true" displayname="РЎСЂРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС„РµСЂС‚С‹" />
+        </S>
+      </A>
+      <E name="РќРњР¦_РїРѕ_РџР—" datatype="money" index="true" displayname="РќРњР¦ РїРѕ РџР—" />
+      <E name="Р”Р°С‚Р°_РІСЃРєСЂС‹С‚РёСЏ_РєРѕРЅРІРµСЂС‚РѕРІ" datatype="datetime" index="true" displayname="Р”Р°С‚Р° РІСЃРєСЂС‹С‚РёСЏ РєРѕРЅРІРµСЂС‚РѕРІ" />
+      <A name="РџРѕР·РёС†РёРё">
+        <S name="S1">
+          <E name="РћРљРџР”2" datatype="dictionary(РћРљРџР”2,text)" index="true" dictpath="" edit="textbox" dictionarySelectionStartLevel="2" requiredex=" РЈРєР°Р·Р°С‚СЊ_РїРѕР·РёС†РёРё =0" relevant=" РЈРєР°Р·Р°С‚СЊ_РїРѕР·РёС†РёРё =0" />
+          <E name="РћРљРџР”2_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="longtext" index="true" displayname="РћРљРџР”2 РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" dictpath="" edit="textbox" relevant=" РЈРєР°Р·Р°С‚СЊ_РїРѕР·РёС†РёРё =0" />
+          <E name="РћРљР•Р" datatype="dictionary(РћРљР•Р,text)" index="true" dictpath="" view="invisible" displayname="РћРљР•Р" />
+          <E name="РћРљР•Р_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="dictionary(РћРљР•Р,text)@РќР°РёРјРµРЅРѕРІР°РЅРёРµ" index="true" displayname="РћРљР•Р РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" dictpath="" edit="textbox" view="invisible" />
+          <E name="Р•РґРёРЅРёС†Р°_РёР·РјРµСЂРµРЅРёСЏ" datatype="dictionary(РћРљР•Р,text)@РЈСЃР»РѕРІРЅРѕРµ РѕР±РѕР·РЅР°С‡РµРЅРёРµ" index="true" displayname="Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ" dictpath="" edit="textbox" required="false" requiredex=" РЈРєР°Р·Р°С‚СЊ_РїРѕР·РёС†РёРё =0" relevant=" РЈРєР°Р·Р°С‚СЊ_РїРѕР·РёС†РёРё =0" />
+          <E name="РћРљР’Р­Р”2" datatype="dictionary(РћРљР’Р­Р”2,text)" index="true" edit="textbox" dictpath="" requiredex=" РЈРєР°Р·Р°С‚СЊ_РїРѕР·РёС†РёРё =0" relevant=" РЈРєР°Р·Р°С‚СЊ_РїРѕР·РёС†РёРё =0" />
+          <E name="РћРљР’Р­Р”2_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="longtext" index="true" displayname="РћРљР’Р­Р”2 РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" dictpath="" edit="textbox" relevant=" РЈРєР°Р·Р°С‚СЊ_РїРѕР·РёС†РёРё =0" />
+          <E name="РљРѕР»РёС‡РµСЃС‚РІРѕ" datatype="real" index="true" required="false" relevant=" РЈРєР°Р·Р°С‚СЊ_РїРѕР·РёС†РёРё =0" displayname="РљРѕР»РёС‡РµСЃС‚РІРѕ" />
+          <E name="РР”_РїРѕР·РёС†РёРё_Р»РѕС‚Р°" datatype="text" index="true" displayname="РР” РїРѕР·РёС†РёРё Р»РѕС‚Р°" view="invisible" />
+          <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_РїРѕР·РёС†РёРё" datatype="longtext" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕР·РёС†РёРё" />
+          <E name="Р¦РµРЅР°" datatype="money" index="true" displayname="Р¦РµРЅР°" />
+          <E name="РћР±С‰Р°СЏ_СЃС‚РѕРёРјРѕСЃС‚СЊ" datatype="money" index="true" displayname="РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ" />
+          <E name="РќРµРІРѕР·РјРѕР¶РЅРѕ_РѕРїСЂРµРґРµР»РёС‚СЊ_РєРѕР»РёС‡РµСЃС‚РІРѕ" datatype="boolean" index="true" displayname="РќРµРІРѕР·РјРѕР¶РЅРѕ РѕРїСЂРµРґРµР»РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ" />
+          <E name="РћРљРђРўРћ_РїРѕР·РёС†РёРё" datatype="text" index="true" displayname="РћРљРђРўРћ_РїРѕР·РёС†РёРё" />
+          <E name="Р РµРіРёРѕРЅ_РїРѕР·РёС†РёРё" datatype="text" index="true" displayname="Р РµРіРёРѕРЅ_РїРѕР·РёС†РёРё" />
+          <E name="Р¦РµРЅР°_РІ_СЂСѓР±Р»СЏС…" datatype="money" index="true" displayname="Р¦РµРЅР° РІ СЂСѓР±Р»СЏС…" />
+          <E name="РћР±С‰Р°СЏ_СЃС‚РѕРёРјРѕСЃС‚СЊ_РІ_СЂСѓР±Р»СЏС…" datatype="money" index="true" displayname="РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІ СЂСѓР±Р»СЏС…" />
+          <E name="Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ_СЃРІРµРґРµРЅРёСЏ" datatype="longtext" index="true" displayname="Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ" />
+          <E name="РР”_РЅР°_Р­РўРџ" datatype="text" index="true" displayname="РР” РЅР° Р­РўРџ" />
+          <E name="РџСЂРµРґРїРѕС‡С‚РёС‚РµР»СЊРЅР°СЏ_С‚РѕСЂРіРѕРІР°СЏ_РјР°СЂРєР°" datatype="longtext" index="true" displayname="РџСЂРµРґРїРѕС‡С‚РёС‚РµР»СЊРЅР°СЏ С‚РѕСЂРіРѕРІР°СЏ РјР°СЂРєР°" />
+          <E name="Р—Р°РєСѓРїРѕС‡РЅР°СЏ_РєР°С‚РµРіРѕСЂРёСЏ_РєРѕРґ" datatype="dictionary(РљР°С‚РµРіРѕСЂРёРё Р·Р°РєСѓРїРєРё Р РўРљ,text)@РљР°С‚РµРіРѕСЂРёСЏ Р·Р°РєСѓРїРєРё Р РўРљ" index="true" displayname="Р—Р°РєСѓРїРѕС‡РЅР°СЏ РєР°С‚РµРіРѕСЂРёСЏ РєРѕРґ" edit="textbox" />
+          <E name="Р—Р°РєСѓРїРѕС‡РЅР°СЏ_РєР°С‚РµРіРѕСЂРёСЏ" datatype="dictionary(РљР°С‚РµРіРѕСЂРёРё Р·Р°РєСѓРїРєРё Р РўРљ(РќР°РёРјРµРЅРѕРІР°РЅРµ),longtext)@РќР°РёРјРµРЅРѕРІР°РЅРёРµ" index="true" displayname="Р—Р°РєСѓРїРѕС‡РЅР°СЏ РєР°С‚РµРіРѕСЂРёСЏ" edit="combobox,tool(CallTools.DictionaryView)" />
+          <E name="Р¦РµРЅС‚СЂР°Р»РёР·РѕРІР°РЅРЅР°СЏ_РєР°С‚РµРіРѕСЂРёСЏ" datatype="text" index="true" displayname="Р¦РµРЅС‚СЂР°Р»РёР·РѕРІР°РЅРЅР°СЏ_РєР°С‚РµРіРѕСЂРёСЏ" />
+          <E name="Р¦РµРЅР°_Р·Р°_РµРґРёРЅРёС†Сѓ" datatype="money" index="true" displayname="Р¦РµРЅР° Р·Р° РµРґРёРЅРёС†Сѓ" />
+          <E name="РЎСѓРјРјР°_РїРѕР·РёС†РёРё" datatype="money" index="true" displayname="РЎСѓРјРјР° РїРѕР·РёС†РёРё" />
+          <E name="РџРѕР·РёС†РёСЏ_РёР·_СЃРїСЂР°РІРѕС‡РЅРёРєР°" datatype="text" index="true" displayname="РџРѕР·РёС†РёСЏ РёР· СЃРїСЂР°РІРѕС‡РЅРёРєР°" />
+          <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_РїРѕР·РёС†РёРё_РёР·_СЃРїСЂР°РІРѕС‡РЅРёРєР°" datatype="longtext" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕР·РёС†РёРё РёР· СЃРїСЂР°РІРѕС‡РЅРёРєР°" />
+          <E name="РћРљРџР”2_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ_РёР·_СЃРїСЂР°РІРѕС‡РЅРёРєР°" datatype="longtext" index="true" displayname="РћРљРџР”2 РїРѕР·РёС†РёРё" />
+          <E name="РћРљР’Р­Р”2_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ_РёР·_СЃРїСЂР°РІРѕС‡РЅРёРєР°" datatype="longtext" index="true" displayname="РћРљР’Р­Р”2 РїРѕР·РёС†РёРё" />
+          <E name="РћРљРџР”2_РєРѕРґ" datatype="text" index="true" displayname="РћРљРџР”2 РєРѕРґ" />
+          <E name="РћРљРџР”2_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ_РєРѕРґ" datatype="longtext" index="true" displayname="РћРљРџР”2 РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕРґ" />
+          <E name="РќРѕРјРµСЂ_РїРѕР·РёС†РёРё_РєРѕРґ" datatype="integer" index="true" displayname="РќРѕРјРµСЂ РїРѕР·РёС†РёРё РєРѕРґ" />
+          <E name="РџРµСЂРµС‡РЅРё_РўР РЈ" datatype="text" index="true" displayname="РџРµСЂРµС‡РЅРё РўР РЈ" />
+          <E name="РўРёРї_РѕР±СЉРµРєС‚Р°_Р·Р°РєСѓРїРєРё" datatype="text" index="true" displayname="РўРёРї РѕР±СЉРµРєС‚Р° Р·Р°РєСѓРїРєРё" />
+          <E name="РўРёРї_РѕР±СЉРµРєС‚Р°_Р·Р°РєСѓРїРєРё_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="text" index="true" displayname="РўРёРї РѕР±СЉРµРєС‚Р° Р·Р°РєСѓРїРєРё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" />
+          <E name="Р¦РµРЅР°_Р·Р°_РµРґРёРЅРёС†Сѓ_РўР РЈ" datatype="money" index="true" displayname="Р¦РµРЅР° Р·Р° РµРґРёРЅРёС†Сѓ РўР РЈ" />
+          <E name="РР”_РїРѕР·РёС†РёРё_РЅР°_Р­РўРџ" datatype="text" index="true" displayname="РР” РїРѕР·РёС†РёРё РЅР° Р­РўРџ" />
+          <E name="Р‘РµР·_РѕР±СЉСЏРІР»РµРЅРёСЏ_С†РµРЅС‹" datatype="boolean" index="true" displayname="Р‘РµР· РѕР±СЉСЏРІР»РµРЅРёСЏ С†РµРЅС‹" />
+          <E name="Р¦РµРЅР°_Р·Р°_РµРґРёРЅРёС†Сѓ_Р±РµР·_РќР”РЎ" datatype="money" index="true" displayname="Р¦РµРЅР° Р·Р° РµРґРёРЅРёС†Сѓ Р±РµР· РќР”РЎ" />
+          <E name="РЎС‚Р°РІРєР°_РќР”РЎ" datatype="real" index="true" displayname="РЎС‚Р°РІРєР° РќР”РЎ" />
+          <E name="Р¦РµРЅР°_Р·Р°_РµРґРёРЅРёС†Сѓ_СЃ_РќР”РЎ" datatype="money" index="true" displayname="Р¦РµРЅР° Р·Р° РµРґРёРЅРёС†Сѓ СЃ РќР”РЎ" />
+          <E name="РС‚РѕРіРѕРІР°СЏ_С†РµРЅР°_Р±РµР·_РќР”РЎ" datatype="money" index="true" displayname="РС‚РѕРіРѕРІР°СЏ С†РµРЅР° Р±РµР· РќР”РЎ" />
+          <E name="РС‚РѕРіРѕРІР°СЏ_С†РµРЅР°_СЃ_РќР”РЎ" datatype="money" index="true" displayname="РС‚РѕРіРѕРІР°СЏ С†РµРЅР° СЃ РќР”РЎ" />
+          <E name="РќРѕРјРµРЅРєР»Р°С‚СѓСЂРЅС‹Р№_РЅРѕРјРµСЂ" datatype="text" index="true" displayname="РќРѕРјРµРЅРєР»Р°С‚СѓСЂРЅС‹Р№ РЅРѕРјРµСЂ" />
+          <E name="Р”Р°С‚Р°_РїРѕСЃС‚Р°РІРєРё" datatype="date" index="true" displayname="Р”Р°С‚Р° РїРѕСЃС‚Р°РІРєРё" />
+        </S>
+      </A>
+      <E name="РљРѕРґ_РІРёРґР°_РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё_РєРѕРґ" datatype="text" index="true" displayname="РљРѕРґ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕРґ" view="invisible" />
+      <A name="РРџР ">
+        <S name="S1">
+          <E name="Р¤РёР·РёС‡РµСЃРєРёРµ_РїР°СЂР°РјРµС‚СЂС‹_РєРј" datatype="real" index="true" displayname="Р¤РёР·РёС‡РµСЃРєРёРµ РїР°СЂР°РјРµС‚СЂС‹ РєРј" />
+          <E name="Р¤РёР·РёС‡РµСЃРєРёРµ_РїР°СЂР°РјРµС‚СЂС‹_РњР’Рђ" datatype="real" index="true" displayname="Р¤РёР·РёС‡РµСЃРєРёРµ РїР°СЂР°РјРµС‚СЂС‹ РњР’Рђ" />
+          <E name="РРџР _РіРѕРґ" datatype="text" index="true" displayname="РРџР  РіРѕРґ" />
+          <E name="РљРѕРґ_РѕР±СЉРµРєС‚Р°_РІ_РРџ" datatype="text" index="true" displayname="РљРѕРґ РѕР±СЉРµРєС‚Р° РІ РРџ" />
+          <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_РРџ" datatype="longtext" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ РРџ" />
+          <E name="РЎРјРµС‚РЅР°СЏ_СЃС‚РѕРёРјРѕСЃС‚СЊ_СЃ_РќР”РЎ" datatype="money" index="true" displayname="РЎРјРµС‚РЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ СЃ РќР”РЎ" />
+          <E name="РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРµ_РїСЂРёСЃРѕРµРґРёРЅРµРЅРёРµ" datatype="boolean" index="true" displayname="РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРµ РїСЂРёСЃРѕРµРґРёРЅРµРЅРёРµ" default="0" />
+          <E name="РћРєРѕРЅС‡Р°РЅРёРµ_СЂР°Р±РѕС‚_РїРѕ_РїСЂРѕРµРєС‚Сѓ" datatype="text" index="true" displayname="РћРєРѕРЅС‡Р°РЅРёРµ СЂР°Р±РѕС‚ РїРѕ РїСЂРѕРµРєС‚Сѓ" />
+          <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_РїСЂРѕРіСЂР°РјРјС‹_СЂР°Р·РІРёС‚РёСЏ" datatype="longtext" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРіСЂР°РјРјС‹ СЂР°Р·РІРёС‚РёСЏ" />
+          <E name="РЈС‚РІРµСЂР¶РґРµРЅРёРµ_РџРЎР”" datatype="text" index="true" displayname="РЈС‚РІРµСЂР¶РґРµРЅРёРµ РџРЎР”" />
+        </S>
+      </A>
+      <S name="РџРѕР±РµРґРёС‚РµР»СЊ" displayname="РџРѕР±РµРґРёС‚РµР»СЊ">
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РРќРќ" datatype="dictionary(РљРѕРЅС‚СЂР°РіРµРЅС‚С‹,text)@РРќРќ" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РРќРќ" dictpath="" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РљРџРџ" datatype="dictionary(РљРѕРЅС‚СЂР°РіРµРЅС‚С‹,text)@РљРџРџ" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РљРџРџ" dictpath="" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РЎРњРџ" datatype="boolean" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РЎРњРџ" default="0" helpstring="РЈС‡Р°СЃС‚РЅРёРє РѕС‚РЅРѕСЃРёС‚СЃСЏ Рє СЃСѓР±СЉРµРєС‚Р°Рј РјР°Р»РѕРіРѕ Рё СЃСЂРµРґРЅРµРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊСЃС‚РІР°" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="longtext" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" required="false" dictpath="" edit="textbox" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ" datatype="longtext" index="true" displayname="" dictpath="" view="invisible" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РћР“Р Рќ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РћР“Р Рќ" view="invisible" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_С‚РёРї" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ С‚РёРї" view="invisible" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_С‚РёРї_РєРѕРґ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ С‚РёРї РєРѕРґ" view="invisible" />
+        <E name="Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ_С†РµРЅР°_Р·Р°РєСѓРїРєРё_СЃ_РќР”РЎ" datatype="money" index="true" displayname="Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ С†РµРЅР° Р·Р°РєСѓРїРєРё СЃ РќР”РЎ" />
+        <E name="Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ_С†РµРЅР°_Р·Р°РєСѓРїРєРё_Р±РµР·_РќР”РЎ" datatype="money" index="true" displayname="Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ С†РµРЅР° Р·Р°РєСѓРїРєРё Р±РµР· РќР”РЎ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РЅРµСЂРµР·РёРґРµРЅС‚" datatype="boolean" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РЅРµСЂРµР·РёРґРµРЅС‚" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№_РЅРѕРјРµСЂ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РґРѕРї_РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№_РЅРѕРјРµСЂ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РґРѕРї РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СЃС‚СЂР°РЅР°" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СЃС‚СЂР°РЅР°" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СЃС‚СЂР°РЅР°_РєРѕРґ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СЃС‚СЂР°РЅР° РєРѕРґ" view="invisible" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РёРЅРґРµРєСЃ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РёРЅРґРµРєСЃ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СЂРµРіРёРѕРЅ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СЂРµРіРёРѕРЅ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СЂРµРіРёРѕРЅ_РєРѕРґ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СЂРµРіРёРѕРЅ РєРѕРґ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СЃРѕСЃС‚РѕРёС‚_РЅР°_СѓС‡РµС‚Рµ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СЃРѕСЃС‚РѕРёС‚ РЅР° СѓС‡РµС‚Рµ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СЂР°Р№РѕРЅ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СЂР°Р№РѕРЅ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РіРѕСЂРѕРґ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РіРѕСЂРѕРґ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РЅР°СЃРµР»РµРЅРЅС‹Р№_РїСѓРЅРєС‚" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РЅР°СЃРµР»РµРЅРЅС‹Р№ РїСѓРЅРєС‚" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СѓР»РёС†Р°" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СѓР»РёС†Р°" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РґРѕРј" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РґРѕРј" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РєРѕСЂРїСѓСЃ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РєРѕСЂРїСѓСЃ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РѕС„РёСЃ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РѕС„РёСЃ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_email" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ email" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РґР°С‚Р°_РїРѕСЃС‚Р°РЅРѕРІРєРё" datatype="date" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РґР°С‚Р° РїРѕСЃС‚Р°РЅРѕРІРєРё" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_С‚РµР»РµС„РѕРЅ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ С‚РµР»РµС„РѕРЅ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РћРљРћРџР¤" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РћРљРћРџР¤" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РћРљРџРћ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РћРљРџРћ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚_РІ_Р РќРџ" datatype="boolean" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚ РІ Р РќРџ" />
+        <E name="РџСЂРµРґРґРѕРіРѕРІРѕСЂРЅС‹Рµ_РїРµСЂРµРіРѕРІРѕСЂС‹" datatype="boolean" index="true" displayname="РџСЂРµРґРґРѕРіРѕРІРѕСЂРЅС‹Рµ РїРµСЂРµРіРѕРІРѕСЂС‹" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_С„РёСЂРјРµРЅРЅРѕРµ_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="longtext" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ С„РёСЂРјРµРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РћРљРўРњРћ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РћРљРўРњРћ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РћРљРћРџР¤_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РћРљРћРџР¤ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РґРѕРї_РёРЅС„РѕСЂРјР°С†РёСЏ" datatype="longtext" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РґРѕРї РёРЅС„РѕСЂРјР°С†РёСЏ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_СЃС‚Р°С‚СѓСЃ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ СЃС‚Р°С‚СѓСЃ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РќР”РЎ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ РќР”РЎ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_РєРѕРґ_РЅР°_Р­РўРџ" datatype="integer" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ_РєРѕРґ_РЅР°_Р­РўРџ" />
+        <E name="РџРѕР±РµРґРёС‚РµР»СЊ_С‚РёРї_РЎРњРџ" datatype="text" index="true" displayname="РџРѕР±РµРґРёС‚РµР»СЊ С‚РёРї РЎРњРџ" />
+      </S>
+      <E name="Р¤Р°РєС‚РёС‡РµСЃРєРёР№_СЃРїРѕСЃРѕР±_Р·Р°РєСѓРїРєРё_РїРѕР»РѕР¶РµРЅРёРµ" datatype="text" index="true" displayname="Р¤Р°РєС‚РёС‡РµСЃРєРёР№ СЃРїРѕСЃРѕР± Р·Р°РєСѓРїРєРё РїРѕР»РѕР¶РµРЅРёРµ" />
+      <E name="Р—Р°РіСЂСѓР¶РµРЅ_РёР·_Р•РРЎ" datatype="boolean" index="true" displayname="Р—Р°РіСЂСѓР¶РµРЅ РёР· Р•РРЎ" view="invisible" />
+      <E name="Р Р°СЃС€РёСЂРµРЅРЅС‹Р№_РїР»Р°РЅ" datatype="boolean" index="true" displayname="Р Р°СЃС€РёСЂРµРЅРЅС‹Р№ РїР»Р°РЅ" view="invisible" />
+      <E name="РЈРєСЂСѓРїРЅРµРЅРЅС‹Р№" datatype="boolean" index="true" />
+      <E name="Р¤РѕСЂРјР°_РїРµСЂРµС‚РѕСЂР¶РµРє" datatype="text" index="true" displayname="Р¤РѕСЂРјР° РїРµСЂРµС‚РѕСЂР¶РµРє" />
+      <E name="РџРѕРІС‚РѕСЂРЅР°СЏ_Р·Р°РєСѓРїРєР°" datatype="boolean" index="true" displayname="РџРѕРІС‚РѕСЂРЅР°СЏ Р·Р°РєСѓРїРєР°" />
+      <A name="РћСЃРЅРѕРІР°РЅРёРµ_Р•Рџ" displayname="РћСЃРЅРѕРІР°РЅРёРµ Р•Рџ">
+        <S name="S1">
+          <E name="РћСЃРЅРѕРІР°РЅРёРµ_Р·Р°РєСѓРїРєРё_Сѓ_Р•Рџ" datatype="text" index="true" displayname="РћСЃРЅРѕРІР°РЅРёРµ Р·Р°РєСѓРїРєРё Сѓ Р•Рџ" dictpath="" />
+        </S>
+      </A>
+      <E name="РџСЂРёС‡РёРЅС‹_РЅРµРІС‹РїРѕР»РЅРµРЅРёСЏ_СЃСЂРѕРєРѕРІ" datatype="longtext" index="true" displayname="РџСЂРёС‡РёРЅС‹ РЅРµРІС‹РїРѕР»РЅРµРЅРёСЏ СЃСЂРѕРєРѕРІ" />
+      <A name="Р”РѕРєСѓРјРµРЅС‚С‹" displayname="Р”РѕРєСѓРјРµРЅС‚С‹">
+        <S name="S1">
+          <E name="РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ_РґРѕРєСѓРјРµРЅС‚Р°" datatype="text" index="true" displayname="РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°" />
+          <E name="РЎСЃС‹Р»РєР°" datatype="longtext" index="true" />
+          <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_РґРѕРєСѓРјРµРЅС‚Р°" datatype="longtext" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°" />
+        </S>
+      </A>
+      <S name="РСЃРїРѕР»РЅРёС‚РµР»СЊ">
+        <E name="РСЃРїРѕР»РЅРёС‚РµР»СЊ" datatype="integer" index="true" extype="addressbook" abdata="Id" />
+        <E name="РСЃРїРѕР»РЅРёС‚РµР»СЊ_Р¤РРћ" datatype="text" index="true" displayname="РСЃРїРѕР»РЅРёС‚РµР»СЊ Р¤РРћ" edit="tool(CallTools.AddressBookTool)" absettings="&lt;ROOT title=&quot;РђРґСЂРµСЃРЅР°СЏ РєРЅРёРіР°&quot; IsMultiple=&quot;False&quot; CanSelectNobody=&quot;False&quot; SelectedUser=&quot;True&quot; SelectedGroup=&quot;False&quot; SelectedDepartments=&quot;False&quot;&gt;&lt;DateDictionary Name=&quot;Persons&quot; DisplayName=&quot;РџРѕР»СЊР·РѕРІР°С‚РµР»Рё&quot; /&gt;&lt;DateDictionary Name=&quot;Departments&quot; DisplayName=&quot;РЎС‚СЂСѓРєС‚СѓСЂР° РїСЂРµРґРїСЂРёСЏС‚РёСЏ&quot; /&gt;&lt;/ROOT&gt;" extype="addressbook" abdata="Name" />
+      </S>
+      <E name="РР”_РЅР°_Р­РўРџ" datatype="text" index="true" displayname="РР” РЅР° Р­РўРџ" />
+      <E name="Р”Р°С‚Р°_РїРѕРґРїРёСЃР°РЅРёСЏ_РґРѕРіРѕРІРѕСЂР°" datatype="date" index="true" displayname="Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ РґРѕРіРѕРІРѕСЂР°" />
+      <E name="Р”РѕРіРѕРІРѕСЂ_РІ_Р±СѓРјР°Р¶РЅРѕРј_РІРёРґРµ" datatype="boolean" index="true" displayname="Р”РѕРіРѕРІРѕСЂ РІ Р±СѓРјР°Р¶РЅРѕРј РІРёРґРµ" />
+      <E name="РџРѕСЂСЏРґРѕРє_С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ_С†РµРЅС‹_РґРѕРіРѕРІРѕСЂР°" datatype="longtext" index="true" displayname="РџРѕСЂСЏРґРѕРє С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ С†РµРЅС‹ РґРѕРіРѕРІРѕСЂР°" />
+      <E name="РќР°Р»РёС‡РёРµ_РїСЂРѕС†РµРґСѓСЂС‹_РІ_Р•РРЎ" datatype="boolean" index="true" displayname="РќР°Р»РёС‡РёРµ РїСЂРѕС†РµРґСѓСЂС‹ РІ Р•РРЎ" />
+      <E name="РќР°Р»РёС‡РёРµ_РїСЂРѕС†РµРґСѓСЂС‹_РЅР°_Р­РўРџ" datatype="boolean" index="true" displayname="РќР°Р»РёС‡РёРµ РїСЂРѕС†РµРґСѓСЂС‹ РЅР° Р­РўРџ" />
+      <E name="РўСЂРµР±СѓРµС‚СЃСЏ_СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ" datatype="boolean" index="true" displayname="РўСЂРµР±СѓРµС‚СЃСЏ СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ" />
+      <E name="Р¦РµРЅС‚СЂР°Р»РёР·РѕРІР°РЅРЅР°СЏ_Р·Р°РєСѓРїРєР°" datatype="boolean" index="true" displayname="Р¦РµРЅС‚СЂР°Р»РёР·РѕРІР°РЅРЅР°СЏ Р·Р°РєСѓРїРєР°" default="0" />
+      <S name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_РёСЃРїРѕР»РЅРёС‚РµР»СЊ" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РёСЃРїРѕР»РЅРёС‚РµР»СЊ">
+        <E name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_РёСЃРїРѕР»РЅРёС‚РµР»СЊ" datatype="integer" index="true" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РёСЃРїРѕР»РЅРёС‚РµР»СЊ" extype="addressbook" abdata="Id" view="invisible" />
+        <E name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_РёСЃРїРѕР»РЅРёС‚РµР»СЊ_Р¤РРћ" datatype="text" index="true" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РёСЃРїРѕР»РЅРёС‚РµР»СЊ Р¤РРћ" dictpath="" edit="textbox,tool(CallTools.AddressBookTool)" absettings="&lt;ROOT title=&quot;РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РёСЃРїРѕР»РЅРёС‚РµР»СЊ Р¤РРћ&quot; IsMultiple=&quot;False&quot; CanSelectNobody=&quot;False&quot; SelectedUser=&quot;True&quot; SelectedGroup=&quot;False&quot; SelectedDepartments=&quot;False&quot;&gt;&lt;DateDictionary Name=&quot;Persons&quot; DisplayName=&quot;РџРѕР»СЊР·РѕРІР°С‚РµР»Рё&quot; /&gt;&lt;DateDictionary Name=&quot;Departments&quot; DisplayName=&quot;РЎС‚СЂСѓРєС‚СѓСЂР° РїСЂРµРґРїСЂРёСЏС‚РёСЏ&quot; /&gt;&lt;/ROOT&gt;" required="false" abdata="Name" />
+      </S>
+      <S name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_СЂСѓРєРѕРІРѕРґРёС‚РµР»СЊ" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЊ">
+        <E name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_СЂСѓРєРѕРІРѕРґРёС‚РµР»СЊ" datatype="integer" index="true" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЊ" extype="addressbook" abdata="ChiefId" view="invisible" />
+        <E name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_СЂСѓРєРѕРІРѕРґРёС‚РµР»СЊ_Р¤РРћ" datatype="text" index="true" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЊ Р¤РРћ" dictpath="" edit="textbox,tool(CallTools.AddressBookTool)" absettings="&lt;ROOT title=&quot;РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЊ Р¤РРћ&quot; IsMultiple=&quot;False&quot; CanSelectNobody=&quot;False&quot; SelectedUser=&quot;True&quot; SelectedGroup=&quot;False&quot; SelectedDepartments=&quot;False&quot;&gt;&lt;DateDictionary Name=&quot;Persons&quot; DisplayName=&quot;РџРѕР»СЊР·РѕРІР°С‚РµР»Рё&quot; /&gt;&lt;DateDictionary Name=&quot;Departments&quot; DisplayName=&quot;РЎС‚СЂСѓРєС‚СѓСЂР° РїСЂРµРґРїСЂРёСЏС‚РёСЏ&quot; /&gt;&lt;/ROOT&gt;" required="false" extype="addressbook" abdata="Name" />
+        <E name="РћС‚РґРµР»" datatype="text" index="true" displayname="РћС‚РґРµР»" />
+      </S>
+      <E name="РР”_Р»РѕС‚Р°" datatype="integer" index="true" displayname="РР” Р»РѕС‚Р°" />
+      <E name="РР”_Р·Р°СЏРІРєРё_РЅР°_Р·Р°РєСѓРїРєСѓ" datatype="integer" index="true" displayname="РР” Р·Р°СЏРІРєРё РЅР° Р·Р°РєСѓРїРєСѓ" />
+      <E name="Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ_РґР°С‚Р°_Р·Р°РєР»СЋС‡РµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°" datatype="date" index="true" displayname="Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ РґР°С‚Р° Р·Р°РєР»СЋС‡РµРЅРёСЏ РґРѕРіРѕРІРѕСЂР°" />
+      <E name="РћР±РѕР±С‰РµРЅРЅС‹Р№_СЃС‚Р°С‚СѓСЃ" datatype="text" index="true" displayname="РћР±РѕР±С‰РµРЅРЅС‹Р№ СЃС‚Р°С‚СѓСЃ" edit="textbox" />
+      <S name="РРЅС„РѕСЂРјР°С†РёСЏ_РѕР±_РѕР±СЉРµРјР°С…_РѕРїР»Р°С‚С‹_РґРѕР»РіРѕСЃСЂРѕС‡РЅРѕРіРѕ_РґРѕРіРѕРІРѕСЂР°" displayname="РРЅС„РѕСЂРјР°С†РёСЏ РѕР±  РѕР±СЉРµРјР°С… РѕРїР»Р°С‚С‹ РґРѕР»РіРѕСЃСЂРѕС‡РЅРѕРіРѕ РґРѕРіРѕРІРѕСЂР°">
+        <A name="РџР»Р°РЅРёСЂСѓРµРјС‹Рµ_РїР»Р°С‚РµР¶Рё" displayname="РџР»Р°РЅРёСЂСѓРµРјС‹Рµ РїР»Р°С‚РµР¶Рё">
+          <S name="S1">
+            <E name="Р“РѕРґ_РѕРїР»Р°С‚Р°" datatype="integer" index="true" displayname="Р“РѕРґ РѕРїР»Р°С‚Р°" />
+            <E name="РЎСѓРјРјР°_РїР»Р°С‚РµР¶Р°" datatype="money" index="true" displayname="РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°" />
+          </S>
+        </A>
+        <E name="Р’Р°Р»СЋС‚Р°_РїР»Р°С‚РµР¶Р°" datatype="text" index="true" displayname="Р’Р°Р»СЋС‚Р° РїР»Р°С‚РµР¶Р°" />
+        <E name="Р¦РёС„СЂРѕРІРѕР№_РєРѕРґ_РІР°Р»СЋС‚С‹_РїР»Р°С‚РµР¶Р°" datatype="text" index="true" displayname="Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°" />
+        <E name="РљРѕРґ_РІР°Р»СЋС‚С‹_РїР»Р°С‚РµР¶Р°" datatype="text" index="true" displayname="РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°" />
+      </S>
+      <S name="РРЅС„РѕСЂРјР°С†РёСЏ_РѕР±_РѕР±СЉРµРјР°С…_РїСЂРёРІР»РµС‡РµРЅРёСЏ_РЎРњРџ" displayname="РРЅС„РѕСЂРјР°С†РёСЏ РѕР±  РѕР±СЉРµРјР°С…  РїСЂРёРІР»РµС‡РµРЅРёСЏ РЎРњРџ">
+        <A name="РџР»Р°РЅРёСЂСѓРµРјС‹Рµ_РїР»Р°С‚РµР¶Рё_РЎРњРџ" displayname="РџР»Р°РЅРёСЂСѓРµРјС‹Рµ РїР»Р°С‚РµР¶Рё РЎРњРџ">
+          <S name="S1">
+            <E name="Р“РѕРґ_РЎРњРџ" datatype="integer" index="true" displayname="Р“РѕРґ РЎРњРџ" />
+            <E name="РЎСѓРјРјР°_РїР»Р°С‚РµР¶Р°_РЎРњРџ" datatype="money" index="true" displayname="РЎСѓРјРјР° РїР»Р°С‚РµР¶Р° РЎРњРџ" />
+          </S>
+        </A>
+        <E name="Р’Р°Р»СЋС‚Р°_РїР»Р°С‚РµР¶Р°_РЎРњРџ" datatype="text" index="true" displayname="Р’Р°Р»СЋС‚Р° РїР»Р°С‚РµР¶Р° РЎРњРџ" />
+        <E name="Р¦РёС„СЂРѕРІРѕР№_РєРѕРґ_РІР°Р»СЋС‚С‹_РїР»Р°С‚РµР¶Р°_РЎРњРџ" datatype="text" index="true" displayname="Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р° РЎРњРџ" />
+        <E name="РљРѕРґ_РІР°Р»СЋС‚С‹_РїР»Р°С‚РµР¶Р°_РЎРњРџ" datatype="text" index="true" displayname="РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р° РЎРњРџ" />
+      </S>
+      <E name="Р”РѕР»РіРѕСЃСЂРѕС‡РЅС‹Р№" datatype="boolean" index="true" displayname="Р”РѕР»РіРѕСЃСЂРѕС‡РЅС‹Р№" />
+      <S name="Р—Р°РєР°Р·С‡РёРє_РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ">
+        <E name="Р—Р°РєР°Р·С‡РёРє_РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ" datatype="integer" index="true" extype="addressbook" abdata="Id" />
+        <E name="Р—Р°РєР°Р·С‡РёРє_РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="text" index="true" edit="tool(CallTools.AddressBookTool)" absettings="&lt;ROOT title=&quot;РђРґСЂРµСЃРЅР°СЏ РєРЅРёРіР°&quot; IsMultiple=&quot;False&quot; CanSelectNobody=&quot;False&quot; SelectedUser=&quot;False&quot; SelectedGroup=&quot;False&quot; SelectedDepartments=&quot;True&quot;&gt;&lt;DateDictionary Name=&quot;Departments&quot; DisplayName=&quot;РЎС‚СЂСѓРєС‚СѓСЂР° РїСЂРµРґРїСЂРёСЏС‚РёСЏ&quot; /&gt;&lt;/ROOT&gt;" />
+      </S>
+      <S name="РљРѕРЅС‚Р°РєС‚РЅРѕРµ_Р»РёС†Рѕ" displayname="РљРѕРЅС‚Р°РєС‚РЅРѕРµ Р»РёС†Рѕ">
+        <S name="РљРѕРЅС‚Р°РєС‚РЅРѕРµ_Р»РёС†Рѕ" displayname="РљРѕРЅС‚Р°РєС‚РЅРѕРµ Р»РёС†Рѕ">
+          <E name="РљРѕРЅС‚Р°РєС‚РЅРѕРµ_Р»РёС†Рѕ" datatype="integer" index="true" displayname="РљРѕРЅС‚Р°РєС‚РЅРѕРµ Р»РёС†Рѕ" extype="addressbook" abdata="Id" view="invisible" />
+          <E name="РљРѕРЅС‚Р°РєС‚РЅРѕРµ_Р»РёС†Рѕ_Р¤РРћ" datatype="text" index="true" displayname="РљРѕРЅС‚Р°РєС‚РЅРѕРµ Р»РёС†Рѕ Р¤РРћ" dictpath="" edit="textbox,tool(CallTools.AddressBookTool)" absettings="&lt;ROOT title=&quot;РљРѕРЅС‚Р°РєС‚РЅРѕРµ Р»РёС†Рѕ Р¤РРћ&quot; IsMultiple=&quot;False&quot; CanSelectNobody=&quot;False&quot; SelectedUser=&quot;True&quot; SelectedGroup=&quot;False&quot; SelectedDepartments=&quot;False&quot;&gt;&lt;DateDictionary Name=&quot;Persons&quot; DisplayName=&quot;РџРѕР»СЊР·РѕРІР°С‚РµР»Рё&quot; /&gt;&lt;DateDictionary Name=&quot;Departments&quot; DisplayName=&quot;РЎС‚СЂСѓРєС‚СѓСЂР° РїСЂРµРґРїСЂРёСЏС‚РёСЏ&quot; /&gt;&lt;/ROOT&gt;" required="true" />
+          <E name="РљРѕРЅС‚Р°РєС‚РЅРѕРµ_Р»РёС†Рѕ_С„Р°РјРёР»РёСЏ" datatype="text" index="true" required="false" displayname="РљРѕРЅС‚Р°РєС‚РЅРѕРµ Р»РёС†Рѕ С„Р°РјРёР»РёСЏ" edit="textbox" dictpath="" extype="addressbook" abdata="SurName" />
+          <E name="РљРѕРЅС‚Р°РєС‚РЅРѕРµ_Р»РёС†Рѕ_РёРјСЏ" datatype="text" index="true" required="false" displayname="РљРѕРЅС‚Р°РєС‚РЅРѕРµ Р»РёС†Рѕ РёРјСЏ" dictpath="" extype="addressbook" abdata="FirstName" />
+          <E name="РљРѕРЅС‚Р°РєС‚РЅРѕРµ_Р»РёС†Рѕ_РѕС‚С‡РµСЃС‚РІРѕ" datatype="text" index="true" required="false" displayname="РљРѕРЅС‚Р°РєС‚РЅРѕРµ Р»РёС†Рѕ РѕС‚С‡РµСЃС‚РІРѕ" dictpath="" extype="addressbook" abdata="Patronymic" />
+          <E name="РљРѕРЅС‚Р°РєС‚РЅРѕРµ_Р»РёС†Рѕ_email" datatype="text" index="true" displayname="РљРѕРЅС‚Р°РєС‚РЅРѕРµ Р»РёС†Рѕ email" required="true" dictpath="" />
+          <E name="РљРѕРЅС‚Р°РєС‚РЅРѕРµ_Р»РёС†Рѕ_С‚РµР»РµС„РѕРЅ" datatype="text" index="true" required="true" displayname="РљРѕРЅС‚Р°РєС‚РЅРѕРµ Р»РёС†Рѕ С‚РµР»РµС„РѕРЅ" dictpath="" />
+          <E name="РљРѕРЅС‚Р°РєС‚РЅРѕРµ_Р»РёС†Рѕ_С„Р°РєСЃ" datatype="text" index="true" displayname="РљРѕРЅС‚Р°РєС‚РЅРѕРµ Р»РёС†Рѕ С„Р°РєСЃ" dictpath="" />
+          <E name="РљРѕРЅС‚Р°РєС‚РЅРѕРµ_Р»РёС†Рѕ_РґРѕР»Р¶РЅРѕСЃС‚СЊ" datatype="text" index="true" displayname="РљРѕРЅС‚Р°РєС‚РЅРѕРµ Р»РёС†Рѕ РґРѕР»Р¶РЅРѕСЃС‚СЊ" />
+        </S>
+        <E name="Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ_РєРѕРЅС‚Р°РєС‚РЅР°СЏ_РёРЅС„РѕСЂРјР°С†РёСЏ" datatype="longtext" index="true" displayname="Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РєРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ" dictpath="" awindex="true" euflag="7" extype="addressbook" abdata="Remark" />
+        <E name="РџРѕС‡С‚РѕРІС‹Р№_Р°РґСЂРµСЃ" datatype="longtext" index="true" displayname="РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ" required="true" />
+        <E name="РђРґСЂРµСЃ_РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ" datatype="longtext" index="true" displayname="РђРґСЂРµСЃ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ" required="true" />
+      </S>
+      <A name="РџСЂРµРёРјСѓС‰РµСЃС‚РІР°_Рє_СѓС‡Р°СЃС‚РЅРёРєР°Рј_Р·Р°РєСѓРїРєРё" displayname="РџСЂРµРёРјСѓС‰РµСЃС‚РІР° Рє СѓС‡Р°СЃС‚РЅРёРєР°Рј Р·Р°РєСѓРїРєРё" use="table" relevant=" РўРёРї_РѕСЃРѕР±РѕР№_Р·Р°РєСѓРїРєРё_РєРѕРґ =&quot;&quot;">
+        <S name="S1">
+          <E name="РљРѕРґ_РїСЂРµРёРјСѓС‰РµСЃС‚РІР°" datatype="dictionary(РЎРїРѕСЃРѕР± РѕРїСЂРµРґРµР»РµРЅРёСЏ РїРѕСЃС‚Р°РІС‰РёРєР°,text)" index="true" displayname="РљРѕРґ РїСЂРµРёРјСѓС‰РµСЃС‚РІР°" view="invisible" dictpath="|[|Document|РЎРїРѕСЃРѕР±_РѕРїСЂРµРґРµР»РµРЅРёСЏ_РїРѕСЃС‚Р°РІС‰РёРєР°_РєРѕРґ]|РџСЂРµРёРјСѓС‰РµСЃС‚РІР°_РџР“" />
+          <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_РїСЂРµРёРјСѓС‰РµСЃС‚РІР°" datatype="longtext" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРµРёРјСѓС‰РµСЃС‚РІР°" required="true" dictpath="|[|Document|РЎРїРѕСЃРѕР±_РѕРїСЂРµРґРµР»РµРЅРёСЏ_РїРѕСЃС‚Р°РІС‰РёРєР°_РєРѕРґ]|РџСЂРµРёРјСѓС‰РµСЃС‚РІР°_РџР“" />
+          <E name="Р’РµР»РёС‡РёРЅР°_РїСЂРµРёРјСѓС‰РµСЃС‚РІР°" datatype="dictionary(РЎРїРѕСЃРѕР± РѕРїСЂРµРґРµР»РµРЅРёСЏ РїРѕСЃС‚Р°РІС‰РёРєР°,integer)@Р’РµР»РёС‡РёРЅР°" index="true" displayname="Р’РµР»РёС‡РёРЅР° РїСЂРµРёРјСѓС‰РµСЃС‚РІР°" dictpath="|[|Document|РЎРїРѕСЃРѕР±_РѕРїСЂРµРґРµР»РµРЅРёСЏ_РїРѕСЃС‚Р°РІС‰РёРєР°_РєРѕРґ]|РџСЂРµРёРјСѓС‰РµСЃС‚РІР°_РџР“" />
+          <E name="РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ_РїСЂРµРёРјСѓС‰РµСЃС‚РІР°" datatype="text" index="true" dictpath="" displayname="РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРёРјСѓС‰РµСЃС‚РІР°" />
+          <E name="Р’РµР»РёС‡РёРЅР°" datatype="integer" index="true" valid=" Р’РµР»РёС‡РёРЅР° &lt;=  Р’РµР»РёС‡РёРЅР°_РїСЂРµРёРјСѓС‰РµСЃС‚РІР° " />
+          <E name="Р‘РёР·РЅРµСЃ_РєРѕРґ_РїСЂРµРёРјСѓС‰РµСЃС‚РІР°" datatype="dictionary(РЎРїРѕСЃРѕР± РѕРїСЂРµРґРµР»РµРЅРёСЏ РїРѕСЃС‚Р°РІС‰РёРєР°,text)@РљРѕРґ" index="true" displayname="Р‘РёР·РЅРµСЃ РєРѕРґ РїСЂРµРёРјСѓС‰РµСЃС‚РІР°" dictpath="|[|Document|РЎРїРѕСЃРѕР±_РѕРїСЂРµРґРµР»РµРЅРёСЏ_РїРѕСЃС‚Р°РІС‰РёРєР°_РєРѕРґ]|РџСЂРµРёРјСѓС‰РµСЃС‚РІР°_РџР“" />
+          <E name="РљРѕРґ_СЃРїРѕСЃРѕР±Р°_РїСЂРёРµРјСѓС‰РµСЃС‚РІР°" datatype="text" index="true" displayname="РљРѕРґ СЃРїРѕСЃРѕР±Р° РїСЂРёРµРјСѓС‰РµСЃС‚РІР°" />
+        </S>
+      </A>
+      <A name="РўСЂРµР±РѕРІР°РЅРёСЏ_Рє_СѓС‡Р°СЃС‚РЅРёРєР°Рј" displayname="РўСЂРµР±РѕРІР°РЅРёСЏ Рє СѓС‡Р°СЃС‚РЅРёРєР°Рј" use="table" relevant=" РўРёРї_РѕСЃРѕР±РѕР№_Р·Р°РєСѓРїРєРё_РєРѕРґ =&quot;&quot;">
+        <S name="S1">
+          <E name="РљРѕРґ_С‚СЂРµР±РѕРІР°РЅРёСЏ" datatype="dictionary(РЎРїРѕСЃРѕР± РѕРїСЂРµРґРµР»РµРЅРёСЏ РїРѕСЃС‚Р°РІС‰РёРєР°,text)" index="true" displayname="РљРѕРґ С‚СЂРµР±РѕРІР°РЅРёСЏ" view="invisible" dictpath="|[|Document|РЎРїРѕСЃРѕР±_РѕРїСЂРµРґРµР»РµРЅРёСЏ_РїРѕСЃС‚Р°РІС‰РёРєР°_РєРѕРґ]|РўСЂРµР±РѕРІР°РЅРёСЏ_РџР“" />
+          <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_С‚СЂРµР±РѕРІР°РЅРёСЏ" datatype="longtext" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚СЂРµР±РѕРІР°РЅРёСЏ" required="true" dictpath="|[|Document|РЎРїРѕСЃРѕР±_РѕРїСЂРµРґРµР»РµРЅРёСЏ_РїРѕСЃС‚Р°РІС‰РёРєР°_РєРѕРґ]|РўСЂРµР±РѕРІР°РЅРёСЏ_РџР“" />
+          <E name="РЎРѕРґРµСЂР¶Р°РЅРёРµ_С‚СЂРµР±РѕРІР°РЅРёСЏ" datatype="longtext" index="true" displayname="РЎРѕРґРµСЂР¶Р°РЅРёРµ С‚СЂРµР±РѕРІР°РЅРёСЏ" dictpath="" />
+          <E name="РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ_С‚СЂРµР±РѕРІР°РЅРёСЏ" datatype="text" index="true" view="invisible" dictpath="" displayname="РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚СЂРµР±РѕРІР°РЅРёСЏ" />
+          <E name="Р‘РёР·РЅРµСЃ_РєРѕРґ_С‚СЂРµР±РѕРІР°РЅРёСЏ" datatype="dictionary(РЎРїРѕСЃРѕР± РѕРїСЂРµРґРµР»РµРЅРёСЏ РїРѕСЃС‚Р°РІС‰РёРєР°,text)@РљРѕРґ" index="true" displayname="Р‘РёР·РЅРµСЃ РєРѕРґ С‚СЂРµР±РѕРІР°РЅРёСЏ" dictpath="|[|Document|РЎРїРѕСЃРѕР±_РѕРїСЂРµРґРµР»РµРЅРёСЏ_РїРѕСЃС‚Р°РІС‰РёРєР°_РєРѕРґ]|РўСЂРµР±РѕРІР°РЅРёСЏ_РџР“" />
+          <E name="Р“СЂСѓРїРїР°" datatype="dictionary(РЎРїРѕСЃРѕР± РѕРїСЂРµРґРµР»РµРЅРёСЏ РїРѕСЃС‚Р°РІС‰РёРєР°,text)@Р“СЂСѓРїРїР°" index="true" view="invisible" dictpath="|[|Document|РЎРїРѕСЃРѕР±_РѕРїСЂРµРґРµР»РµРЅРёСЏ_РїРѕСЃС‚Р°РІС‰РёРєР°_РєРѕРґ]|РўСЂРµР±РѕРІР°РЅРёСЏ_РџР“" />
+          <E name="РћР±РѕСЃРЅРѕРІР°РЅРёРµ_С‚СЂРµР±РѕРІР°РЅРёСЏ" datatype="text" index="true" view="invisible" displayname="РћР±РѕСЃРЅРѕРІР°РЅРёРµ С‚СЂРµР±РѕРІР°РЅРёСЏ" requiredex=" Р“СЂСѓРїРїР° = &quot;Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ&quot;" />
+          <E name="РљРѕРґ_СЃРїРѕСЃРѕР±Р°_С‚СЂРµР±РѕРІР°РЅРёСЏ" datatype="text" index="true" displayname="РљРѕРґ СЃРїРѕСЃРѕР±Р° С‚СЂРµР±РѕРІР°РЅРёСЏ" />
+        </S>
+      </A>
+      <A name="РћРіСЂР°РЅРёС‡РµРЅРёСЏ" displayname="РћРіСЂР°РЅРёС‡РµРЅРёСЏ" use="table" relevant=" РўРёРї_РѕСЃРѕР±РѕР№_Р·Р°РєСѓРїРєРё_РєРѕРґ =&quot;&quot;">
+        <S name="S1">
+          <E name="РљРѕРґ_РѕРіСЂР°РЅРёС‡РµРЅРёСЏ" datatype="dictionary(РЎРїРѕСЃРѕР± РѕРїСЂРµРґРµР»РµРЅРёСЏ РїРѕСЃС‚Р°РІС‰РёРєР°,text)" index="true" displayname="РљРѕРґ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ" view="invisible" dictpath="|[|Document|РЎРїРѕСЃРѕР±_РѕРїСЂРµРґРµР»РµРЅРёСЏ_РїРѕСЃС‚Р°РІС‰РёРєР°_РєРѕРґ]|РћРіСЂР°РЅРёС‡РµРЅРёСЏ" />
+          <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_РѕРіСЂР°РЅРёС‡РµРЅРёСЏ" datatype="longtext" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ" required="true" dictpath="|[|Document|РЎРїРѕСЃРѕР±_РѕРїСЂРµРґРµР»РµРЅРёСЏ_РїРѕСЃС‚Р°РІС‰РёРєР°_РєРѕРґ]|РћРіСЂР°РЅРёС‡РµРЅРёСЏ" />
+          <E name="РЎРѕРґРµСЂР¶Р°РЅРёРµ_РѕРіСЂР°РЅРёС‡РµРЅРёСЏ" datatype="longtext" index="true" displayname="РЎРѕРґРµСЂР¶Р°РЅРёРµ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ" dictpath="|[|..|РљРѕРґ_С‚СЂРµР±РѕРІР°РЅРёСЏ]| РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ " />
+          <E name="РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ_РѕРіСЂР°РЅРёС‡РµРЅРёСЏ" datatype="text" index="true" view="invisible" dictpath="" displayname="РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ" />
+          <E name="Р‘РёР·РЅРµСЃ_РєРѕРґ_РѕРіСЂР°РЅРёС‡РµРЅРёСЏ" datatype="dictionary(РЎРїРѕСЃРѕР± РѕРїСЂРµРґРµР»РµРЅРёСЏ РїРѕСЃС‚Р°РІС‰РёРєР°,text)@РљРѕРґ" index="true" displayname="Р‘РёР·РЅРµСЃ РєРѕРґ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ" dictpath="|[|Document|РЎРїРѕСЃРѕР±_РѕРїСЂРµРґРµР»РµРЅРёСЏ_РїРѕСЃС‚Р°РІС‰РёРєР°_РєРѕРґ]|РћРіСЂР°РЅРёС‡РµРЅРёСЏ" />
+          <E name="РљРѕРґ_СЃРїРѕСЃРѕР±Р°_РѕРіСЂР°РЅРёС‡РµРЅРёСЏ" datatype="text" index="true" displayname="РљРѕРґ СЃРїРѕСЃРѕР±Р° РѕРіСЂР°РЅРёС‡РµРЅРёСЏ" />
+        </S>
+      </A>
+      <E name="РћРіСЂР°РЅРёС‡РµРЅРёСЏ_РґРѕРїСѓСЃРєР°_С‚РѕРІР°СЂРѕРІ" datatype="longtext" index="true" displayname="РћРіСЂР°РЅРёС‡РµРЅРёСЏ РґРѕРїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ" required="false" />
+      <E name="РќР°Р»РёС‡РёРµ_РіРѕСЃ_СЌРєСЃРїРµСЂС‚РёР·С‹" datatype="longtext" index="true" displayname="РќР°Р»РёС‡РёРµ_РіРѕСЃ_СЌРєСЃРїРµСЂС‚РёР·С‹" />
+      <E name="РќР°Р»РёС‡РёРµ_СѓС‚РІРµСЂР¶РґРµРЅРЅРѕР№_РґРѕРєСѓРјРµРЅС‚Р°С†РёРё" datatype="longtext" index="true" displayname="РќР°Р»РёС‡РёРµ_СѓС‚РІРµСЂР¶РґРµРЅРЅРѕР№_РґРѕРєСѓРјРµРЅС‚Р°С†РёРё" />
+      <E name="Р’РѕР·РјРѕР¶РЅРѕСЃС‚СЊ_РёР·РјРµРЅРµРЅРёСЏ_СѓСЃР»РѕРІРёР№_РєРѕРЅС‚СЂР°РєС‚Р°" datatype="longtext" index="true" displayname="Р’РѕР·РјРѕР¶РЅРѕСЃС‚СЊ_РёР·РјРµРЅРµРЅРёСЏ_СѓСЃР»РѕРІРёР№_РєРѕРЅС‚СЂР°РєС‚Р°" />
+      <E name="Р’РѕР·РјРѕР¶РЅРѕСЃС‚СЊ_РєРѕРЅС‚СЂР°РєС‚_СЃ_РЅРµСЃРєРѕР»СЊРєРёРјРё_СѓС‡Р°СЃС‚РЅРёРєР°РјРё" datatype="longtext" index="true" displayname="Р’РѕР·РјРѕР¶РЅРѕСЃС‚СЊ_РєРѕРЅС‚СЂР°РєС‚_СЃ_РЅРµСЃРєРѕР»СЊРєРёРјРё_СѓС‡Р°СЃС‚РЅРёРєР°РјРё" />
+      <E name="Р’РѕР·РјРѕР¶РЅРѕСЃС‚СЊ_РѕРґРЅРѕСЃС‚РѕСЂРѕРЅРЅРµРіРѕ_РѕС‚РєР°Р·Р°" datatype="longtext" index="true" displayname="Р’РѕР·РјРѕР¶РЅРѕСЃС‚СЊ_РѕРґРЅРѕСЃС‚РѕСЂРѕРЅРЅРµРіРѕ_РѕС‚РєР°Р·Р°" />
+      <E name="Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ_РёРЅС„РѕСЂРјР°С†РёСЏ" datatype="longtext" index="true" displayname="Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ" />
+      <E name="РРЅС„РѕСЂРјР°С†РёСЏ_Рѕ_РєРѕРЅС‚СЂР°РєС‚РЅРѕР№_СЃР»СѓР¶Р±Рµ" datatype="longtext" index="true" />
+      <E name="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ_РєРѕРЅС‚СЂР°РєС‚РЅРѕР№_СЃР»СѓР¶Р±С‹_РґРѕР»Р¶РЅРѕСЃС‚СЊ" datatype="text" index="true" displayname="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РєРѕРЅС‚СЂР°РєС‚РЅРѕР№ СЃР»СѓР¶Р±С‹ РґРѕР»Р¶РЅРѕСЃС‚СЊ" />
+      <E name="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ_РєРѕРЅС‚СЂР°РєС‚РЅРѕР№_СЃР»СѓР¶Р±С‹_Р¤РРћ" datatype="text" index="true" displayname="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РєРѕРЅС‚СЂР°РєС‚РЅРѕР№ СЃР»СѓР¶Р±С‹ Р¤РРћ" />
+      <E name="РћС‚РІРµС‚СЃС‚_Р·Р°_Р·Р°РєР»СЋС‡РµРЅРёРµ_РєРѕРЅС‚СЂР°РєС‚Р°_РґРѕР»Р¶РЅРѕСЃС‚СЊ" datatype="text" index="true" displayname="РћС‚РІРµС‚СЃС‚ Р·Р° Р·Р°РєР»СЋС‡РµРЅРёРµ РєРѕРЅС‚СЂР°РєС‚Р° РґРѕР»Р¶РЅРѕСЃС‚СЊ" />
+      <E name="РћС‚РІРµС‚СЃС‚_Р·Р°_Р·Р°РєР»СЋС‡РµРЅРёРµ_РєРѕРЅС‚СЂР°РєС‚Р°_Р¤РРћ" datatype="text" index="true" displayname="РћС‚РІРµС‚СЃС‚ Р·Р° Р·Р°РєР»СЋС‡РµРЅРёРµ РєРѕРЅС‚СЂР°РєС‚Р° Р¤РРћ" />
+      <E name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_РёСЃРїРѕР»РЅРёС‚РµР»СЊ_РґРѕР»Р¶РЅРѕСЃС‚СЊ" datatype="text" index="true" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РёСЃРїРѕР»РЅРёС‚РµР»СЊ РґРѕР»Р¶РЅРѕСЃС‚СЊ" />
+      <E name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_РёСЃРїРѕР»РЅРёС‚РµР»СЊ_Р¤РРћ" datatype="text" index="true" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РёСЃРїРѕР»РЅРёС‚РµР»СЊ Р¤РРћ" />
+      <E name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_РёСЃРїРѕР»РЅРёС‚РµР»СЊ_С‚РµР»РµС„РѕРЅ" datatype="text" index="true" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РёСЃРїРѕР»РЅРёС‚РµР»СЊ С‚РµР»РµС„РѕРЅ" />
+      <E name="РўСЂРµР±СѓРµС‚СЃСЏ_СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ_СЋСЂРёСЃС‚Р°" datatype="boolean" index="true" displayname="РўСЂРµР±СѓРµС‚СЃСЏ СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ СЋСЂРёСЃС‚Р°" />
+      <E name="Р’РёРґС‹_СЃС‚СЂР°С…РѕРІР°РЅРёСЏ" datatype="integer" index="true" displayname="Р’РёРґС‹ СЃС‚СЂР°С…РѕРІР°РЅРёСЏ" />
+      <E name="РћР±РµСЃРїРµС‡РµРЅРёРµ_РіР°СЂР°РЅС‚РёР№РЅС‹С…_РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ" datatype="boolean" index="true" displayname="РћР±РµСЃРїРµС‡РµРЅРёРµ_РіР°СЂР°РЅС‚РёР№РЅС‹С… РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ" />
+      <E name="Р Р°Р·РјРµСЂ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РіР°СЂР°РЅС‚РёР№РЅС‹С…_РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ" datatype="money" index="true" displayname="Р Р°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РіР°СЂР°РЅС‚РёР№РЅС‹С… РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ" />
+      <E name="Р”Р°С‚Р°_РѕРєРѕРЅС‡Р°РЅРёСЏ_РїСЂРёРµРјР°_Р·Р°СЏРІРѕРє" datatype="datetime" index="true" displayname="Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїСЂРёРµРјР° Р·Р°СЏРІРѕРє" />
+      <E name="Р”Р°С‚Р°_РѕРєРѕРЅР°С‡РЅРёСЏ_СЂР°СЃСЃРјРѕС‚СЂРµРЅРёСЏ_Р·Р°СЏРІРѕРє" datatype="datetime" index="true" displayname="Р”Р°С‚Р° РѕРєРѕРЅР°С‡РЅРёСЏ СЂР°СЃСЃРјРѕС‚СЂРµРЅРёСЏ Р·Р°СЏРІРѕРє" />
+      <E name="Р”Р°С‚Р°_РЅР°С‡Р°Р»Р°_С‚РѕСЂРіРѕРІ" datatype="datetime" index="true" displayname="Р”Р°С‚Р° РЅР°С‡Р°Р»Р° С‚РѕСЂРіРѕРІ" />
+      <E name="РўРѕСЂРіРё_Р·Р°_РµРґРёРЅРёС†Сѓ_С‚РѕРІР°СЂР°" datatype="boolean" index="true" displayname="РўРѕСЂРіРё Р·Р° РµРґРёРЅРёС†Сѓ С‚РѕРІР°СЂР°" />
+      <E name="РќР°С‡Р°Р»СЊРЅР°СЏ_С†РµРЅР°_РєРѕРјРїР»РµРєС‚Р°" datatype="money" index="true" displayname="РќР°С‡Р°Р»СЊРЅР°СЏ С†РµРЅР° РєРѕРјРїР»РµРєС‚Р°" />
+      <E name="Р¦РµРЅР°_РѕС‚СЃРµС‡РµРЅРёСЏ" datatype="money" index="true" displayname="Р¦РµРЅР° РѕС‚СЃРµС‡РµРЅРёСЏ " />
+      <E name="РўРѕСЂРіРё_РЅР°_РїСЂРѕС†РµРЅС‚_СЃРЅРёР¶РµРЅРёСЏ" datatype="boolean" index="true" displayname="РўРѕСЂРіРё РЅР° РїСЂРѕС†РµРЅС‚ СЃРЅРёР¶РµРЅРёСЏ" />
+      <E name="РЎРїРѕСЃРѕР±_РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ" datatype="text" index="true" displayname="РЎРїРѕСЃРѕР± РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ" />
+      <E name="РџРµСЂРµС‡РёСЃР»РµРЅРёРµ_Р”РЎ_РЅР°_СЂРµРєРІРёР·РёС‚С‹_Р·Р°РєР°Р·С‡РёРєР°" datatype="text" index="true" displayname="РџРµСЂРµС‡РёСЃР»РµРЅРёРµ Р”РЎ РЅР° СЂРµРєРІРёР·РёС‚С‹ Р·Р°РєР°Р·С‡РёРєР°" />
+      <E name="РџРѕР»СѓС‡Р°С‚РµР»СЊ_Р’РёРґ" datatype="text" index="true" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ Р’РёРґ" />
+      <E name="РЎРїРѕСЃРѕР±_РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РєРѕРґ" datatype="text" index="true" displayname="РЎРїРѕСЃРѕР±_РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РєРѕРґ" />
+      <E name="РџРµСЂРµС‡РёСЃР»РµРЅРёРµ_Р”РЎ_РЅР°_СЂРµРєРІРёР·РёС‚С‹_Р·Р°РєР°Р·С‡РёРєР°_РєРѕРґ" datatype="text" index="true" displayname="РџРµСЂРµС‡РёСЃР»РµРЅРёРµ_Р”РЎ_РЅР°_СЂРµРєРІРёР·РёС‚С‹_Р·Р°РєР°Р·С‡РёРєР° РєРѕРґ" />
+      <S name="РџРѕР»СѓС‡Р°С‚РµР»СЊ" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ">
+        <E name="РџРѕР»СѓС‡Р°С‚РµР»СЊ" datatype="text" index="true" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ" />
+        <E name="РџРѕР»СѓС‡Р°С‚РµР»СЊ_Р‘РРљ" datatype="text" index="true" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ Р‘РРљ" />
+        <E name="РџРѕР»СѓС‡Р°С‚РµР»СЊ_Р РЎ" datatype="text" index="true" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ Р РЎ" />
+        <E name="РџРѕР»СѓС‡Р°С‚РµР»СЊ_РРќРќ" datatype="text" index="true" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ РРќРќ" />
+        <E name="РџРѕР»СѓС‡Р°С‚РµР»СЊ_РљРџРџ" datatype="text" index="true" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ РљРџРџ" />
+        <E name="РџРѕР»СѓС‡Р°С‚РµР»СЊ_РћРљРўРњРћ" datatype="text" index="true" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ РћРљРўРњРћ" />
+        <E name="РџРѕР»СѓС‡Р°С‚РµР»СЊ_РљР‘Рљ" datatype="text" index="true" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ РљР‘Рљ" />
+        <E name="РџРѕР»СѓС‡Р°С‚РµР»СЊ_РЈРРќ" datatype="text" index="true" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ РЈРРќ" />
+        <E name="РџРѕР»СѓС‡Р°С‚РµР»СЊ_РљРѕСЂ_СЃС‡РµС‚" datatype="text" index="true" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ РљРѕСЂ СЃС‡РµС‚" />
+        <E name="РџРѕР»СѓС‡Р°С‚РµР»СЊ_Р›РёС†_СЃС‡РµС‚" datatype="text" index="true" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ Р›РёС† СЃС‡РµС‚" />
+        <E name="РџРѕР»СѓС‡Р°С‚РµР»СЊ_Р±Р°РЅРє" datatype="text" index="true" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ Р±Р°РЅРє" />
+        <E name="РџРѕР»СѓС‡Р°С‚РµР»СЊ_Р±Р°РЅРє_Р°РґСЂРµСЃ" datatype="text" index="true" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ Р±Р°РЅРє Р°РґСЂРµСЃ" />
+      </S>
+      <E name="РџРѕР»СѓС‡Р°С‚РµР»СЊ_Р’РёРґ_РєРѕРґ" datatype="text" index="true" displayname="РџРѕР»СѓС‡Р°С‚РµР»СЊ_Р’РёРґ РєРѕРґ" />
+      <E name="РџРѕСЂСЏРґРѕРє_РїРѕСЃС‚Р°РІРєРё" datatype="longtext" index="true" displayname="РџРѕСЂСЏРґРѕРє РїРѕСЃС‚Р°РІРєРё" />
+      <E name="РџРѕСЂСЏРґРѕРє_РѕРїР»Р°С‚С‹" datatype="longtext" index="true" displayname="РџРѕСЂСЏРґРѕРє РѕРїР»Р°С‚С‹" />
+      <E name="Р’РѕР·РјРѕР¶РЅРѕСЃС‚СЊ_РѕС‚РєР°Р·Р°С‚СЊСЃСЏ_РѕС‚_РїСЂРѕРІРµРґРµРЅРёСЏ_РїСЂРѕС†РµРґСѓСЂС‹" datatype="integer" index="true" displayname="Р’РѕР·РјРѕР¶РЅРѕСЃС‚СЊ_РѕС‚РєР°Р·Р°С‚СЊСЃСЏ_РѕС‚_РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРѕС†РµРґСѓСЂС‹" />
+      <E name="РўСЂРµР±РѕРІР°РЅРёРµ_Р РќРџ" datatype="boolean" index="true" displayname="РўСЂРµР±РѕРІР°РЅРёРµ_Р РќРџ" />
+      <A name="Р—Р°РєР°Р·С‡РёРє_РїСЂР°РІР°_С‚Р°Р±Р»РёС†Р°" displayname="Р—Р°РєР°Р·С‡РёРє РїСЂР°РІР° С‚Р°Р±Р»РёС†Р°">
+        <S name="S1">
+          <E name="Р—Р°РєР°Р·С‡РёРє_РєРѕРґ_РїСЂР°РІР°" datatype="integer" index="true" displayname="Р—Р°РєР°Р·С‡РёРє РєРѕРґ РїСЂР°РІР°" />
+          <E name="Р—Р°РєР°Р·С‡РёРє_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ_РїСЂР°РІР°" datatype="text" index="true" displayname="Р—Р°РєР°Р·С‡РёРє РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂР°РІР°" />
+        </S>
+      </A>
+      <E name="РќРѕРјРµСЂ_СЌС‚Р°РїР°" datatype="text" index="true" displayname="РќРѕРјРµСЂ СЌС‚Р°РїР°" />
+      <E name="РљРІР°Р»РёС„РёРєР°С†РёРѕРЅРЅС‹Р№_РѕС‚Р±РѕСЂ" datatype="boolean" index="true" displayname="РљРІР°Р»РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РѕС‚Р±РѕСЂ" />
+      <E name="РЎРІРµРґРµРЅРёСЏ_Рѕ_С†РµРЅРµ_РєРѕРґ" datatype="text" index="true" displayname="РЎРІРµРґРµРЅРёСЏ Рѕ С†РµРЅРµ РєРѕРґ" />
+      <E name="РЎРІРµРґРµРЅРёСЏ_Рѕ_С†РµРЅРµ" datatype="text" index="true" displayname="РЎРІРµРґРµРЅРёСЏ Рѕ С†РµРЅРµ" />
+      <E name="Р¤РѕСЂРјСѓР»Р°_С†РµРЅС‹" datatype="text" index="true" displayname="Р¤РѕСЂРјСѓР»Р° С†РµРЅС‹" />
+      <E name="Р¦РµРЅР°_РµРґРёРЅРёС†С‹_С‚СЂСѓ" datatype="money" index="true" displayname="Р¦РµРЅР° РµРґРёРЅРёС†С‹ С‚СЂСѓ" />
+      <E name="РўСЂРµР±СѓРµС‚СЃСЏ_С„РѕСЂРјР°" datatype="boolean" index="true" displayname="РўСЂРµР±СѓРµС‚СЃСЏ С„РѕСЂРјР°" />
+      <E name="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ_РєРѕРЅС‚СЂР°РєС‚РЅРѕР№_СЃР»СѓР¶Р±С‹_С‚РµР»РµС„РѕРЅ" datatype="text" index="true" displayname="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РєРѕРЅС‚СЂР°РєС‚РЅРѕР№ СЃР»СѓР¶Р±С‹ С‚РµР»РµС„РѕРЅ" />
+      <E name="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ_РєРѕРЅС‚СЂР°РєС‚РЅРѕР№_СЃР»СѓР¶Р±С‹_email" datatype="text" index="true" displayname="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РєРѕРЅС‚СЂР°РєС‚РЅРѕР№ СЃР»СѓР¶Р±С‹ email" />
+      <E name="РћС‚РІРµС‚СЃС‚_Р·Р°_Р·Р°РєР»СЋС‡РµРЅРёРµ_РєРѕРЅС‚СЂР°РєС‚Р°_С‚РµР»РµС„РѕРЅ" datatype="text" index="true" displayname="РћС‚РІРµС‚СЃС‚ Р·Р° Р·Р°РєР»СЋС‡РµРЅРёРµ РєРѕРЅС‚СЂР°РєС‚Р° С‚РµР»РµС„РѕРЅ" />
+      <E name="РћС‚РІРµС‚СЃС‚_Р·Р°_Р·Р°РєР»СЋС‡РµРЅРёРµ_РєРѕРЅС‚СЂР°РєС‚Р°_email" datatype="text" index="true" displayname="РћС‚РІРµС‚СЃС‚ Р·Р° Р·Р°РєР»СЋС‡РµРЅРёРµ РєРѕРЅС‚СЂР°РєС‚Р° email" />
+      <E name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_РёСЃРїРѕР»РЅРёС‚РµР»СЊ_email" datatype="text" index="true" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РёСЃРїРѕР»РЅРёС‚РµР»СЊ email" />
+      <E name="РћСЃС‚Р°С‚РѕРє_СЃСЂРѕРєР°" datatype="text" index="true" displayname="РћСЃС‚Р°С‚РѕРє СЃСЂРѕРєР°" />
+      <E name="Р”Р°С‚Р°_РѕРєРѕРЅС‡Р°РЅРёСЏ_СЃРѕРіР»Р°СЃРѕРІР°РЅРёСЏ" datatype="date" index="true" displayname="Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ СЃРѕРіР»Р°СЃРѕРІР°РЅРёСЏ" />
+      <E name="РћС‚Р·С‹РІ_Р·Р°СЏРІРєРё" datatype="boolean" index="true" displayname="РћС‚Р·С‹РІ Р·Р°СЏРІРєРё" default="0" />
+      <E name="РћС‚РїСЂР°РІРєР°_СѓРІРµРґРѕРјР»РµРЅРёСЏ" datatype="boolean" index="true" displayname="РћС‚РїСЂР°РІРєР° СѓРІРµРґРѕРјР»РµРЅРёСЏ" />
+      <E name="Р’РѕР·РІСЂР°С‚_Р·Р°СЏРІРєРё" datatype="boolean" index="true" displayname="Р’РѕР·РІСЂР°С‚ Р·Р°СЏРІРєРё" />
+      <E name="РР”_РџРџР—" datatype="integer" index="true" displayname="РР” РџРџР—" />
+      <E name="РСЃС‚РѕС‡РЅРёРє_С„РёРЅР°РЅСЃРёСЂРѕРІР°РЅРёСЏ" datatype="text" index="true" displayname="РСЃС‚РѕС‡РЅРёРє С„РёРЅР°РЅСЃРёСЂРѕРІР°РЅРёСЏ" />
+      <E name="РџРѕСЂСЏРґРѕРє_РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°" datatype="longtext" index="true" displayname="РџРѕСЂСЏРґРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РґРѕРіРѕРІРѕСЂР°" />
+      <E name="РўСЂРµР±РѕРІР°РЅРёСЏ_Рє_РѕР±РµСЃРїРµС‡РµРЅРёСЋ_РґРѕРіРѕРІРѕСЂР°" datatype="longtext" index="true" displayname="РўСЂРµР±РѕРІР°РЅРёСЏ Рє РѕР±РµСЃРїРµС‡РµРЅРёСЋ РґРѕРіРѕРІРѕСЂР°" />
+      <E name="РЎРїРѕСЃРѕР±_РѕС‚С‡С‘С‚Р°" datatype="text" index="true" displayname="РЎРїРѕСЃРѕР± РѕС‚С‡С‘С‚Р°" />
+      <E name="РўСЂРµР±РѕРІР°РЅРёРµ_РѕР±_РѕС‚СЃСѓС‚СЃС‚РІРёРё_СЃРІРµРґРµРЅРёР№_РІ_Р РќРџ" datatype="longtext" index="true" displayname="РўСЂРµР±РѕРІР°РЅРёРµ РѕР± РѕС‚СЃСѓС‚СЃС‚РІРёРё СЃРІРµРґРµРЅРёР№ РІ Р РќРџ" />
+      <E name="РљРѕРґ_РїСЂРѕС‚РѕРєРѕР»Р°" datatype="text" index="true" displayname="РљРѕРґ РїСЂРѕС‚РѕРєРѕР»Р°" view="invisible" />
+      <E name="Р¤РёР»РёР°Р»" datatype="text" index="true" displayname="Р¤РёР»РёР°Р»" />
+      <E name="РќРњР¦Р”_РІ_СЂСѓР±Р»СЏС…" datatype="money" index="true" displayname="РќРњР¦Р” РІ СЂСѓР±Р»СЏС…" />
+      <E name="РљСЂРёС‚РµСЂРёРё_РѕС†РµРЅРєРё_РїРѕР»Рµ" datatype="longtext" index="true" displayname="РљСЂРёС‚РµСЂРёРё_РѕС†РµРЅРєРё РїРѕР»Рµ" />
+      <A name="РљСЂРёС‚РµСЂРёРё_РѕС†РµРЅРєРё" displayname="РљСЂРёС‚РµСЂРёРё_РѕС†РµРЅРєРё">
+        <S name="S1">
+          <E name="РќРѕРјРµСЂ" datatype="integer" index="true" displayname="РќРѕРјРµСЂ" />
+          <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_РєСЂРёС‚РµСЂРёСЏ" datatype="longtext" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_РєСЂРёС‚РµСЂРёСЏ" />
+          <E name="РћРїРёСЃР°РЅРёРµ_РєСЂРёС‚РµСЂРёСЏ" datatype="longtext" index="true" displayname="РћРїРёСЃР°РЅРёРµ_РєСЂРёС‚РµСЂРёСЏ" />
+          <E name="РњР°РєСЃ_РєСЂРёС‚РµСЂРёР№" datatype="real" index="true" displayname="РњР°РєСЃ_РєСЂРёС‚РµСЂРёР№" />
+          <E name="Р’РµСЃ_РєСЂРёС‚РµСЂРёР№" datatype="real" index="true" displayname="Р’РµСЃ_РєСЂРёС‚РµСЂРёР№" />
+          <E name="РРґ_РєСЂРёС‚РµСЂРёСЏ" datatype="text" index="true" displayname="РРґ РєСЂРёС‚РµСЂРёСЏ" />
+        </S>
+      </A>
+      <E name="Р¤РѕСЂРјР°_С‚РѕСЂРіРѕРІ" datatype="text" index="true" displayname="Р¤РѕСЂРјР° С‚РѕСЂРіРѕРІ" />
+      <E name="Р¤РѕСЂРјР°_С‚РѕСЂРіРѕРІ_РєРѕРґ" datatype="text" index="true" displayname="Р¤РѕСЂРјР° С‚РѕСЂРіРѕРІ РєРѕРґ" />
+      <E name="РђР»СЊС‚РµСЂРЅР°С‚РёРІРЅС‹Рµ_РїСЂРµРґР»РѕР¶РµРЅРёСЏ_РєРѕРґ" datatype="text" index="true" displayname="РђР»СЊС‚РµСЂРЅР°С‚РёРІРЅС‹Рµ_РїСЂРµРґР»РѕР¶РµРЅРёСЏ_РєРѕРґ" />
+      <E name="РњР°РєСЃ_РєРѕР»РёС‡РµСЃС‚РІРѕ_РїРѕР±РµРґРёС‚РµР»РµР№" datatype="integer" index="true" displayname="РњР°РєСЃ_РєРѕР»РёС‡РµСЃС‚РІРѕ_РїРѕР±РµРґРёС‚РµР»РµР№" />
+      <E name="РџСЂРѕРІРµРґРµРЅР°_РїРµСЂРµС‚РѕСЂР¶РєР°" datatype="boolean" index="true" displayname="РџСЂРѕРІРµРґРµРЅР° РїРµСЂРµС‚РѕСЂР¶РєР°" />
+      <E name="РћР±РѕСЃРЅРѕРІР°РЅРёРµ_РІС‹Р±РѕСЂР°_СЃРїРѕСЃРѕР±Р°_Р·Р°РєСѓРїРєРё" datatype="longtext" index="true" displayname="РћР±РѕСЃРЅРѕРІР°РЅРёРµ РІС‹Р±РѕСЂР° СЃРїРѕСЃРѕР±Р° Р·Р°РєСѓРїРєРё" />
+      <E name="РўСЂРµР±РѕРІР°РЅРёСЏ_Рє_РєР°С‡РµСЃС‚РІСѓ_С‚РѕРІР°СЂР°" datatype="longtext" index="true" displayname="РўСЂРµР±РѕРІР°РЅРёСЏ Рє РєР°С‡РµСЃС‚РІСѓ С‚РѕРІР°СЂР°" />
+      <E name="РўСЂРµР±РѕРІР°РЅРёСЏ_Рє_РїРѕСЃР»РµРїСЂРѕРґР°Р¶РЅРѕРјСѓ_РѕР±СЃР»СѓР¶РёРІР°РЅРёСЋ" datatype="longtext" index="true" displayname="РўСЂРµР±РѕРІР°РЅРёСЏ Рє РїРѕСЃР»РµРїСЂРѕРґР°Р¶РЅРѕРјСѓ РѕР±СЃР»СѓР¶РёРІР°РЅРёСЋ" />
+      <E name="РўСЂРµР±РѕРІР°РЅРёСЏ_Рє_С‚Р°СЂРµ" datatype="longtext" index="true" displayname="РўСЂРµР±РѕРІР°РЅРёСЏ Рє С‚Р°СЂРµ" />
+      <E name="РўСЂРµР±РѕРІР°РЅРёСЏ_Рє_РіР°СЂР°РЅС‚РёР№РЅС‹Рј_СЃСЂРѕРєР°Рј" datatype="longtext" index="true" displayname="РўСЂРµР±РѕРІР°РЅРёСЏ Рє РіР°СЂР°РЅС‚РёР№РЅС‹Рј СЃСЂРѕРєР°Рј" />
+      <E name="РЈСЃР»РѕРІРёСЏ_СЃРѕР±Р»СЋРґРµРЅРёСЏ_СЃСЂРѕРєРѕРІ" datatype="longtext" index="true" displayname="РЈСЃР»РѕРІРёСЏ СЃРѕР±Р»СЋРґРµРЅРёСЏ СЃСЂРѕРєРѕРІ" />
+      <E name="РћР±РѕСЃРЅРѕРІР°РЅРёРµ_РќРњР¦Р”" datatype="longtext" index="true" displayname="РћР±РѕСЃРЅРѕРІР°РЅРёРµ РќРњР¦Р”" />
+      <E name="РџРѕСЂСЏРґРѕРє_СЂР°СЃС‡С‘С‚РѕРІ" datatype="longtext" index="true" displayname="РџРѕСЂСЏРґРѕРє СЂР°СЃС‡С‘С‚РѕРІ" />
+      <E name="РўСЂРµР±РѕРІР°РЅРёСЏ_Рє_СЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅРѕР№_РґРѕРєСѓРјРµРЅС‚Р°С†РёРё" datatype="longtext" index="true" displayname="РўСЂРµР±РѕРІР°РЅРёСЏ Рє СЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅРѕР№ РґРѕРєСѓРјРµРЅС‚Р°С†РёРё" />
+      <E name="РЎСѓРјРјР°_РєСЂРёС‚РµСЂРёРµРІ" datatype="real" index="true" displayname="РЎСѓРјРјР° РєСЂРёС‚РµСЂРёРµРІ" />
+      <E name="РР”_РґРѕРіРѕРІРѕСЂР°_РЅР°_Р­РўРџ" datatype="integer" index="true" displayname="РР”_РґРѕРіРѕРІРѕСЂР°_РЅР°_Р­РўРџ" />
+      <E name="РЎСЂРѕС‡РЅР°СЏ_Р·Р°РєСѓРїРєР°" datatype="boolean" index="true" displayname="РЎСЂРѕС‡РЅР°СЏ Р·Р°РєСѓРїРєР°" />
+      <E name="РРЅС‹Рµ_С‚СЂРµР±РѕРІР°РЅРёСЏ_Рє_РѕР±РµСЃРїРµС‡РµРЅРёСЋ_Р·Р°СЏРІРєРё" datatype="longtext" index="true" displayname="РРЅС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ Рє РѕР±РµСЃРїРµС‡РµРЅРёСЋ Р·Р°СЏРІРєРё" />
+      <E name="РљРѕРґ_РІР°Р»СЋС‚С‹_РѕР±РµСЃРїРµС‡РµРЅРёСЏ" datatype="text" index="true" displayname="РљРѕРґ РІР°Р»СЋС‚С‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ" />
+      <E name="Р’Р°Р»СЋС‚Р°_РѕР±РµСЃРїРµС‡РµРЅРёСЏ" datatype="text" index="true" displayname="Р’Р°Р»СЋС‚Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ" />
+      <E name="Р¦РёС„СЂРѕРІРѕР№_РєРѕРґ_РІР°Р»СЋС‚С‹_РѕР±РµСЃРїРµС‡РµРЅРёСЏ" datatype="text" index="true" displayname="Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ" />
+      <E name="РР”_РїСЂРѕС‚РѕРєРѕР»Р°" datatype="text" index="true" displayname="РР” РїСЂРѕС‚РѕРєРѕР»Р°" />
+      <E name="РќРѕРјРµСЂ_РїРµСЂРµС‚РѕСЂР¶РєРё" datatype="integer" index="true" displayname="РќРѕРјРµСЂ РїРµСЂРµС‚РѕСЂР¶РєРё" />
+      <A name="РўСЂРµР±РѕРІР°РЅРёСЏ_Рє_РґРѕРєСѓРјРµРЅС‚Р°С†РёРё" displayname="РўСЂРµР±РѕРІР°РЅРёСЏ Рє РґРѕРєСѓРјРµРЅС‚Р°С†РёРё">
+        <S name="S1">
+          <E name="РР”_РґРѕРєСѓРјРµРЅС‚Р°" datatype="text" index="true" displayname="РР” РґРѕРєСѓРјРµРЅС‚Р°" />
+          <E name="РљРѕРґ_РґРѕРєСѓРјРµРЅС‚Р°" datatype="text" index="true" displayname="РљРѕРґ РґРѕРєСѓРјРµРЅС‚Р°" />
+          <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_РґРѕРєСѓРјРµРЅС‚Р°" datatype="longtext" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°" />
+          <E name="Р“СЂСѓРїРїР°_РґРѕРєСѓРјРµРЅС‚Р°" datatype="text" index="true" displayname="Р“СЂСѓРїРїР° РґРѕРєСѓРјРµРЅС‚Р°" />
+          <E name="РћСЃРЅРѕРІР°РЅРёРµ_С‚СЂРµР±РѕРІР°РЅРёСЏ" datatype="longtext" index="true" displayname="РћСЃРЅРѕРІР°РЅРёРµ С‚СЂРµР±РѕРІР°РЅРёСЏ" />
+          <E name="РњРѕРјРµРЅС‚_РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ_РєРѕРґ" datatype="text" index="true" displayname="РњРѕРјРµРЅС‚ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РєРѕРґ" />
+          <E name="РњРѕРјРµРЅС‚_РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ" datatype="text" index="true" displayname="РњРѕРјРµРЅС‚ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ" />
+          <E name="РќРµРѕР±С…РѕРґРёРјРѕСЃС‚СЊ" datatype="boolean" index="true" displayname="РќРµРѕР±С…РѕРґРёРјРѕСЃС‚СЊ" />
+        </S>
+      </A>
+      <E name="РўРёРї_РјР°СЂС€СЂСѓС‚Р°" datatype="longtext" index="true" displayname="РўРёРї РјР°СЂС€СЂСѓС‚Р°" />
+      <E name="РР”_РїСЂРѕС‚РѕРєРѕР»Р°_РІ_Р•РРЎ" datatype="text" index="true" displayname="РР” РїСЂРѕС‚РѕРєРѕР»Р° РІ Р•РРЎ" />
+      <S name="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ_РїСЂРѕС„РёР»СЊРЅРѕРіРѕ_РЅР°РїСЂР°РІР»РµРЅРёСЏ" displayname="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РїСЂРѕС„РёР»СЊРЅРѕРіРѕ РЅР°РїСЂР°РІР»РµРЅРёСЏ">
+        <E name="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ_РїСЂРѕС„РёР»СЊРЅРѕРіРѕ_РЅР°РїСЂР°РІР»РµРЅРёСЏ_Р¤РРћ" datatype="text" index="true" displayname="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РїСЂРѕС„РёР»СЊРЅРѕРіРѕ РЅР°РїСЂР°РІР»РµРЅРёСЏ Р¤РРћ" />
+        <E name="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ_РїСЂРѕС„РёР»СЊРЅРѕРіРѕ_РЅР°РїСЂР°РІР»РµРЅРёСЏ" datatype="integer" index="true" displayname="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РїСЂРѕС„РёР»СЊРЅРѕРіРѕ РЅР°РїСЂР°РІР»РµРЅРёСЏ" extype="addressbook" abdata="Id" />
+      </S>
+      <S name="РЎРѕС‚СЂСѓРґРЅРёРє_РґРµРїР°СЂС‚Р°РјРµРЅС‚Р°_Р·Р°РєСѓРїРѕРє" displayname="РЎРѕС‚СЂСѓРґРЅРёРє РґРµРїР°СЂС‚Р°РјРµРЅС‚Р° Р·Р°РєСѓРїРѕРє">
+        <E name="РЎРѕС‚СЂСѓРґРЅРёРє_РґРµРїР°СЂС‚Р°РјРµРЅС‚Р°_Р·Р°РєСѓРїРѕРє" datatype="integer" index="true" displayname="РЎРѕС‚СЂСѓРґРЅРёРє РґРµРїР°СЂС‚Р°РјРµРЅС‚Р° Р·Р°РєСѓРїРѕРє" extype="addressbook" abdata="Id" />
+        <E name="РЎРѕС‚СЂСѓРґРЅРёРє_РґРµРїР°СЂС‚Р°РјРµРЅС‚Р°_Р·Р°РєСѓРїРѕРє_Р¤РРћ" datatype="text" index="true" displayname="РЎРѕС‚СЂСѓРґРЅРёРє РґРµРїР°СЂС‚Р°РјРµРЅС‚Р° Р·Р°РєСѓРїРѕРє Р¤РРћ" abdata="Name" extype="addressbook" />
+      </S>
+      <S name="РЎРѕС‚СЂСѓРґРЅРёРє_РћРЎРџ" displayname="РЎРѕС‚СЂСѓРґРЅРёРє РћРЎРџ">
+        <E name="РЎРѕС‚СЂСѓРґРЅРёРє_РћРЎРџ" datatype="integer" index="true" displayname="РЎРѕС‚СЂСѓРґРЅРёРє РћРЎРџ" extype="addressbook" abdata="Id" />
+        <E name="РЎРѕС‚СЂСѓРґРЅРёРє_РћРЎРџ_Р¤РРћ" datatype="text" index="true" displayname="РЎРѕС‚СЂСѓРґРЅРёРє РћРЎРџ Р¤РРћ" />
+      </S>
+      <E name="РќР°РїСЂР°РІРёС‚СЊ_СЂСѓРєРѕРІРѕРґРёС‚РµР»СЋ_РїСЂРѕС„РёР»СЊРЅРѕРіРѕ_РЅР°РїСЂР°РІР»РµРЅРёСЏ" datatype="boolean" index="true" displayname="РќР°РїСЂР°РІРёС‚СЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЋ РїСЂРѕС„РёР»СЊРЅРѕРіРѕ РЅР°РїСЂР°РІР»РµРЅРёСЏ" />
+      <E name="Р Р°Р·РјРµСЂ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°_РІ_РїСЂРѕС†РµРЅС‚Р°С…" datatype="real" index="true" displayname="Р Р°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РґРѕРіРѕРІРѕСЂР° РІ РїСЂРѕС†РµРЅС‚Р°С…" />
+      <E name="Р Р°Р·РјРµСЂ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РІРѕР·РІСЂР°С‚Р°_Р°РІР°РЅСЃР°_РІ_РїСЂРѕС†РµРЅС‚Р°С…" datatype="real" index="true" displayname="Р Р°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РІРѕР·РІСЂР°С‚Р° Р°РІР°РЅСЃР° РІ РїСЂРѕС†РµРЅС‚Р°С…" />
+      <E name="Р Р°Р·РјРµСЂ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РіР°СЂР°РЅС‚РёР№РЅС‹С…_РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ_РІ_РїСЂРѕС†РµРЅС‚Р°С…" datatype="real" index="true" displayname="Р Р°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РіР°СЂР°РЅС‚РёР№РЅС‹С… РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ РІ РїСЂРѕС†РµРЅС‚Р°С…" />
+      <E name="Р Р°Р·РјРµСЂ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_Р·Р°СЏРІРєРё_РІ_РїСЂРѕС†РµРЅС‚Р°С…" datatype="real" index="true" displayname="Р Р°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ Р·Р°СЏРІРєРё РІ РїСЂРѕС†РµРЅС‚Р°С…" />
+      <E name="РђР»СЊС‚РµСЂРЅР°С‚РёРІРЅС‹Рµ_РїСЂРµРґР»РѕР¶РµРЅРёСЏ" datatype="text" index="true" displayname="РђР»СЊС‚РµСЂРЅР°С‚РёРІРЅС‹Рµ РїСЂРµРґР»РѕР¶РµРЅРёСЏ" />
+      <S name="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ_РёРЅРёС†РёР°С‚РѕСЂР°" displayname="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РёРЅРёС†РёР°С‚РѕСЂР°">
+        <E name="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ_РёРЅРёС†РёР°С‚РѕСЂР°" datatype="integer" index="true" displayname="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РёРЅРёС†РёР°С‚РѕСЂР°" extype="addressbook" abdata="Id" />
+        <E name="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ_РёРЅРёС†РёР°С‚РѕСЂР°_Р¤РРћ" datatype="text" index="true" displayname="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РёРЅРёС†РёР°С‚РѕСЂР° Р¤РРћ" abdata="Name" />
+      </S>
+      <E name="Р”Р°С‚Р°_РєСѓСЂСЃ_РІР°Р»СЋС‚С‹" datatype="date" index="true" />
+      <E name="РљСѓСЂСЃ_РІР°Р»СЋС‚С‹" datatype="real" index="true" />
+      <E name="Р Р°Р·РјРµСЂ_РќР”РЎ" datatype="real" index="true" displayname="Р Р°Р·РјРµСЂ РќР”РЎ" />
+      <E name="РџР»Р°РЅРёСЂСѓРµРјС‹Р№_РіРѕРґ" datatype="integer" index="true" displayname="РџР»Р°РЅРёСЂСѓРµРјС‹Р№ РіРѕРґ" />
+      <E name="checkTrebKrit" datatype="boolean" index="true" displayname="checkTrebKrit" />
+      <E name="Р—Р°РєСѓРїРєР°_РЅРµ_РІРєР»СЋС‡РµРЅР°_РІ_РїР»Р°РЅ_Р·Р°РєСѓРїРєРё" datatype="boolean" index="false" displayname=" Р—Р°РєСѓРїРєР° РЅРµ РІРєР»СЋС‡РµРЅР° РІ РїР»Р°РЅ Р·Р°РєСѓРїРєРё" />
+      <E name="РџСЂРёРЅРёРјР°С‚СЊ_Р·Р°СЏРІРєРё_РњРЎРџ" datatype="boolean" index="false" displayname="РџСЂРёРЅРёРјР°С‚СЊ Р·Р°СЏРІРєРё РњРЎРџ" />
+      <E name="РўСЂРµР±РѕРІР°РЅРёРµ_РїСЂРёРІР»РµС‡РµРЅРёСЏ_СЃСѓР±РїРѕРґСЂСЏРґС‡РёРєРѕРІ" datatype="boolean" index="false" displayname="РўСЂРµР±РѕРІР°РЅРёРµ РїСЂРёРІР»РµС‡РµРЅРёСЏ СЃСѓР±РїРѕРґСЂСЏРґС‡РёРєРѕРІ" />
+      <E name="РЎСЂРѕРє_РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РІРѕР·РІСЂР°С‚Р°_Р°РІР°РЅСЃР°" datatype="text" index="true" required="" displayname="РЎСЂРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РІРѕР·РІСЂР°С‚Р° Р°РІР°РЅСЃР°" />
+      <E name="Р’РёРґ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°" datatype="text" index="true" displayname="Р’РёРґ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РґРѕРіРѕРІРѕСЂР°" />
+      <E name="Р’РёРґ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°_РєРѕРґ" datatype="text" index="true" displayname="Р’РёРґ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РґРѕРіРѕРІРѕСЂР° РєРѕРґ" />
+      <E name="РљСѓСЂСЃ_РѕР±РµСЃРїРµС‡РµРЅРёРµ" datatype="real" index="true" displayname="РљСѓСЂСЃ РѕР±РµСЃРїРµС‡РµРЅРёРµ" />
+      <E name="Р”Р°С‚Р°_РєСѓСЂСЃ_РѕР±РµСЃРїРµС‡РµРЅРёРµ" datatype="date" index="true" displayname="Р”Р°С‚Р° РєСѓСЂСЃ РѕР±РµСЃРїРµС‡РµРЅРёРµ" />
+      <E name="РљСЂРёС‚РµСЂРёРё" datatype="boolean" index="true" displayname="РљСЂРёС‚РµСЂРёРё" />
+      <E name="РњРЅРѕРіРѕР»РѕС‚РѕРІРѕРµ_РёР·РІРµС‰РµРЅРёРµ" datatype="boolean" index="true" />
+      <E name="Р—Р°РіСЂСѓР¶РµРЅР°_РґРѕРєСѓРјРµРЅС‚Р°С†РёСЏ_1С…_С‡Р°СЃС‚РµР№" datatype="boolean" index="true" displayname="Р—Р°РіСЂСѓР¶РµРЅР° РґРѕРєСѓРјРµРЅС‚Р°С†РёСЏ 1С… С‡Р°СЃС‚РµР№" />
+      <E name="Р—Р°РіСЂСѓР¶РµРЅР°_РґРѕРєСѓРјРµРЅС‚Р°С†РёСЏ_2С…_С‡Р°СЃС‚РµР№" datatype="boolean" index="true" displayname="Р—Р°РіСЂСѓР¶РµРЅР° РґРѕРєСѓРјРµРЅС‚Р°С†РёСЏ 2С… С‡Р°СЃС‚РµР№" />
+      <E name="Р—Р°РіСЂСѓР¶РµРЅР°_РґРѕРєСѓРјРµРЅС‚Р°С†РёСЏ_РёС‚РѕРіРё" datatype="boolean" index="true" displayname="Р—Р°РіСЂСѓР¶РµРЅР° РґРѕРєСѓРјРµРЅС‚Р°С†РёСЏ РёС‚РѕРіРё" />
+      <A name="РЈС‡Р°СЃС‚РЅРёРєРё_РєРѕРјРёСЃСЃРёРё" displayname="РЈС‡Р°СЃС‚РЅРёРєРё РєРѕРјРёСЃСЃРёРё" use="table">
+        <S name="S1">
+          <E name="РџСЂРёСЃСѓС‚СЃС‚РІРёРµ" datatype="boolean" index="true" displayname="РџСЂРёСЃСѓС‚СЃС‚РІРёРµ" default="0" required="true" />
+          <E name="РќРѕРјРµСЂ" datatype="integer" index="true" />
+          <S name="Р¤РРћ_РєРѕРјРёСЃСЃРёРё" displayname="Р¤РРћ РєРѕРјРёСЃСЃРёРё">
+            <E name="Р¤РРћ_РєРѕРјРёСЃСЃРёРё" datatype="text" index="true" displayname="Р¤РРћ РєРѕРјРёСЃСЃРёРё" abdata="Id" extype="addressbook" />
+            <E name="Р¤Р°РјРёР»РёСЏ_РєРѕРјРёСЃСЃРёРё" datatype="text" index="true" displayname="Р¤Р°РјРёР»РёСЏ РєРѕРјРёСЃСЃРёРё" extype="addressbook" />
+            <E name="РРјСЏ_РєРѕРјРёСЃСЃРёРё" datatype="text" index="true" displayname="РРјСЏ РєРѕРјРёСЃСЃРёРё" extype="addressbook" />
+            <E name="РћС‚С‡РµСЃС‚РІРѕ_РєРѕРјРёСЃСЃРёРё" datatype="text" index="true" displayname="РћС‚С‡РµСЃС‚РІРѕ РєРѕРјРёСЃСЃРёРё" extype="addressbook" />
+          </S>
+          <E name="РЈС‡Р°СЃС‚РЅРёРєРё_РєРѕРјРёСЃСЃРёРё_СЂРѕР»СЊ" datatype="dictionary(Р РѕР»СЊ СѓС‡Р°СЃС‚РЅРёРєР° РєРѕРјРёСЃСЃРёРё,text)@РќР°РёРјРµРЅРѕРІР°РЅРёРµ" index="true" displayname="РЈС‡Р°СЃС‚РЅРёРєРё РєРѕРјРёСЃСЃРёРё СЂРѕР»СЊ" required="true" />
+          <E name="РЈС‡Р°СЃС‚РЅРёРєРё_РєРѕРјРёСЃСЃРёРё_СЂРѕР»СЊ_РєРѕРґ" datatype="dictionary(Р РѕР»СЊ СѓС‡Р°СЃС‚РЅРёРєР° РєРѕРјРёСЃСЃРёРё,text)" index="true" dictpath="" />
+          <E name="РЈС‡Р°СЃС‚РЅРёРє_РєРѕРјРёСЃСЃРёРё" datatype="text" index="true" displayname="РЈС‡Р°СЃС‚РЅРёРє_РєРѕРјРёСЃСЃРёРё" />
+        </S>
+      </A>
+      <E name="РќР°Р·РІР°РЅРёРµ_РєРѕРјРёСЃСЃРёРё_РєРѕРґ" datatype="text" index="true" displayname="РќР°Р·РІР°РЅРёРµ_РєРѕРјРёСЃСЃРёРё_РєРѕРґ" />
+      <E name="РќР°Р·РІР°РЅРёРµ_РєРѕРјРёСЃСЃРёРё" datatype="longtext" index="true" displayname="РќР°Р·РІР°РЅРёРµ РєРѕРјРёСЃСЃРёРё" />
+      <E name="РќРѕРјРµСЂ_СЂРµРґР°РєС†РёРё" datatype="integer" index="true" displayname="РќРѕРјРµСЂ СЂРµРґР°РєС†РёРё" />
+      <E name="РЎСЂРѕРє_Р·Р°РєР»СЋС‡РµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°" datatype="text" index="true" displayname="РЎСЂРѕРє Р·Р°РєР»СЋС‡РµРЅРёСЏ РґРѕРіРѕРІРѕСЂР°" />
+      <E name="РљРѕР»РёС‡РµСЃС‚РІРѕ_Р·Р°РєР»СЋС‡Р°РµРјС‹С…_РґРѕРіРѕРІРѕСЂРѕРІ" datatype="text" index="true" displayname="РљРѕР»РёС‡РµСЃС‚РІРѕ Р·Р°РєР»СЋС‡Р°РµРјС‹С… РґРѕРіРѕРІРѕСЂРѕРІ" />
+      <E name="РР”РџРџР—Р РћР”" datatype="integer" index="true" />
+      <E name="РџРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅР°СЏ_РќРњР¦" datatype="money" index="true" displayname="РџРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅР°СЏ РќРњР¦" />
+      <E name="РР”_РїРµСЂРІРѕР№_СЂРµРґР°РєС†РёРё" datatype="text" index="true" displayname="РР” РїРµСЂРІРѕР№ СЂРµРґР°РєС†РёРё" />
+      <A name="Р”РѕРіРѕРІРѕСЂС‹_РїРѕР±РµРґРёС‚РµР»РµР№" displayname="Р”РѕРіРѕРІРѕСЂС‹ РїРѕР±РµРґРёС‚РµР»РµР№">
+        <S name="S1">
+          <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_РїРѕР±РµРґРёС‚РµР»СЏ" datatype="longtext" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕР±РµРґРёС‚РµР»СЏ" />
+          <E name="РРќРќ_РїРѕР±РµРґРёС‚РµР»СЏ" datatype="text" index="true" displayname="РРќРќ РїРѕР±РµРґРёС‚РµР»СЏ" />
+          <E name="РљРџРџ_РїРѕР±РµРґРёС‚РµР»СЏ" datatype="text" index="true" displayname="РљРџРџ РїРѕР±РµРґРёС‚РµР»СЏ" />
+          <E name="РР”_РїРѕР±РµРґРёС‚РµР»СЏ_РЅР°_Р­РўРџ" datatype="text" index="true" displayname="РР” РїРѕР±РµРґРёС‚РµР»СЏ РЅР° Р­РўРџ" />
+          <E name="РР”_РґРѕРіРѕРІРѕСЂР°_РЅР°_Р­РўРџ" datatype="text" index="true" displayname="РР” РґРѕРіРѕРІРѕСЂР° РЅР° Р­РўРџ" />
+        </S>
+      </A>
+      <E name="РўРѕСЂРіРё_Р·Р°_РµРґРёРЅРёС†Сѓ" datatype="boolean" index="true" displayname="РўРѕСЂРіРё Р·Р° РµРґРёРЅРёС†Сѓ" />
+      <E name="РЎСЂРѕРє_РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РІРѕР·РІСЂР°С‚Р°_Р°РІР°РЅСЃР°_РєРѕРґ" datatype="text" index="true" displayname="РЎСЂРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РІРѕР·РІСЂР°С‚Р° Р°РІР°РЅСЃР° РєРѕРґ" />
+      <E name="РР”_РґРѕРєСѓРјРµРЅС‚Р°" datatype="integer" index="true" displayname="РР” РґРѕРєСѓРјРµРЅС‚Р°" />
+      <E name="РР”_РґРѕРєСѓРјРµРЅС‚Р°_РёР·РІ" datatype="integer" index="true" displayname="РР” РґРѕРєСѓРјРµРЅС‚Р° РёР·РІ" />
+      <E name="РљРѕРјРјРµСЂС‡РµСЃРєР°СЏ_РѕСЂРіР°РЅРёР·Р°С†РёСЏ" datatype="boolean" index="true" displayname="РљРѕРјРјРµСЂС‡РµСЃРєР°СЏ РѕСЂРіР°РЅРёР·Р°С†РёСЏ" />
+      <E name="РќРµ_РІРєР»СЋС‡Р°С‚СЊ_РЅРµ_РїСѓР±Р»РёРєРѕРІР°С‚СЊ" datatype="boolean" index="true" displayname="РќРµ_РІРєР»СЋС‡Р°С‚СЊ_РЅРµ_РїСѓР±Р»РёРєРѕРІР°С‚СЊ" />
+      <E name="РЈРєР°Р·Р°С‚СЊ_РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ_СЃРІРµРґРµРЅРёСЏ_Рѕ_С†РµРЅРµ_РґРѕРіРѕРІРѕСЂР°" datatype="boolean" index="true" displayname="РЈРєР°Р·Р°С‚СЊ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ С†РµРЅРµ РґРѕРіРѕРІРѕСЂР°" />
+      <E name="Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ_СЃРІРµРґРµРЅРёСЏ_Рѕ_С†РµРЅРµ_РґРѕРіРѕРІРѕСЂР°" datatype="longtext" index="true" displayname="Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ С†РµРЅРµ РґРѕРіРѕРІРѕСЂР°" />
+      <E name="РЈСЃС‚Р°РЅРѕРІРёС‚СЊ_РїСЂРёРѕСЂРёС‚РµС‚_С‚РѕРІР°СЂРѕРІ_СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ_РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ" datatype="boolean" index="true" displayname="РЈСЃС‚Р°РЅРѕРІРёС‚СЊ РїСЂРёРѕСЂРёС‚РµС‚ С‚РѕРІР°СЂРѕРІ/СѓСЃР»СѓРі СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ" />
+      <E name="Р’РЅСѓС‚СЂРµРЅРЅРёР№_РЅРѕРјРµСЂ" datatype="text" index="true" displayname="Р’РЅСѓС‚СЂРµРЅРЅРёР№ РЅРѕРјРµСЂ" />
+      <E name="РЎ_СѓС‡РµС‚РѕРј_РќР”РЎ" datatype="boolean" index="true" displayname="РЎ_СѓС‡РµС‚РѕРј_РќР”РЎ" />
+      <S name="РћСЂРіР°РЅРёР·Р°С†РёСЏ_РґРѕРєСѓРјРµРЅС‚Р°С†РёРё" displayname="РћСЂРіР°РЅРёР·Р°С†РёСЏ РґРѕРєСѓРјРµРЅС‚Р°С†РёРё">
+        <E name="РћСЂРіР°РЅРёР·Р°С†РёСЏ_РґРѕРєСѓРјРµРЅС‚Р°С†РёРё_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="text" index="true" displayname="РћСЂРіР°РЅРёР·Р°С†РёСЏ РґРѕРєСѓРјРµРЅС‚Р°С†РёРё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" abdata="Name" />
+        <E name="РћСЂРіР°РЅРёР·Р°С†РёСЏ_РґРѕРєСѓРјРµРЅС‚Р°С†РёРё" datatype="integer" index="true" displayname="РћСЂРіР°РЅРёР·Р°С†РёСЏ РґРѕРєСѓРјРµРЅС‚Р°С†РёРё" abdata="Id" extype="addressbook" />
+      </S>
+      <E name="РњР°Р»Р°СЏ_Р·Р°РєСѓРїРєР°" datatype="boolean" index="true" displayname="РњР°Р»Р°СЏ Р·Р°РєСѓРїРєР°" />
+      <S name="Р“Р Р‘РЎ" displayname="Р“Р Р‘РЎ">
+        <E name="Р“Р Р‘РЎ_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="longtext" index="true" dictpath="" required="false" displayname="Р“Р Р‘РЎ_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" extype="addressbook" abdata="Name" />
+        <E name="Р“Р Р‘РЎ" datatype="integer" index="true" displayname="Р“Р Р‘РЎ" required="false" dictpath="" extype="addressbook" abdata="Id" />
+      </S>
+      <E name="РќР°РёРјРµРЅРѕРІР°РЅРёРµ_РґРѕРіРѕРІРѕСЂР°_РЅР°_Р­РўРџ" datatype="text" index="true" displayname="РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРѕРіРѕРІРѕСЂР° РЅР° Р­РўРџ" />
+      <E name="РљРѕР»РёС‡РµСЃС‚РІРѕ_РєСЂРёС‚РµСЂРёРµРІ" datatype="text" index="true" displayname="РљРѕР»РёС‡РµСЃС‚РІРѕ РєСЂРёС‚РµСЂРёРµРІ" />
+      <E name="РџРѕРїРѕР·РёС†РёРѕРЅРЅР°СЏ_Р·Р°РєСѓРїРєР°" datatype="boolean" index="true" displayname="РџРѕРїРѕР·РёС†РёРѕРЅРЅР°СЏ Р·Р°РєСѓРїРєР°" />
+      <E name="РЎСЃС‹Р»РєР°_РЅР°_Р­РўРџ_Р”РѕРіРѕРІРѕСЂ" datatype="url" index="true" displayname="РЎСЃС‹Р»РєР° РЅР° Р­РўРџ Р”РѕРіРѕРІРѕСЂ" />
+      <E name="РћСЃРЅРѕРІР°РЅРёРµ_РїСЂРёРЅСЏС‚РёСЏ_СЂРµС€РµРЅРёСЏ_РѕС‚РјРµРЅР°" datatype="longtext" index="true" displayname="РћСЃРЅРѕРІР°РЅРёРµ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РѕС‚РјРµРЅР°" />
+      <E name="Р”Р°С‚Р°_РїСЂРёРЅСЏС‚РёСЏ_СЂРµС€РµРЅРёСЏ_РѕС‚РјРµРЅР°" datatype="datetime" index="true" displayname="Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РѕС‚РјРµРЅР°" />
+      <E name="РћС‚РјРµРЅР°_Р»РѕС‚Р°" datatype="boolean" index="true" displayname="РћС‚РјРµРЅР° Р»РѕС‚Р°" />
+      <E name="Р—Р°РєСѓРїРєР°_РѕС‚РјРµРЅСЏРµС‚СЃСЏ_РІСЃР»РµРґСЃС‚РІРёРµ_РІРѕР·РЅРёРєРЅРѕРІРµРЅРёСЏ_РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІ_РЅРµРїСЂРµРѕРґРѕР»РёРјРѕР№_СЃРёР»С‹" datatype="boolean" index="true" displayname="Р—Р°РєСѓРїРєР° РѕС‚РјРµРЅСЏРµС‚СЃСЏ РІСЃР»РµРґСЃС‚РІРёРµ РІРѕР·РЅРёРєРЅРѕРІРµРЅРёСЏ РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІ РЅРµРїСЂРµРѕРґРѕР»РёРјРѕР№ СЃРёР»С‹" />
+      <E name="РћС‚РјРµРЅР°_Р»РѕС‚Р°_СЃРѕРіР»Р°СЃРѕРІР°РЅР°" datatype="boolean" index="true" displayname="РћС‚РјРµРЅР° Р»РѕС‚Р° СЃРѕРіР»Р°СЃРѕРІР°РЅР°" />
+      <E name="РЎРѕРіР»Р°СЃРѕРІР°РЅРёРµ_Р·Р°РєСѓРїРѕС‡РЅРѕР№_РєРѕРјРёСЃСЃРёРµР№" datatype="boolean" index="true" displayname="РЎРѕРіР»Р°СЃРѕРІР°РЅРёРµ Р·Р°РєСѓРїРѕС‡РЅРѕР№ РєРѕРјРёСЃСЃРёРµР№" />
+      <E name="РЎРѕРіР»Р°СЃРѕРІР°РЅРёРµ_СЂСѓРєРѕРІРѕРґРёС‚РµР»РµРј_РёРЅРёС†РёР°С‚РѕСЂР°" datatype="boolean" index="true" displayname="РЎРѕРіР»Р°СЃРѕРІР°РЅРёРµ СЂСѓРєРѕРІРѕРґРёС‚РµР»РµРј РёРЅРёС†РёР°С‚РѕСЂР°" />
+      <E name="РљРѕСЌС„С„РёС†РёРµРЅС‚_СЃРЅРёР¶РµРЅРёСЏ" datatype="boolean" index="true" displayname="РљРѕСЌС„С„РёС†РёРµРЅС‚ СЃРЅРёР¶РµРЅРёСЏ" />
+      <E name="РР”_Р°СѓРєС†РёРѕРЅР°" datatype="text" index="true" displayname="РР” Р°СѓРєС†РёРѕРЅР°" />
+      <E name="РџРѕРґР»РµР¶РёС‚_СЃРѕРіР»Р°СЃРѕРІР°РЅРёСЋ_СЃ_РњРёРЅС†РёС„СЂС‹" datatype="boolean" index="true" displayname="РџРѕРґР»РµР¶РёС‚ СЃРѕРіР»Р°СЃРѕРІР°РЅРёСЋ СЃ РњРёРЅС†РёС„СЂС‹" />
+      <E name="РљСЂСѓРїРЅР°СЏ_СЃРґРµР»РєР°" datatype="boolean" index="true" displayname="РљСЂСѓРїРЅР°СЏ СЃРґРµР»РєР°" />
+      <E name="РџРѕСЂСЏРґРѕРє_РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ" datatype="longtext" index="true" displayname="РџРѕСЂСЏРґРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ" />
+      <S name="РЈРїСЂР°РІР»РµРЅРёРµ" displayname="РЈРїСЂР°РІР»РµРЅРёРµ">
+        <E name="РЈРїСЂР°РІР»РµРЅРёРµ" datatype="integer" index="true" displayname="РЈРїСЂР°РІР»РµРЅРёРµ" extype="addressbook" abdata="Id" />
+        <E name="РЈРїСЂР°РІР»РµРЅРёРµ_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="text" index="true" displayname="РЈРїСЂР°РІР»РµРЅРёРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" abdata="Name" />
+      </S>
+      <S name="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ_СѓРїСЂР°РІР»РµРЅРёСЏ" displayname="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ СѓРїСЂР°РІР»РµРЅРёСЏ">
+        <E name="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ_СѓРїСЂР°РІР»РµРЅРёСЏ" datatype="integer" index="true" displayname="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ СѓРїСЂР°РІР»РµРЅРёСЏ" extype="addressbook" abdata="Id" />
+        <E name="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ_СѓРїСЂР°РІР»РµРЅРёСЏ_Р¤РРћ" datatype="text" index="true" displayname="Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ СѓРїСЂР°РІР»РµРЅРёСЏ Р¤РРћ" abdata="Name" />
+      </S>
+      <S name="РРЅРёС†РёР°С‚РѕСЂ">
+        <E name="РРЅРёС†РёР°С‚РѕСЂ" datatype="integer" index="true" abdata="Id" extype="addressbook" displayname="РРЅРёС†РёР°С‚РѕСЂ" />
+        <E name="РРЅРёС†РёР°С‚РѕСЂ_Р¤РРћ" datatype="text" index="true" edit="tool(CallTools.AddressBookTool)" extype="addressbook" absettings="&lt;ROOT title=&quot;РђРґСЂРµСЃРЅР°СЏ РєРЅРёРіР°&quot; IsMultiple=&quot;False&quot; CanSelectNobody=&quot;False&quot; SelectedUser=&quot;True&quot; SelectedGroup=&quot;False&quot; SelectedDepartments=&quot;False&quot;&gt;&lt;DateDictionary Name=&quot;Persons&quot; DisplayName=&quot;РџРѕР»СЊР·РѕРІР°С‚РµР»Рё&quot; /&gt;&lt;DateDictionary Name=&quot;Departments&quot; DisplayName=&quot;РЎС‚СЂСѓРєС‚СѓСЂР° РїСЂРµРґРїСЂРёСЏС‚РёСЏ&quot; /&gt;&lt;/ROOT&gt;" />
+      </S>
+      <S name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_РѕС‚РґРµР»Р°_РїР»Р°РЅРёСЂРѕРІР°РЅРёСЏ" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РѕС‚РґРµР»Р° РїР»Р°РЅРёСЂРѕРІР°РЅРёСЏ">
+        <E name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_РѕС‚РґРµР»Р°_РїР»Р°РЅРёСЂРѕРІР°РЅРёСЏ" datatype="integer" index="true" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РѕС‚РґРµР»Р° РїР»Р°РЅРёСЂРѕРІР°РЅРёСЏ" extype="addressbook" abdata="Id" />
+        <E name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_РѕС‚РґРµР»Р°_РїР»Р°РЅРёСЂРѕРІР°РЅРёСЏ_Р¤РРћ" datatype="text" index="true" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РѕС‚РґРµР»Р° РїР»Р°РЅРёСЂРѕРІР°РЅРёСЏ Р¤РРћ" abdata="Name" extype="addressbook" />
+      </S>
+      <S name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_РѕС‚РґРµР»Р°_Р·Р°РєСѓРїРєРё" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РѕС‚РґРµР»Р° Р·Р°РєСѓРїРєРё">
+        <E name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_РѕС‚РґРµР»Р°_Р·Р°РєСѓРїРєРё" datatype="integer" index="true" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РѕС‚РґРµР»Р° Р·Р°РєСѓРїРєРё" extype="addressbook" abdata="Id" />
+        <E name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_РѕС‚РґРµР»Р°_Р·Р°РєСѓРїРєРё_Р¤РРћ" datatype="text" index="true" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ РѕС‚РґРµР»Р° Р·Р°РєСѓРїРєРё Р¤РРћ" extype="addressbook" abdata="Name" />
+      </S>
+      <S name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_Р·Р°_РґРѕРіРѕРІРѕСЂ" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ Р·Р° РґРѕРіРѕРІРѕСЂ">
+        <E name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_Р·Р°_РґРѕРіРѕРІРѕСЂ" datatype="integer" index="true" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ Р·Р° РґРѕРіРѕРІРѕСЂ" extype="addressbook" abdata="Id" />
+        <E name="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№_Р·Р°_РґРѕРіРѕРІРѕСЂ_Р¤РРћ" datatype="text" index="true" displayname="РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ Р·Р° РґРѕРіРѕРІРѕСЂ Р¤РРћ" abdata="Name" extype="addressbook" />
+      </S>
+      <E name="РћСЃРЅРѕРІР°РЅРёРµ_Р·Р°РєСѓРїРєРё_Сѓ_Р•Рџ_РєРѕРґ" datatype="text" index="true" displayname="РћСЃРЅРѕРІР°РЅРёРµ Р·Р°РєСѓРїРєРё Сѓ Р•Рџ РєРѕРґ" />
+      <E name="РћСЃРЅРѕРІР°РЅРёРµ_Р·Р°РєСѓРїРєРё_Сѓ_Р•Рџ_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="longtext" index="true" displayname="РћСЃРЅРѕРІР°РЅРёРµ Р·Р°РєСѓРїРєРё Сѓ Р•Рџ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" />
+      <E name="Р—Р°РєСѓРїРєР°_СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё_СЃ_РіР°СЂР°РЅС‚РёСЂСѓСЋС‰РёРј_РїРѕСЃС‚Р°РІС‰РёРєРѕРј" datatype="boolean" index="true" displayname="Р—Р°РєСѓРїРєР° СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё СЃ РіР°СЂР°РЅС‚РёСЂСѓСЋС‰РёРј РїРѕСЃС‚Р°РІС‰РёРєРѕРј" />
+      <E name="РќРѕРјРµСЂ_РЅРµСЃРѕСЃС‚РѕСЏРІС€РµР№СЃСЏ_РїСЂРѕС†РµРґСѓСЂС‹" datatype="text" index="true" displayname="РќРѕРјРµСЂ РЅРµСЃРѕСЃС‚РѕСЏРІС€РµР№СЃСЏ РїСЂРѕС†РµРґСѓСЂС‹" />
+      <S name="РЎР±РµСЂР±Р°РЅРє_РђРЎРў" displayname="РЎР±РµСЂР±Р°РЅРє РђРЎРў">
+        <S name="РћР±РµСЃРїРµС‡РµРЅРёРµ_Р·Р°СЏРІРєРё" displayname="РћР±РµСЃРїРµС‡РµРЅРёРµ Р·Р°СЏРІРєРё">
+          <E name="Р’РёРґ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_Р·Р°СЏРІРєРё_РєРѕРґ" datatype="text" index="true" displayname="Р’РёРґ РѕР±РµСЃРїРµС‡РµРЅРёСЏ Р·Р°СЏРІРєРё РєРѕРґ" />
+          <E name="Р’РёРґ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_Р·Р°СЏРІРєРё_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="longtext" index="true" displayname="Р’РёРґ РѕР±РµСЃРїРµС‡РµРЅРёСЏ Р·Р°СЏРІРєРё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" />
+          <E name="РРЅС‹Рµ_С‚СЂРµР±РѕРІР°РЅРёСЏ_Рє_РѕР±РµСЃРїРµС‡РµРЅРёСЋ" datatype="longtext" index="true" displayname="РРЅС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ Рє РѕР±РµСЃРїРµС‡РµРЅРёСЋ" />
+        </S>
+        <S name="Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ_РёРЅС„РѕСЂРјР°С†РёСЏ" displayname="Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ">
+          <E name="Р’РѕР·РјРѕР¶РЅС‹_Р°РЅР°Р»РѕРіРё" datatype="boolean" index="true" displayname="Р’РѕР·РјРѕР¶РЅС‹ Р°РЅР°Р»РѕРіРё" />
+          <E name="РљР»СЋС‡РµРІС‹Рµ_СЃР»РѕРІР°" datatype="longtext" index="true" displayname="РљР»СЋС‡РµРІС‹Рµ СЃР»РѕРІР°" />
+          <S name="Р”РµС‚Р°Р»РёР·Р°С†РёСЏ_РїСЂРµРґР»РѕР¶РµРЅРёСЏ" displayname="Р”РµС‚Р°Р»РёР·Р°С†РёСЏ РїСЂРµРґР»РѕР¶РµРЅРёСЏ">
+            <E name="Р”РµС‚Р°Р»РёР·Р°С†РёСЏ_РїСЂРµРґР»РѕР¶РµРЅРёСЏ_РєРѕРґ" datatype="text" index="true" displayname="Р”РµС‚Р°Р»РёР·Р°С†РёСЏ РїСЂРµРґР»РѕР¶РµРЅРёСЏ РєРѕРґ" />
+            <E name="Р”РµС‚Р°Р»РёР·Р°С†РёСЏ_РїСЂРµРґР»РѕР¶РµРЅРёСЏ_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="text" index="true" displayname="Р”РµС‚Р°Р»РёР·Р°С†РёСЏ РїСЂРµРґР»РѕР¶РµРЅРёСЏ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" />
+          </S>
+          <E name="РўСЂРµР±СѓРµС‚СЃСЏ_СѓРєР°Р·Р°С‚СЊ_СЃС‚СЂР°РЅСѓ_РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ" datatype="boolean" index="true" displayname="РўСЂРµР±СѓРµС‚СЃСЏ СѓРєР°Р·Р°С‚СЊ СЃС‚СЂР°РЅСѓ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ" />
+          <E name="Р Р°Р·СЂРµС€РёС‚СЊ_РїСЂРµРґР»РѕР¶РµРЅРёРµ_РІС‹С€Рµ_РќРњР¦" datatype="boolean" index="true" displayname="Р Р°Р·СЂРµС€РёС‚СЊ РїСЂРµРґР»РѕР¶РµРЅРёРµ РІС‹С€Рµ РќРњР¦" />
+        </S>
+        <S name="РЎРІРµРґРµРЅРёСЏ_Рѕ_С‚РѕСЂРіР°С…" displayname="РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕСЂРіР°С…">
+          <E name="РњРёРЅРёРјР°Р»СЊРЅС‹Р№_С€Р°Рі" datatype="real" index="true" displayname="РњРёРЅРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі" />
+          <E name="РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№_С€Р°Рі" datatype="real" index="true" displayname="РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі" />
+          <E name="РќР°РїСЂР°РІРёС‚СЊ_Р·Р°РїСЂРѕСЃ_РљРџ" datatype="boolean" index="true" displayname="РќР°РїСЂР°РІРёС‚СЊ Р·Р°РїСЂРѕСЃ РљРџ" />
+          <E name="РЎСЂРѕРє_РЅР°РїСЂР°РІР»РµРЅРёСЏ_РљРџ" datatype="real" index="true" displayname="РЎСЂРѕРє РЅР°РїСЂР°РІР»РµРЅРёСЏ РљРџ" />
+        </S>
+        <E name="РўРµРєСѓС‰РµРµ_Р»СѓС‡С€РµРµ_РїСЂРµРґР»РѕР¶РµРЅРёРµ_СЃСЂРµРґРё_Р·Р°СЏРІРѕРє" datatype="money" index="true" displayname="РўРµРєСѓС‰РµРµ Р»СѓС‡С€РµРµ РїСЂРµРґР»РѕР¶РµРЅРёРµ СЃСЂРµРґРё Р·Р°СЏРІРѕРє" />
+        <E name="РќР°С‡Р°Р»СЊРЅР°СЏ_С†РµРЅР°_СЌС‚Р°РїР°" datatype="money" index="true" displayname="РќР°С‡Р°Р»СЊРЅР°СЏ С†РµРЅР° СЌС‚Р°РїР°" />
+        <S name="РћР±РµСЃРїРµС‡РµРЅРёРµ_РґРѕРіРѕРІРѕСЂР°" displayname="РћР±РµСЃРїРµС‡РµРЅРёРµ РґРѕРіРѕРІРѕСЂР°">
+          <E name="РЎР±РµСЂ_СЂР°Р·РјРµСЂ_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РёСЃРїРѕР»РЅРµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°" datatype="longtext" index="true" displayname="РЎР±РµСЂ СЂР°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РёСЃРїРѕР»РЅРµРЅРёСЏ РґРѕРіРѕРІРѕСЂР°" />
+        </S>
+        <E name="РЎСЂРѕРє_РґРµР№СЃС‚РІРёСЏ_С†РµРЅС‹" datatype="datetime" index="true" displayname="РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ С†РµРЅС‹" />
+        <S name="РљРІР°Р»РёС„РёРєР°С†РёРѕРЅРЅС‹Р№_СЂРµРµСЃС‚СЂ" displayname="РљРІР°Р»РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ СЂРµРµСЃС‚СЂ">
+          <E name="Р”Р°С‚Р°_РЅР°С‡Р°Р»Р°_РІРєР»СЋС‡РµРЅРёСЏ_РІ_РљР " datatype="datetime" index="true" displayname="Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РІРєР»СЋС‡РµРЅРёСЏ РІ РљР " />
+          <S name="Р“СЂСѓРїРїР°" displayname="Р“СЂСѓРїРїР°">
+            <E name="Р“СЂСѓРїРїР°_РР”" datatype="text" index="true" displayname="Р“СЂСѓРїРїР° РР”" />
+            <E name="Р“СЂСѓРїРїР°_РљРѕРґ" datatype="text" index="true" displayname="Р“СЂСѓРїРїР° РљРѕРґ" />
+            <E name="Р“СЂСѓРїРїР°_РќР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="longtext" index="true" displayname="Р“СЂСѓРїРїР° РќР°РёРјРµРЅРѕРІР°РЅРёРµ" />
+          </S>
+          <E name="Р”Р°С‚Р°_РѕРєРѕРЅС‡Р°РЅРёСЏ_РІРєР»СЋС‡РµРЅРёСЏ_РІ_РљР " datatype="datetime" index="true" displayname="Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РІРєР»СЋС‡РµРЅРёСЏ РІ РљР " />
+        </S>
+        <E name="РЎР±РђРЎРў_Р”РѕРіРѕРІРѕСЂ_Р·Р°РєР»СЋС‡Р°РµС‚СЃСЏ" datatype="boolean" index="true" displayname="РЎР±РђРЎРў_ Р”РѕРіРѕРІРѕСЂ Р·Р°РєР»СЋС‡Р°РµС‚СЃСЏ" />
+      </S>
+      <E name="Р РµРґР°РєС‚РёСЂСѓРµС‚СЃСЏ_РёР·_РїР»Р°РіРёРЅР°" datatype="boolean" index="true" displayname="Р РµРґР°РєС‚РёСЂСѓРµС‚СЃСЏ РёР· РїР»Р°РіРёРЅР°" />
+      <S name="Р’Р°Р»СЋС‚Р°_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РёСЃРїРѕР»РЅРµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°" displayname="Р’Р°Р»СЋС‚Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ РёСЃРїРѕР»РЅРµРЅРёСЏ РґРѕРіРѕРІРѕСЂР°">
+        <E name="Р’Р°Р»СЋС‚Р°_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РёСЃРїРѕР»РЅРµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" datatype="text" index="true" displayname="Р’Р°Р»СЋС‚Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ РёСЃРїРѕР»РЅРµРЅРёСЏ РґРѕРіРѕРІРѕСЂР° РЅР°РёРјРµРЅРѕРІР°РЅРёРµ" />
+        <E name="Р’Р°Р»СЋС‚Р°_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РёСЃРїРѕР»РЅРµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°_С†РёС„СЂРѕРІРѕР№_РєРѕРґ" datatype="text" index="true" displayname="Р’Р°Р»СЋС‚Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ РёСЃРїРѕР»РЅРµРЅРёСЏ РґРѕРіРѕРІРѕСЂР° С†РёС„СЂРѕРІРѕР№ РєРѕРґ" />
+        <E name="Р’Р°Р»СЋС‚Р°_РѕР±РµСЃРїРµС‡РµРЅРёСЏ_РёСЃРїРѕР»РЅРµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°_РєРѕРґ" datatype="text" index="true" displayname="Р’Р°Р»СЋС‚Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ РёСЃРїРѕР»РЅРµРЅРёСЏ РґРѕРіРѕРІРѕСЂР° РєРѕРґ" />
+      </S>
+      <E name="РРЅС‹Рµ_С‚СЂРµР±РѕРІР°РЅРёСЏ_Рє_РѕР±РµСЃРїРµС‡РµРЅРёСЋ_РёСЃРїРѕР»РЅРµРЅРёСЏ_РґРѕРіРѕРІРѕСЂР°" datatype="longtext" index="true" displayname="РРЅС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ Рє РѕР±РµСЃРїРµС‡РµРЅРёСЋ РёСЃРїРѕР»РЅРµРЅРёСЏ РґРѕРіРѕРІРѕСЂР°" />
+      <E name="РЈСЃС‚Р°РЅРѕРІР»РµРЅРѕ_С‚СЂРµР±РѕРІР°РЅРёРµ_Рѕ_Р·Р°РєСѓРїРєРµ_С‚РѕРІР°СЂРѕРІ_СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ_РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ" datatype="boolean" index="true" displayname="РЈСЃС‚Р°РЅРѕРІР»РµРЅРѕ С‚СЂРµР±РѕРІР°РЅРёРµ Рѕ Р·Р°РєСѓРїРєРµ С‚РѕРІР°СЂРѕРІ СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ" />
+      <E name="РЈРєР°Р·Р°РЅРёРµ_СЂРµРµСЃС‚СЂРѕРІС‹С…_РЅРѕРјРµСЂРѕРІ_С‚РѕРІР°СЂРѕРІ" datatype="text" index="true" displayname="РЈРєР°Р·Р°РЅРёРµ СЂРµРµСЃС‚СЂРѕРІС‹С… РЅРѕРјРµСЂРѕРІ С‚РѕРІР°СЂРѕРІ" />
+      <E name="РўРѕРІР°СЂ_РЅСѓР¶РґР°РµС‚СЃСЏ_РІ_РёРјРїРѕСЂС‚РѕР·Р°РјРµС‰РµРЅРёРё" datatype="boolean" index="true" displayname="РўРѕРІР°СЂ РЅСѓР¶РґР°РµС‚СЃСЏ РІ РёРјРїРѕСЂС‚РѕР·Р°РјРµС‰РµРЅРёРё" />
+      <E name="Р’РѕР·РјРѕР¶РµРЅ_РїР°СЂР°Р»Р»РµР»СЊРЅС‹Р№_РёРјРїРѕСЂС‚" datatype="boolean" index="true" displayname="Р’РѕР·РјРѕР¶РµРЅ РїР°СЂР°Р»Р»РµР»СЊРЅС‹Р№ РёРјРїРѕСЂС‚" />
+      <E name="РЈСЃС‚Р°РЅРѕРІРёС‚СЊ_РѕР±СЏР·Р°С‚РµР»СЊРЅС‹Рј_СѓРєР°Р·Р°РЅРёРµ_СЃС‚СЂР°РЅС‹" datatype="boolean" index="true" displayname="РЈСЃС‚Р°РЅРѕРІРёС‚СЊ РѕР±СЏР·Р°С‚РµР»СЊРЅС‹Рј СѓРєР°Р·Р°РЅРёРµ СЃС‚СЂР°РЅС‹" />
+      <E name="РљСЂР°С‚РєРѕРµ_РѕРїРёСЃР°РЅРёРµ_РїСЂРµРґРјРµС‚Р°_Р·Р°РєСѓРїРєРё" datatype="longtext" index="true" displayname="РљСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ РїСЂРµРґРјРµС‚Р° Р·Р°РєСѓРїРєРё" />
+      <E name="Р”Р»РёС‚РµР»СЊРЅРѕСЃС‚СЊ_С€Р°РіР°_Р°СѓРєС†РёРѕРЅР°" datatype="integer" index="true" displayname="Р”Р»РёС‚РµР»СЊРЅРѕСЃС‚СЊ С€Р°РіР° Р°СѓРєС†РёРѕРЅР°" />
+      <E name="РЈРєР°Р·Р°С‚СЊ_Р»РѕРіРёРєСѓ_СЃРЅРёР¶РµРЅРёСЏ_РїСЂРµРґР»РѕР¶РµРЅРёСЏ_Рѕ_С†РµРЅРµ_РґРѕРіРѕРІРѕСЂР°" datatype="boolean" index="true" displayname="РЈРєР°Р·Р°С‚СЊ Р»РѕРіРёРєСѓ СЃРЅРёР¶РµРЅРёСЏ РїСЂРµРґР»РѕР¶РµРЅРёСЏ Рѕ С†РµРЅРµ РґРѕРіРѕРІРѕСЂР°" />
+      <E name="РЎРЅРёР¶РµРЅРёРµ_С†РµРЅС‹_РѕС‚_РќРњР¦" datatype="boolean" index="true" displayname="РЎРЅРёР¶РµРЅРёРµ С†РµРЅС‹ РѕС‚ РќРњР¦" />
+      <E name="Р РµРіРёРѕРЅ_РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ_РѕР±СЉРµРєС‚Р°" datatype="text" index="true" displayname="Р РµРіРёРѕРЅ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ РѕР±СЉРµРєС‚Р°" />
+      <E name="Р РµРіРёРѕРЅ_РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ_РѕР±СЉРµРєС‚Р°_РєРѕРґ" datatype="text" index="true" displayname="Р РµРіРёРѕРЅ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ РѕР±СЉРµРєС‚Р° РєРѕРґ" />
+      <E name="РџСЂРёРЅРёРјР°С‚СЊ_РїСЂРµРґР»РѕР¶РµРЅРёСЏ_С‚РѕР»СЊРєРѕ_РЅР°_РїРѕРІС‹С€РµРЅРёРµ" datatype="boolean" index="true" displayname="РџСЂРёРЅРёРјР°С‚СЊ РїСЂРµРґР»РѕР¶РµРЅРёСЏ С‚РѕР»СЊРєРѕ РЅР° РїРѕРІС‹С€РµРЅРёРµ" />
+    </S>
+    <S name="Files" use="FilesLot" displayname="Р”РѕРєСѓРјРµРЅС‚Р°С†РёСЏ">
+      <E name="header" datatype="text" index="false" value="&quot;Р”РѕРєСѓРјРµРЅС‚Р°С†РёСЏ&quot;" />
+      <E name="subheader" datatype="text" index="false" />
+    </S>
+    <S name="Р—Р°СЏРІРєРё_СѓС‡Р°СЃС‚РЅРёРєРѕРІ" displayname="Р—Р°СЏРІРєРё СѓС‡Р°СЃС‚РЅРёРєРѕРІ" use="LinksLotOrder">
+      <E name="header" datatype="text" index="false" value="&quot;Р—Р°СЏРІРєРё СѓС‡Р°СЃС‚РЅРёРєРѕРІ&quot;" />
+      <E name="subheader" datatype="text" index="false" />
+    </S>
+    <S name="Р”РѕРіРѕРІРѕСЂС‹" use="LinksDogovor" displayname="Р—Р°РєР»СЋС‡РµРЅРЅС‹Рµ РґРѕРіРѕРІРѕСЂС‹">
+      <E name="header" datatype="text" index="false" value="&quot;Р—Р°РєР»СЋС‡РµРЅРЅС‹Рµ РґРѕРіРѕРІРѕСЂС‹&quot;" />
+      <E name="subheader" datatype="text" index="false" />
+    </S>
+    <S name="FilesIntegration" use="FilesIntegration" displayname="Р¤Р°Р№Р»С‹ РёРЅС‚РµРіСЂР°С†РёРё">
+      <E name="header" datatype="text" index="false" value="&quot;Р¤Р°Р№Р»С‹ РёРЅС‚РµРіСЂР°С†РёРё&quot;" />
+      <E name="subheader" datatype="text" index="false" />
+    </S>
+    <S name="FilesLot" use="FilesLotForSogl" displayname="Р”РѕРєСѓРјРµРЅС‚Р°С†РёСЏ РґР»СЏ СЃРѕРіР»Р°СЃРѕРІР°РЅРёСЏ">
+      <E name="header" datatype="text" index="false" value="&quot;Р”РѕРєСѓРјРµРЅС‚Р°С†РёСЏ&quot;" />
+      <E name="subheader" datatype="text" index="false" />
+    </S>
+    <S name="РџСЂРѕС‚РѕРєРѕР»С‹" displayname="РџСЂРѕС‚РѕРєРѕР»С‹" use="LNoticeProtocol">
+      <E name="header" datatype="text" index="false" value="&quot;РџСЂРѕС‚РѕРєРѕР»С‹&quot;" />
+      <E name="subheader" datatype="text" index="false" />
+    </S>
+    <S name="Р”РѕРєСѓРјРµРЅС‚Р°С†РёСЏ_РїРѕ_Р·Р°РєСѓРїРєРµ" displayname="Р”РѕРєСѓРјРµРЅС‚Р°С†РёСЏ РїРѕ Р·Р°РєСѓРїРєРµ" use="DocOnZak223">
+      <E name="header" datatype="text" index="false" value="&quot;Р”РѕРєСѓРјРµРЅС‚Р°С†РёСЏ РїРѕ Р·Р°РєСѓРїРєРµ&quot;" view="invisible" />
+      <E name="subheader" datatype="text" index="false" view="invisible" />
+    </S>
+    <S name="РќРњР¦Р”" use="NMCD">
+      <E name="header" datatype="text" index="false" value="&quot;РќРњР¦Р”&quot;" view="invisible" />
+      <E name="subheader" datatype="text" index="false" view="invisible" />
+    </S>
+    <S name="РџСЂРѕРµРєС‚_РґРѕРіРѕРІРѕСЂР°" displayname="РџСЂРѕРµРєС‚ РґРѕРіРѕРІРѕСЂР°" use="ProectDogovora">
+      <E name="header" datatype="text" index="false" value="&quot;РџСЂРѕРµРєС‚ РґРѕРіРѕРІРѕСЂР°&quot;" view="invisible" />
+      <E name="subheader" datatype="text" index="false" view="invisible" />
+    </S>
+  </CONTENT_MODEL>
+  <SCRIPT language="VBScript">Dim oTrace
+
+Dim saveCheck
+saveCheck=0
+
+Sub generate_num
+
+'oTrace.Trace " VBCRPT generate_num..."
+
+  Dim rn
+  pref = Data("|Document|РџСЂРµС„РёРєСЃ_СЂРµРіРЅРѕРјРµСЂР°").Value
+  num = Data("|Document|Р§РёСЃР»Рѕ_СЂРµРіРЅРѕРјРµСЂР°").Value
+  suf = Data("|Document|РЎСѓС„С„РёРєСЃ_СЂРµРіРЅРѕРјРµСЂР°").Value
+
+ if Len(num) = 0 then
+'	oTrace.Trace " VBCRPT End generate_num(РќРµС‚ РЅРѕРјРµСЂР°)"
+	Exit Sub
+ end if
+
+  if Len(pref)&gt;0 then
+	rn = CStr(rn) + pref + "-"
+  end if
+  rn = CStr(rn) + CStr(num)
+  if Len(suf)&gt;0 then
+     rn = CStr(rn) + "-" + CStr(suf)
+  end if
+
+    Data("|Document|Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№_РЅРѕРјРµСЂ")=CStr(rn)
+    Exit Sub
+
+'  oTrace.Trace " VBCRPT End generate_num"
+  err_exit:
+  Form.MsgBox err.Description
+End Sub
+    
+
+Sub clear_all_readonly
+'   oTrace.Trace " VBCRPT clear_all_readonly..."
+    Data("|Document|Р§РёСЃР»Рѕ_СЂРµРіРЅРѕРјРµСЂР°").Attribute("readonly")=""
+'      oTrace.Trace " VBCRPT end clear_all_readonly"
+End Sub
+
+ Sub prepare_completed
+'   oTrace.Trace " VBCRPT prepare_completed..."
+    clear_all_readonly
+    Data("|Document|Р§РёСЃР»Рѕ_СЂРµРіРЅРѕРјРµСЂР°").Attribute("readonly")="true"
+'   oTrace.Trace " VBCRPT End prepare_completed"
+    End Sub
+
+    Sub prepare_wfclosed
+'    oTrace.Trace " VBCRPT prepare_wfclosed..."
+'    oTrace.Trace " VBCRPT End prepare_wfclosed"
+    End Sub
+
+    Sub prepare_finder
+'    oTrace.Trace " VBCRPT prepare_finder..."
+    clear_all_readonly
+'    oTrace.Trace " VBCRPT End prepare_finder"
+    End Sub
+
+    Sub prepare_registration
+'    oTrace.Trace " VBCRPT prepare_registration..."
+    clear_all_readonly
+    Data("|Document|Р§РёСЃР»Рѕ_СЂРµРіРЅРѕРјРµСЂР°").Attribute("readonly")="true"
+'    oTrace.Trace " VBCRPT End prepare_registration"
+    End Sub
+
+    Sub Form_NamedEvent( evt )
+'    oTrace.Trace " VBCRPT Form_NamedEvent..."
+    if evt = "dfmakestrregnum" then
+    generate_num
+    End If
+    if evt = "dfrgmregistration" then
+    prepare_registration
+    End If
+    if evt = "dfrgmfinder" then
+    prepare_finder
+    End If
+    if evt = "dfrgmcompleted" then
+    prepare_completed
+    End If
+    if evt = "dfrgmwfclosed" then
+    prepare_wfclosed
+    End if
+
+
+    if evt="dfpreparestrregnum" then 'РЅР°С‡Р°Р»РѕСЃСЊ СЃРѕС…СЂР°РЅРµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°
+       saveCheck=1
+    end if
+
+    if evt="dfmakestrregnum" then 'Р·Р°РєРѕРЅС‡РёР»РѕСЃСЊ СЃРѕС…СЂР°РЅРµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°
+       saveCheck=0
+    end if
+
+'   oTrace.Trace " VBCRPT End Form_NamedEvent"
+    End Sub
+
+Set ctx = CreateObject("Form.ExecutionContext")
+
+    Sub Form_Load
+'    Set oTrace = CreateObject("TRACE.VBTracer")
+'    oTrace.Trace " VBCRPT End Form_Load"
+
+       Data("|Document|Р’РєР»СЋС‡РµРЅ_РІ_РѕР±РѕР±С‰РµРЅРЅС‹Р№").Attribute("readonly")="true"
+
+    End Sub
+
+    Sub Form_Unload
+'    oTrace.Trace " VBCRPT Form_Unload..."
+'    Set oTrace = Nothing
+    End Sub
+ 
+   Sub Form_Save
+
+
+   End Sub
+
+    sub form_FieldDataChanged(field)
+    s = field.Attribute("frm.abstoredata")
+    if s &lt;&gt; "" and field.Value = "" then
+    Set arr = field.Parent(s)
+    if not arr is nothing then
+    arr.RemoveAll
+    end if
+    end if
+
+   ' Р”РѕРєСѓРјРµРЅС‚ РЅРµ СЃРѕС…СЂР°РЅСЏРµС‚СЃСЏ
+   if saveCheck=0 then
+
+          ' РћС‡РёСЃС‚РёР»Рё РїРѕР»Рµ РћРљРђРўРћ
+          if field.name = "РћРљРђРўРћ" and Len(field.value)=0 then
+                  Data("|Document|Р РµРіРёРѕРЅ")= ""
+                  Data("|Document|hierar_РћРљРђРўРћ").RemoveAll
+          end if
+
+          ' РћС‡РёСЃС‚РёР»Рё РїРѕР»Рµ Р’Р°Р»СЋС‚Р°
+          if field.name = "Р’Р°Р»СЋС‚Р°" and Len(field.value)=0 then
+                  Data("|Document|Р¦РёС„СЂРѕРІРѕР№_РєРѕРґ_РІР°Р»СЋС‚С‹")= ""
+                  Data("|Document|РљРѕРґ_РІР°Р»СЋС‚С‹")= ""
+          end if
+		  
+    end if
+
+  'РћС‡РёСЃС‚РєР° РїРѕР»РµР№ РІ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РѕС‚ Р·РЅР°С‡РµРЅРёСЏ С‡РµРєР±РѕРєСЃР° "РЈРєР°Р·Р°С‚СЊ РїРѕР·РёС†РёРё"
+   if field.name ="РЈРєР°Р·Р°С‚СЊ_РїРѕР·РёС†РёРё" then
+       if  Data("|Document|РЈРєР°Р·Р°С‚СЊ_РїРѕР·РёС†РёРё")= 1  then
+         Data("|Document|РћРљРџР”2")=""
+         Data("|Document|РћРљРџР”2_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ")=""
+         Data("|Document|hierar_РћРљРџР”2").RemoveAll 
+         Data("|Document|РћРљР’Р­Р”2")=""
+         Data("|Document|РћРљР’Р­Р”2_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ")="" 
+         Data("|Document|hierar_РћРљР’Р­Р”2").RemoveAll 
+         Data("|Document|РљРѕР»РёС‡РµСЃС‚РІРѕ")=""
+         Data("|Document|РћРљР•Р")=""
+         Data("|Document|РћРљР•Р_РЅР°РёРјРµРЅРѕРІР°РЅРёРµ")=""
+         Data("|Document|Р•РґРёРЅРёС†Р°_РёР·РјРµСЂРµРЅРёСЏ")=""         
+     else 
+        Data("|Document|РџРѕР·РёС†РёРё").RemoveAll      
+      end if  
+
+
+  end if
+end sub</SCRIPT>
+  <plugins>
+    <restriction displayname="Р“РµРЅРµСЂР°С†РёСЏ РЅРѕРјРµСЂР°" progid="Euphfrm.RegNumGenerator" root="" initstring="">
+      <arg role="numberdoc" path="|S|Р§РёСЃР»Рѕ_СЂРµРіРЅРѕРјРµСЂР°" />
+      <arg role="flow" path="|S|РР”_РїРѕС‚РѕРєР°" />
+      <arg role="regnum" path="|S|Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№_РЅРѕРјРµСЂ" />
+      <checkentry type="onevent" param="dfgenerateregnum" action="error" />
+    </restriction>
+    <dictionary name="РўРёРї СЃРІСЏР·РєРё" progid="FrmTools.DictSource" inittime="once" initstring="stored:РўРёРї СЃРІСЏР·РєРё" />
+    <dictionary name="Р’Р°Р»СЋС‚Р°" progid="FrmTools.DictSource" inittime="field" initstring="stored:Р’Р°Р»СЋС‚Р°" />
+    <dictionary name="РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РІРѕР·РІСЂР°С‚Р° Р°РІР°РЅСЃР°" progid="FrmTools.DictSource" inittime="field" initstring="stored:РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РІРѕР·РІСЂР°С‚Р° Р°РІР°РЅСЃР°" />
+    <dictionary name="РљРѕРґ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё" progid="FrmTools.DictSource" inittime="once" initstring="stored:РљРѕРґ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё" />
+    <dictionary name="РСЃС‚РѕС‡РЅРёРє С„РёРЅР°РЅСЃРёСЂРѕРІР°РЅРёСЏ" progid="FrmTools.DictSource" inittime="once" initstring="stored:РСЃС‚РѕС‡РЅРёРє С„РёРЅР°РЅСЃРёСЂРѕРІР°РЅРёСЏ" />
+    <dictionary name="РћРљР’Р­Р”2" progid="FrmTools.DictSource" inittime="field" initstring="stored:РћРљР’Р­Р”2" />
+    <dictionary name="РћРљР•Р" progid="FrmTools.DictSource" inittime="field" initstring="stored:РћРљР•Р" />
+    <dictionary name="РћРљРџР”2" progid="FrmTools.DictSource" inittime="field" initstring="stored:РћРљРџР”2" />
+    <dictionary name="РЎС‚Р°С‚СѓСЃ РРџР " progid="FrmTools.DictSource" inittime="once" initstring="stored:РЎС‚Р°С‚СѓСЃ РРџР " />
+    <dictionary name="Р¤РёР·РёС‡РµСЃРєРёРµ РїР°СЂР°РјРµС‚СЂС‹" progid="FrmTools.DictSource" inittime="once" initstring="stored:Р¤РёР·РёС‡РµСЃРєРёРµ РїР°СЂР°РјРµС‚СЂС‹" />
+    <dictionary name="РћСЃРЅРѕРІР°РЅРёРµ Р·Р°РєСѓРїРєРё Сѓ Р•Рџ" progid="FrmTools.DictSource" inittime="field" initstring="stored:РћСЃРЅРѕРІР°РЅРёРµ Р·Р°РєСѓРїРєРё Сѓ Р•Рџ" />
+    <dictionary name="РљР°С‚РµРіРѕСЂРёСЏ Р·Р°РєСѓРїРєРё" progid="FrmTools.DictSource" inittime="field" initstring="stored:РљР°С‚РµРіРѕСЂРёСЏ Р·Р°РєСѓРїРєРё" />
+    <dictionary name="РћСЂРіР°РЅРёР·Р°С†РёРё Р·Р°РєР°Р·С‡РёРєРё" progid="FrmTools.DictSource" inittime="field" initstring="stored:РћСЂРіР°РЅРёР·Р°С†РёРё Р·Р°РєР°Р·С‡РёРєРё" />
+    <dictionary name="РџСЂРёС‡РёРЅР° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ" progid="FrmTools.DictSource" inittime="field" initstring="stored:РџСЂРёС‡РёРЅР° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ" />
+    <dictionary name="РћРљРђРўРћ" progid="FrmTools.DictSource" inittime="field" initstring="stored:РћРљРђРўРћ" />
+    <dictionary name="Р’РёРґ Р·Р°РєСѓРїРєРё" progid="FrmTools.DictSource" inittime="once" initstring="stored:Р’РёРґ Р·Р°РєСѓРїРєРё" />
+    <dictionary name="Р’РёРґ Р·Р°РєСѓРїР°РµРјРѕР№ РїСЂРѕРґСѓРєС†РёРё" progid="FrmTools.DictSource" inittime="once" initstring="stored:Р’РёРґ Р·Р°РєСѓРїР°РµРјРѕР№ РїСЂРѕРґСѓРєС†РёРё" />
+  </plugins>
+</FORM_DESCRIPTION>
