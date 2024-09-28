@@ -6,22 +6,6 @@
 				<column>
 					<block id="tlcInfo" name="Основные сведения">
 						<rows>
-						<row>
-								<column>
-									<block id="11" name="Учебный блок">
-										<rows>
-											<row>
-												<column>
-													<field fieldType="field" key="|Document|Поле_1" name="Поле 1" valueType="longtext" />
-												</column>
-												<column>
-													<field fieldType="field" key="|Document|Поле_2" name="Поле 2" valueType="boolean" />
-												</column>				  
-											</row>
-										</rows>
-									</block>
-								</column>			
-						</row>
 							<row>
 								<column>
 									<block id="14" name="Общие сведения">
@@ -67,6 +51,25 @@
 									</block>
 								</column>
 							</row>
+							<row>
+								<column>
+									<block id="11" name="Учебный блок">
+										<rows>
+											<row>
+												<column>
+													<field fieldType="field" key="|Document|Поле_1" name="Поле 1" valueType="longtext" />
+												</column>
+												<column>
+													<field fieldType="field" key="|Document|Поле_2" name="Поле 2" valueType="boolean" />
+												</column>	
+												<column>
+													<field fieldType="field" key="|Document|Поле_3" name="Поле 3" valueType="text" />
+												</column>													
+											</row>
+										</rows>
+									</block>
+								</column>			
+						</row>
 							<row>
 								<column>
 									<field fieldType="field"  isLabel="true"  />
@@ -916,18 +919,6 @@
 		<rows>
 			<row>
 				<column>
-						<field name="Поле 1" isLabel="true" edit-name="pole1" title="Наберите любой текст"/>
-						<field fieldType="field" key="|Document|Поле_1" name="Поле 1" valueType="longtext" edit-required="true" isValue="true" edit-name="pole1"/>
-				</column>
-				<column>
-						<field name="Поле 2" isLabel="true" edit-name="pole2" />
-						<field fieldType="field" key="|Document|Поле_2" name="Поле 2" valueType="boolean"  isValue="true" edit-name="pole1"/>
-
-				
-				</column>
-			</row>
-			<row>
-				<column>
 					<block id="tlcInfo" name="Основные сведения">
 						<rows>
 							<row>
@@ -1076,6 +1067,18 @@
 													<field fieldType="field" key="|Document|Попозиционная_закупка" name="Попозиционная закупка" valueType="boolean" edit-name="poPosZak"/>
 												</column>
 											</row>
+											<row>
+				<column>
+						<field name="Поле 1" isLabel="true" edit-name="pole1" title="Наберите любой текст"/>
+						<field fieldType="field" key="|Document|Поле_1" name="Поле 1" valueType="longtext" edit-required="true" isValue="true" edit-name="pole1"/>
+				</column>
+				<column>
+						<field name="Поле 2" isLabel="true" edit-name="pole2" />
+						<field fieldType="field" key="|Document|Поле_2" name="Поле 2" valueType="boolean"  isValue="true" edit-name="pole2"/>
+
+				
+				</column>
+			</row>
 										</rows> 
 									</block>
 								</column>
